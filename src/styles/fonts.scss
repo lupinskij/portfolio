@@ -1,22 +1,25 @@
 @font-face {
-  font-family: 'Suisse Regular';
+  font-family: 'Suisse';
   src:
     url('~styles/fonts/SuisseIntl-Regular-WebTrial.woff2') format('woff2'),
     url('~styles/fonts/SuisseIntl-Regular-WebTrial.woff') format('woff');
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Suisse Semi Bold';
+  font-family: 'Suisse';
   src:
     url('~styles/fonts/SuisseIntl-SemiBold-WebTrial.woff2') format('woff2'),
     url('~styles/fonts/SuisseIntl-SemiBold-WebTrial.woff') format('woff');
+  font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Suisse Bold';
+  font-family: 'Suisse';
   src:
     url('~styles/fonts/SuisseIntl-Bold-WebTrial.woff2') format('woff2'),
     url('~styles/fonts/SuisseIntl-Bold-WebTrial.woff') format('woff');
+  font-weight: 800;
 }
 
 @font-face {
