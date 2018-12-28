@@ -1,0 +1,18 @@
+{
+  "extends": "stylelint-config-standard",
+  "plugins": [
+    "stylelint-scss"
+  ],
+  "rules": {
+    "property-no-unknown": null,
+    "function-calc-no-unspaced-operator": null,
+    "at-rule-no-unknown": null,
+    "selector-type-no-unknown": [ true, {
+      "ignoreTypes": ["1", "2", "3", "4", "5", "6", "7", "8", "9"]
+    } ],
+    "selector-pseudo-class-no-unknown": [ true, {
+      "ignorePseudoClasses": ["at-least", "import", "export", "global"]
+    } ],
+    "scss/at-rule-no-unknown": true
+  }
+}
