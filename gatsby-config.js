@@ -24,7 +24,7 @@ module.exports = {
         short_name: 'lupinski',
         start_url: '/',
         display: 'minimal-ui',
-        icon: 'static/gatsby-icon.png',
+        icon: 'static/favicon.png',
       },
     },
     'gatsby-transformer-sharp',

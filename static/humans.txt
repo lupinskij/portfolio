@@ -1,0 +1,10 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jeff Lupinski
+
+# TECHNOLOGY COLOPHON
+
+    Gatsby, React, CSS3, HTML5, JavaScript
