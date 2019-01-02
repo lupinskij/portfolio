@@ -869,6 +869,14 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
+"@squib/react-split@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@squib/react-split/-/react-split-1.0.0.tgz#f27d5442545aaddd8f34ed8fd884c4c6aaa41ff4"
+  integrity sha512-gmw9GDK/Wi4Q2+47UwYzGIIwbrFJfEzBvbQLhHzk9h8jLPTSHP+C593fjMCNxOZhH8Ii7YCRTO1CHbbVaHs6hw==
+  dependencies:
+    lodash.split "^4.0.0"
+    prop-types "^15.6.2"
+
 "@types/configstore@^2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@types/configstore/-/configstore-2.1.1.tgz#cd1e8553633ad3185c3f2f239ecff5d2643e92b6"
@@ -8476,6 +8484,11 @@ lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
+
+lodash.split@^4.0.0:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/lodash.split/-/lodash.split-4.4.2.tgz#a7f7bd9f37968b9312428e2f3ac3fb3173c4c3c6"
+  integrity sha1-p/e9nzeWi5MSQo4vOsP7MXPEw8Y=
 
 lodash.tail@^4.1.1:
   version "4.1.1"

@@ -5,11 +5,15 @@
 
 body {
   box-sizing: border-box;
+  color: $black;
   font-family: $sans-serif;
+  font-smoothing: antialiased;
   font-weight: 400;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
 }
 
 h1,
@@ -20,9 +24,24 @@ h5,
 h6,
 p {
   margin: 0;
+  text-rendering: optimizelegibility;
   padding: 0;
 }
 
 h1 {
   font-weight: 800;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  color: $red;
 }

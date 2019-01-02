@@ -3,6 +3,7 @@
 $sans-serif: 'Suisse', -apple-system, BlinkMacSystemFont,
   'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto,
   'segoe ui', arial, sans-serif !default;
+$monospace: 'Simplon Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace !default;
 // $serif: georgia, serif !default;
 // $code: consolas, monaco, monospace !default;
 // $font-size-headline: 6rem !default;
@@ -71,6 +72,8 @@ $sans-serif: 'Suisse', -apple-system, BlinkMacSystemFont,
 // $box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
 $black: #343a40 !default;
 $white: #fff !default;
+$near-white: #f8f9fa !default;
+$gray: #868e96 !default;
 
 /*
 MTS = Place colors here that need to be assigned variables in the future
@@ -109,7 +112,7 @@ $white-40: rgba(
 // $white-025: rgba(255,255,255,.025) !default;
 // $white-0125: rgba(255,255,255,.0125) !default;
 // $dark-red: #e7040f !default;
-// $red: #eb4962 !default;
+$red: #eb0045 !default;
 // $light-red: #ff725c !default;
 // $orange: #ff6300 !default;
 // $gold: #ffb700 !default;

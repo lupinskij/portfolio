@@ -13,3 +13,97 @@
 .order-10 {
   order: 10;
 }
+
+.lh-nav {
+  line-height: 1.8;
+}
+
+.monospace {
+  font-family: $monospace;
+}
+
+.pr-nav {
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-name: navin;
+  animation-timing-function: ease-out;
+}
+
+@keyframes navin {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.nav-link {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 1px;
+    left: -10%;
+    position: absolute;
+    top: 50%;
+    transition: width 0s ease, background 400ms ease;
+    width: 0;
+  }
+
+  &::after {
+    background: $black;
+    content: '';
+    display: block;
+    height: 1px;
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    transition: width 400ms ease;
+    width: 0;
+  }
+
+  &:hover::before {
+    background: $black;
+    transition: width 400ms ease;
+    width: 120%;
+  }
+
+  &:hover::after {
+    background: transparent;
+    transition: all 0 ease;
+    width: 120%;
+  }
+}
+
+.wrd {
+  display: inline-block;
+  overflow: hidden;
+  line-height: 1.06;
+}
+
+.txt {
+  animation-delay: 400ms;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+  animation-name: textin;
+  animation-timing-function: ease-out;
+  display: block;
+  font-family: $sans-serif;
+  font-size: 6.5vw;
+  font-weight: 800;
+  transform: translateY(100%);
+  white-space: pre;
+}
+
+@keyframes textin {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

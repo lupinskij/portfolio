@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@squib/react-split": "^1.0.0",
     "aphrodite": "^2.2.3",
     "classnames": "^2.2.6",
     "gatsby": "^2.0.0",
