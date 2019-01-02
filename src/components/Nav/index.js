@@ -18,26 +18,32 @@ function Nav() {
       </div>
       <ul>
         <li>
-          <Link to="www.dribbble.com" className="black nav-link">
+          <a
+            href="https://dribbble.com/jefflupinski"
+            className="black nav-link"
+          >
             Dribbble
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="www.github.com" className="black nav-link">
+          <a href="https://github.com/lupinskij" className="black nav-link">
             GitHub
-          </Link>
+          </a>
         </li>
       </ul>
       <ul>
         <li>
-          <Link to="www.linkedin.com" className="black nav-link">
+          <a
+            href="https://www.linkedin.com/in/jefflupinski"
+            className="black nav-link"
+          >
             LinkedIn
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="www.twitter.com" className="black nav-link">
+          <a href="https://twitter.com/jefflupinski" className="black nav-link">
             Twitter
-          </Link>
+          </a>
         </li>
       </ul>
       <Link to="/">
