@@ -9,14 +9,14 @@ const StyledImage = styled.img`
 
 function Nav() {
   return (
-    <header className="pr-nav absolute top-2 left-0 right-0 ph5 z-999 flex justify-between items-center monospace f7 lh-nav">
+    <header className="pr-nav absolute top-0 left-0 right-0 pt4 ph4 ph5-l z-999 flex justify-between items-center monospace f7 lh-nav">
       <div>
         <Link to="/" className="black">
           Jeff Lupinski
         </Link>
         <div className="gray">Digital Product Designer</div>
       </div>
-      <ul>
+      <ul className="dn-ns">
         <li>
           <a
             href="https://dribbble.com/jefflupinski"
@@ -31,7 +31,7 @@ function Nav() {
           </a>
         </li>
       </ul>
-      <ul>
+      <ul className="dn-ns">
         <li>
           <a
             href="https://www.linkedin.com/in/jefflupinski"
@@ -46,7 +46,7 @@ function Nav() {
           </a>
         </li>
       </ul>
-      <Link to="/">
+      <Link to="/" className="dn-ns">
         <StyledImage src={require('./images/jeff-lupinski-logo.svg')} />
       </Link>
     </header>
