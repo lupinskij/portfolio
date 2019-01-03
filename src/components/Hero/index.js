@@ -13,8 +13,8 @@ const StyledHero = styled.div`
 
 function Hero({ title }) {
   return (
-    <StyledHero className="Hero vh-100 vw-100 bg-near-white ph5 pv6 relative flex items-end">
-      <div className="mw9">
+    <StyledHero className="Hero vh-100 vw-100 bg-near-white ph4 ph5-l pv5 pv6-ns relative flex items-center items-end-l">
+      <div className="mw-100 mw8-m mw9-l">
         <Split string={title} separator={/\s+/}>
           {substrings =>
             substrings.map(({ substring, key }) => (
