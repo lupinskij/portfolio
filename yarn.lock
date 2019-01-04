@@ -11090,6 +11090,11 @@ react-spring@^6.1.6:
   dependencies:
     "@babel/runtime" "^7.0.0"
 
+react-stagger@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-stagger/-/react-stagger-1.0.1.tgz#6629d460b7f2bdf3e64f77329985db6d4bead774"
+  integrity sha512-/RHIfcmZ2697LlukCB+se+GYRtdvdbg/y9ulFR50XQaJcArfF6//qUxBQqwhn/lF31Utt4b1PWGyuF9Zqt8uIg==
+
 react-testing-library@^5.2.0:
   version "5.4.2"
   resolved "https://registry.yarnpkg.com/react-testing-library/-/react-testing-library-5.4.2.tgz#0708ccf69b0df2c726b11ca5fcc0cb190a786897"
