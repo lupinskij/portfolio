@@ -31,13 +31,14 @@
 }
 
 .pr-nav {
-  animation-duration: 400ms;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-name: navin;
-  animation-timing-function: ease-out;
+  animation-name: navIn;
+  animation-timing-function: $animation-function;
+  transform: translateY(-150%);
 }
 
-@keyframes navin {
+@keyframes navIn {
   from {
     transform: translateY(-150%);
   }
@@ -94,10 +95,10 @@
 
 .txt {
   animation-delay: 400ms;
-  animation-duration: 400ms;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
-  animation-name: textin;
-  animation-timing-function: ease-out;
+  animation-name: textIn;
+  animation-timing-function: $animation-function;
   display: block;
   font-size: 2.25rem;
   font-weight: 800;
@@ -117,7 +118,7 @@
   }
 }
 
-@keyframes textin {
+@keyframes textIn {
   from {
     transform: translateY(100%);
   }

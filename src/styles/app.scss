@@ -3,18 +3,38 @@
 @import '~tachyons-sass/tachyons.scss';
 @import './global_styles';
 
-body {
+html {
   background-color: $black;
   box-sizing: border-box;
+  position: relative;
+}
+
+body {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: bodyIn;
+  animation-timing-function: $animation-function-fade;
+  box-sizing: inherit;
   color: $black;
   font-family: $sans-serif;
   font-smoothing: antialiased;
   font-weight: 400;
+  opacity: 0;
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
+}
+
+@keyframes bodyIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 h1,
