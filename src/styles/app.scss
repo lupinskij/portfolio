@@ -17,7 +17,9 @@ body {
   box-sizing: inherit;
   color: $black;
   font-family: $sans-serif;
+  font-kerning: normal;
   font-smoothing: antialiased;
+  font-variant-ligatures: contextual common-ligatures;
   font-weight: 400;
   opacity: 0;
   overflow-x: hidden;

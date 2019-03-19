@@ -89,8 +89,8 @@
 
 .wrd {
   display: inline-block;
+  margin-right: 0.35rem;
   overflow: hidden;
-  line-height: 1.06;
 }
 
 .txt {
@@ -102,19 +102,20 @@
   display: block;
   font-size: 2.25rem;
   font-weight: 800;
+  letter-spacing: -0.055em;
   transform: translateY(100%);
   white-space: pre;
 
   @media (min-width: 35.5em) {
-    font-size: 7.2vw;
+    font-size: 8.2vw;
   }
 
   @media (min-width: 40.063em) {
-    font-size: 6.2vw;
+    font-size: 7.2vw;
   }
 
   @media (min-width: 64em) {
-    font-size: 5.9vw;
+    font-size: 6.2vw;
   }
 }
 

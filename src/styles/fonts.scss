@@ -1,30 +1,38 @@
 @font-face {
-  font-family: 'Suisse';
+  font-family: 'Input Mono';
   src:
-    url('~styles/fonts/SuisseIntl-Regular-WebTrial.woff2') format('woff2'),
-    url('~styles/fonts/SuisseIntl-Regular-WebTrial.woff') format('woff');
+    url('~styles/fonts/InputMono-Regular.woff2') format('woff2'),
+    url('~styles/fonts/InputMono-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Interface';
+  src:
+    url('~styles/fonts/Inter-Regular.woff2') format('woff2'),
+    url('~styles/fonts/Inter-Regular.woff') format('woff');
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Suisse';
+  font-family: 'Interface';
   src:
-    url('~styles/fonts/SuisseIntl-SemiBold-WebTrial.woff2') format('woff2'),
-    url('~styles/fonts/SuisseIntl-SemiBold-WebTrial.woff') format('woff');
+    url('~styles/fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('~styles/fonts/Inter-SemiBold.woff') format('woff');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Suisse';
+  font-family: 'Interface';
   src:
-    url('~styles/fonts/SuisseIntl-Bold-WebTrial.woff2') format('woff2'),
-    url('~styles/fonts/SuisseIntl-Bold-WebTrial.woff') format('woff');
-  font-weight: 800;
+    url('~styles/fonts/Inter-Bold.woff2') format('woff2'),
+    url('~styles/fonts/Inter-Bold.woff') format('woff');
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: 'Simplon Mono';
+  font-family: 'Interface';
   src:
-    url('~styles/fonts/SimplonMono-Regular-WebTrial.woff2') format('woff2'),
-    url('~styles/fonts/SimplonMono-Regular-WebTrial.woff') format('woff');
+    url('~styles/fonts/Inter-ExtraBold.woff2') format('woff2'),
+    url('~styles/fonts/Inter-ExtraBold.woff') format('woff');
+  font-weight: 800;
 }
