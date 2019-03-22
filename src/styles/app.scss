@@ -14,6 +14,7 @@ body {
   animation-fill-mode: forwards;
   animation-name: bodyIn;
   animation-timing-function: $animation-function-fade;
+  background-color: $near-white;
   box-sizing: inherit;
   color: $black;
   font-family: $sans-serif;
@@ -53,6 +54,19 @@ p {
 
 h1 {
   font-weight: 800;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+p + p::before {
+  content: '\00a0\A';
+  white-space: pre-line;
 }
 
 ul {
