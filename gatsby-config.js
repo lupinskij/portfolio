@@ -9,6 +9,12 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-90529229-3",
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'images',
