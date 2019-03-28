@@ -5710,6 +5710,13 @@ gatsby-plugin-eslint@^2.0.1:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-eslint/-/gatsby-plugin-eslint-2.0.1.tgz#88641be50b95a867416878c43b64458a2d6b9c21"
   integrity sha512-n6T0Rp52+egiAmLx8T43rMud3y0CoGM2eSAqWqM9/hhuZZ8StYqRr2BHLLThhNj/1I2YbJbtSBRXySWUPQ1HhA==
 
+gatsby-plugin-google-analytics@^2.0.18:
+  version "2.0.18"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-analytics/-/gatsby-plugin-google-analytics-2.0.18.tgz#f56aa1d0fc65bbc2f902ce0bc25159ea2e571524"
+  integrity sha512-fW2WKo7onfxr9sVUCKKtDRUVqleVHBp9CMz7xVWnNpiM3+u4KgYWj7VzmjKPr00zgmp/AOEu1L7SUjYMDys0QA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 gatsby-plugin-manifest@^2.0.2:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.12.tgz#7e25f8997ea690969eeaa010a2d111209282f2ce"
