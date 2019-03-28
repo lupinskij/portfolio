@@ -1,15 +1,11 @@
 import React from 'react'
-import Stagger from 'react-stagger'
-
 import { Layout, Hero, SEO } from 'components'
 
-const IndexPage = ({ isReady }) => (
-  <Stagger in={isReady}>
-    <Layout>
-      <SEO title="Home" keywords={[`jeff lupinski`, `design`, `product`]} />
-      <Hero title="Crafting thoughtful digital experiences with delightful brand aesthetics." />
-    </Layout>
-  </Stagger>
+const IndexPage = () => (
+  <Layout>
+    <SEO title="Home" keywords={[`jeff lupinski`, `design`, `product`]} />
+    <Hero title="Crafting thoughtful digital experiences with delightful brand aesthetics." />
+  </Layout>
 )
 
 export default IndexPage

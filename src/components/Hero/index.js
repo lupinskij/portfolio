@@ -18,10 +18,8 @@ function Hero({ title }) {
         <Split string={title} separator={/\s+/}>
           {substrings =>
             substrings.map(({ substring, key }) => (
-              <span className="wrd">
-                <span key={key} className="txt">
-                  {substring}{' '}
-                </span>
+              <span key={key} className="wrd">
+                <span className="txt">{substring} </span>
               </span>
             ))
           }
