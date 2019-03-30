@@ -128,3 +128,34 @@
     transform: translateY(0);
   }
 }
+
+.block {
+  padding: 11.4vw 0 11.4vw;
+  position: relative;
+
+  @media (max-width: 767px) {
+    padding: 50px 0;
+  }
+}
+
+.wrap-single {
+  margin: 0 auto;
+  width: 71.5vw;
+
+  @media (max-width: 767px) {
+    width: 86%;
+  }
+}
+
+.wrap-pres {
+  font: 300 normal 2.15vw/3.42vw $sans-serif;
+  margin: 0 auto;
+  padding: 13.4vw 0 3vw;
+  width: 44.5vw;
+
+  @media (max-width: 767px) {
+    font: 400 normal 20px/36px $sans-serif;
+    padding: 50px 7vw 0;
+    width: 100%;
+  }
+}

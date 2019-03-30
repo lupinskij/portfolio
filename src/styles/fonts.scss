@@ -8,6 +8,14 @@
 @font-face {
   font-family: 'Interface';
   src:
+    url('~styles/fonts/Inter-Light.woff2') format('woff2'),
+    url('~styles/fonts/Inter-Light.woff') format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Interface';
+  src:
     url('~styles/fonts/Inter-Regular.woff2') format('woff2'),
     url('~styles/fonts/Inter-Regular.woff') format('woff');
   font-weight: 400;
