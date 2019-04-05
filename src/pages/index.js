@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, Hero, SEO, UnderArmour, AMC } from 'components'
+import { Layout, Hero, SEO, UnderArmour, AMC, Footer } from 'components'
 
 const IndexPage = () => (
   <Layout>
@@ -10,6 +10,7 @@ const IndexPage = () => (
     <Hero title="Crafting thoughtful digital experiences with delightful brand aesthetics." />
     <UnderArmour />
     <AMC />
+    <Footer />
   </Layout>
 )
 
