@@ -52,6 +52,7 @@ const UnderArmour = () => (
         <div>
           <p className="f6 monospace p-break">Collaborators</p>
           <ul className="f5 lh-copy">
+            <li>Amy Rubino</li>
             <li>Matt Rossi</li>
           </ul>
         </div>
