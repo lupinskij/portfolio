@@ -46,6 +46,12 @@ const Chewsi = () => (
       <ImageQuery>
         {({ imageTwo, imageThree, imageFour }) => [
           <Image
+            key="Chewsi Web"
+            image={imageFour.childImageSharp}
+            type="fluid"
+            alt="Delta Dental Chewsi website screen"
+          />,
+          <StyledImage
             key="Chewsi Flow"
             image={imageTwo.childImageSharp}
             type="fluid"
@@ -56,12 +62,6 @@ const Chewsi = () => (
             image={imageThree.childImageSharp}
             type="fluid"
             alt="Delta Dental Chewsi mobile screens"
-          />,
-          <StyledImage
-            key="Chewsi Web"
-            image={imageFour.childImageSharp}
-            type="fluid"
-            alt="Delta Dental Chewsi website screen"
           />,
         ]}
       </ImageQuery>
