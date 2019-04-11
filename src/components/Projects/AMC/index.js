@@ -32,14 +32,24 @@ const AMC = () => (
         Roku, FireTV, and XBOX. In addition, we got to work on their iOS
         platforms for mobile and tablet.
       </p>
-      <p className="f6 monospace">Role</p>
-      <ul className="f5 lh-copy">
-        <li>Visual Design</li>
-        <li>Product Design</li>
-        <li>Prototyping</li>
-        <li>Interaction Design</li>
-        <li>Experience Design</li>
-      </ul>
+      <div className="flex">
+        <div className="mr4 mr6-l">
+          <p className="f6 monospace p-break">Role</p>
+          <ul className="f5 lh-copy">
+            <li>Visual Design</li>
+            <li>Product Design</li>
+            <li>Prototyping</li>
+            <li>Interaction Design</li>
+            <li>Experience Design</li>
+          </ul>
+        </div>
+        <div>
+          <p className="f6 monospace p-break">Collaborators</p>
+          <ul className="f5 lh-copy">
+            <li>Sam Thibault</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div className="block wrap-single">
       <ImageQuery>
