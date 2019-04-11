@@ -12,7 +12,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Chewsi = () => (
-  <div className="project">
+  <div className="project begin-pres">
     <ImageQuery>
       {({ imageOne }) => [
         <Image
@@ -32,15 +32,19 @@ const Chewsi = () => (
         designed to increase coverage selection and conversion rates, while
         reducing attrition.
       </p>
-      <p className="f6 monospace">Role</p>
-      <ul className="f5 lh-copy">
-        <li>Product Design</li>
-        <li>UI / UX Design</li>
-        <li>Information Architecture</li>
-        <li>Prototyping & Concepts</li>
-        <li>Interaction Design</li>
-        <li>Experience Design</li>
-      </ul>
+      <div className="flex">
+        <div>
+          <p className="f6 monospace p-break">Role</p>
+          <ul className="f5 lh-copy">
+            <li>Product Design</li>
+            <li>UI / UX Design</li>
+            <li>Information Architecture</li>
+            <li>Prototyping & Concepts</li>
+            <li>Interaction Design</li>
+            <li>Experience Design</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div className="block wrap-single">
       <ImageQuery>

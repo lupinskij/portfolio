@@ -12,7 +12,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const AMC = () => (
-  <div className="project">
+  <div className="project begin-pres">
     <ImageQuery>
       {({ imageOne }) => [
         <Image
