@@ -64,7 +64,8 @@ p {
   margin-inline-end: 0;
 }
 
-p + p::before {
+p + p::before,
+.p-break::before {
   content: '\00a0\A';
   white-space: pre-line;
 }

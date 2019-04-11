@@ -12,7 +12,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Chewsi = () => (
-  <div className="project">
+  <div className="project begin-pres">
     <ImageQuery>
       {({ imageOne }) => [
         <Image
@@ -32,20 +32,30 @@ const Chewsi = () => (
         designed to increase coverage selection and conversion rates, while
         reducing attrition.
       </p>
-      <p className="f6 monospace">Role</p>
-      <ul className="f5 lh-copy">
-        <li>Product Design</li>
-        <li>UI / UX Design</li>
-        <li>Information Architecture</li>
-        <li>Prototyping & Concepts</li>
-        <li>Interaction Design</li>
-        <li>Experience Design</li>
-      </ul>
+      <div className="flex">
+        <div>
+          <p className="f6 monospace p-break">Role</p>
+          <ul className="f5 lh-copy">
+            <li>Product Design</li>
+            <li>UI / UX Design</li>
+            <li>Information Architecture</li>
+            <li>Prototyping & Concepts</li>
+            <li>Interaction Design</li>
+            <li>Experience Design</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div className="block wrap-single">
       <ImageQuery>
         {({ imageTwo, imageThree, imageFour }) => [
           <Image
+            key="Chewsi Web"
+            image={imageFour.childImageSharp}
+            type="fluid"
+            alt="Delta Dental Chewsi website screen"
+          />,
+          <StyledImage
             key="Chewsi Flow"
             image={imageTwo.childImageSharp}
             type="fluid"
@@ -56,12 +66,6 @@ const Chewsi = () => (
             image={imageThree.childImageSharp}
             type="fluid"
             alt="Delta Dental Chewsi mobile screens"
-          />,
-          <StyledImage
-            key="Chewsi Web"
-            image={imageFour.childImageSharp}
-            type="fluid"
-            alt="Delta Dental Chewsi website screen"
           />,
         ]}
       </ImageQuery>

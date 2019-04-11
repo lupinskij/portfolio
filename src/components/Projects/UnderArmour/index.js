@@ -36,16 +36,26 @@ const UnderArmour = () => (
         I led the team to completely redesign their platform, while helping
         create and implement their performance brand.
       </p>
-      <p className="f6 monospace">Role</p>
-      <ul className="f5 lh-copy">
-        <li>Visual Design</li>
-        <li>UI / UX Design</li>
-        <li>Research</li>
-        <li>User Testing</li>
-        <li>Information Architecture</li>
-        <li>Prototyping &amp; Concepts</li>
-        <li>Front-end Development</li>
-      </ul>
+      <div className="flex">
+        <div className="mr4 mr6-l">
+          <p className="f6 monospace p-break">Role</p>
+          <ul className="f5 lh-copy">
+            <li>Visual Design</li>
+            <li>UI / UX Design</li>
+            <li>Research</li>
+            <li>User Testing</li>
+            <li>Information Architecture</li>
+            <li>Prototyping &amp; Concepts</li>
+            <li>Front-end Development</li>
+          </ul>
+        </div>
+        <div>
+          <p className="f6 monospace p-break">Collaborators</p>
+          <ul className="f5 lh-copy">
+            <li>Matt Rossi</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div className="block wrap-single">
       <ImageQuery>

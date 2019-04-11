@@ -159,3 +159,12 @@
     width: 100%;
   }
 }
+
+.begin-pres {
+  margin: 0;
+  padding-top: 10vw;
+
+  @media (max-width: 767px) {
+    padding-top: 50px;
+  }
+}
