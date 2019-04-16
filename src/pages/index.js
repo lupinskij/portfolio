@@ -7,7 +7,7 @@ const IndexPage = () => (
       title="Jeff Lupinski — Product Designer"
       keywords={[`jeff lupinski`, `design`, `product`]}
     />
-    <Hero title="Crafting thoughtful digital experiences with delightful brand aesthetics." />
+    <Hero title="Crafting thoughtful digital experiences through visual &amp; coded solutions." />
     <UnderArmour />
     <AMC />
     <Chewsi />
