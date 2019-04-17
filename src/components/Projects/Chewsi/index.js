@@ -27,10 +27,10 @@ const Chewsi = () => (
       <p>
         Delta Dental’s goal is to make affordable dental care available to
         everyone, giving customers another reason to smile. As a result, I
-        worked with their team to design a ground up marketplace and discovery
+        worked with their team to design a ground up marketplace and search tool
         for dental patients. Providing a dentist and procedure search engine
         designed to increase coverage selection and conversion rates, while
-        reducing attrition.
+        reducing&nbsp;attrition.
       </p>
       <div className="flex">
         <div>

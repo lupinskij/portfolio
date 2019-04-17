@@ -33,8 +33,8 @@ const UnderArmour = () => (
         elevated experience that also supported internationalization.
       </p>
       <p>
-        I led the team to completely redesign their platform, while helping
-        create and implement their performance brand.
+        I led the team through the complete redesign of their platform, while
+        helping create and implement their performance brand.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
