@@ -48,19 +48,27 @@ const Chewsi = () => (
     </div>
     <div className="block wrap-single">
       <ImageQuery>
-        {({ imageTwo, imageThree, imageFour }) => [
+        {({ imageFour }) => [
           <Image
             key="Chewsi Web"
             image={imageFour.childImageSharp}
             type="fluid"
             alt="Delta Dental Chewsi website screen"
           />,
-          <StyledImage
-            key="Chewsi Flow"
-            image={imageTwo.childImageSharp}
-            type="fluid"
-            alt="Delta Dental Chewsi flows"
-          />,
+        ]}
+      </ImageQuery>
+      <div className="pr-asset pr-video-wrap ba b--mid-gray overflow-hidden relative">
+        <video
+          src="/chewsi-flow.mp4"
+          className="pr-video"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </div>
+      <ImageQuery>
+        {({ imageThree }) => [
           <StyledImage
             key="Chewsi Mobile"
             image={imageThree.childImageSharp}
