@@ -162,10 +162,10 @@
 
 .begin-pres {
   margin: 0;
-  padding-top: 10vw;
+  margin-top: 10vw;
 
   @media (max-width: 767px) {
-    padding-top: 50px;
+    margin-top: 50px;
   }
 }
 
@@ -185,4 +185,14 @@
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+.txt-f {
+  font-size: 4rem;
+  font-weight: 800;
+  letter-spacing: -0.055em;
+
+  @media (min-width: 35.5em) {
+    font-size: 8.2vw;
+  }
 }
