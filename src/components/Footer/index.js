@@ -14,7 +14,7 @@ const Footer = () => (
           Hello <StyledBreak>World.</StyledBreak>
         </h2>
       </div>
-      <div className="w-50-l">
+      <div className="w-50-l mt5-l">
         <div className="flex-ns flex-row mb5">
           <h3 className="w-25-ns white lh-copy fw4 mb3 monospace">About</h3>
           <p className="w-75-ns light-gray f4 lh-copy ma0">
@@ -53,7 +53,7 @@ const Footer = () => (
       </div>
     </div>
     <footer>
-      <nav className="pt6 pb5 ph4 ph5-l flex justify-between items-center monospace f7 lh-nav white-40">
+      <nav className="pt6 pb5 ph4 ph5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
         <div className="self-start">
           <a href="mailto:iam@jefflupinski.com" className="white-40">
             iam@jefflupinski.com
