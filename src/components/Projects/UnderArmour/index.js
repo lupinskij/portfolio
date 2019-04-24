@@ -25,11 +25,11 @@ const UnderArmour = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <p>
-        In 2017, I had the pleasure to work with the amazing team at Under
-        Armour to redesign their B2B platform. The $5 billion dollar lifestyle
-        brand was looking to increase its wholesale velocity domestically and
-        abroad. We began the year long engagement with two months of research
-        and development. The result was a redesign of their B2B portal with an
+        In 2017, I had the pleasure to work with the team at Under Armour to
+        redesign their B2B platform. The $5 billion dollar lifestyle brand was
+        looking to increase its wholesale velocity domestically and abroad. We
+        began the year long engagement with two months of research and
+        development. The result was a redesign of their B2B portal with an
         elevated experience that also supported internationalization.
       </p>
       <p>

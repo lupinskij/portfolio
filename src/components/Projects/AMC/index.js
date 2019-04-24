@@ -47,6 +47,7 @@ const AMC = () => (
           <p className="f6 monospace p-break">Collaborators</p>
           <ul className="f5 lh-copy">
             <li>Sam Thibault</li>
+            <li>Adam Deutsch</li>
           </ul>
         </div>
       </div>
