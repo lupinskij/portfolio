@@ -46,7 +46,7 @@ const UnderArmour = () => (
             <li>User Testing</li>
             <li>Information Architecture</li>
             <li>Prototyping &amp; Concepts</li>
-            <li>Front-end Development</li>
+            <li>UI Development</li>
           </ul>
         </div>
         <div>

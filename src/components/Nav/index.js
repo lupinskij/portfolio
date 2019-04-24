@@ -19,12 +19,22 @@ const Nav = props => (
     </div>
     <ul className="dn-ns">
       <li>
-        <a href="https://dribbble.com/jefflupinski" className="black nav-link">
+        <a
+          href="https://dribbble.com/jefflupinski"
+          className="black nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Dribbble
         </a>
       </li>
       <li>
-        <a href="https://github.com/lupinskij" className="black nav-link">
+        <a
+          href="https://github.com/lupinskij"
+          className="black nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           GitHub
         </a>
       </li>
@@ -34,12 +44,19 @@ const Nav = props => (
         <a
           href="https://www.linkedin.com/in/jefflupinski"
           className="black nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           LinkedIn
         </a>
       </li>
       <li>
-        <a href="https://twitter.com/jefflupinski" className="black nav-link">
+        <a
+          href="https://twitter.com/jefflupinski"
+          className="black nav-link"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Twitter
         </a>
       </li>
