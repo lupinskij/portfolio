@@ -31,8 +31,8 @@ const Footer = () => (
           </h3>
           <p className="w-75-ns light-gray f4 lh-copy ma0">
             Contributed to create products for clients such as
-            CVS&nbsp;Pharmacy, AMC, Under&nbsp;Armour, AT&amp;T, Teespring,
-            Aetna, United&nbsp;Way, and Delta&nbsp;Dental.
+            Under&nbsp;Armour, AMC, CVS&nbsp;Pharmacy, United&nbsp;Way,
+            AT&amp;T, Teespring, Aetna, and Delta&nbsp;Dental.
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
@@ -42,9 +42,8 @@ const Footer = () => (
           <p className="w-75-ns light-gray f4 lh-copy ma0">
             Visual Design, Experience Design, Interaction Design, Product
             Design, Front-end Development, Strong knowledge of
-            HTML&nbsp;/&nbsp;CSS&nbsp;/&nbsp;JS, Creative&nbsp;Direction,
-            UX&nbsp;Strategy, Prototyping, UX&nbsp;/&nbsp;UI&nbsp;Design,
-            User&nbsp;Testing
+            HTML&nbsp;/&nbsp;CSS&nbsp;/&nbsp;JS, User&nbsp;Testing, Prototyping,
+            UX&nbsp;Strategy
           </p>
         </div>
         <div className="flex-ns flex-row">
