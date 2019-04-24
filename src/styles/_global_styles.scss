@@ -188,11 +188,24 @@
 }
 
 .txt-f {
+  display: inline-block;
   font-size: 4rem;
   font-weight: 800;
   letter-spacing: -0.035em;
+  position: relative;
 
   @media (min-width: 35.5em) {
     font-size: 8.2vw;
+
+    &::after {
+      background: white;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      position: absolute;
+      right: -8.15vw;
+      top: 5.65vw;
+      width: 11.75vw;
+    }
   }
 }
