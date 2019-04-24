@@ -9,22 +9,26 @@ const StyledBreak = styled.div`
 const Footer = () => (
   <section className="bg-black begin-pres">
     <div className="flex flex-wrap pt6 pb4 pt7-l pb6-l ph4 ph5-l">
-      <div className="w-50-l mb5 pl3-l">
+      <div className="w-50-l mb5 pl4-l">
         <h2 className="white txt-f lh-solid">
           Hello <StyledBreak>World.</StyledBreak>
         </h2>
       </div>
       <div className="w-50-l mt5-l">
         <div className="flex-ns flex-row mb5">
-          <h3 className="w-25-ns white lh-copy fw4 mb3 monospace">About</h3>
+          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+            01&nbsp;&nbsp;&nbsp;About
+          </h3>
           <p className="w-75-ns light-gray f4 lh-copy ma0">
-            Multidisciplinary Designer & Front-end Developer based in Boulder,
-            Colorado. Focused on designing digital products with modern
-            interfaces, and friendly and intuitive&nbsp;experiences.
+            Designer & Front-end Developer based in Boulder, Colorado. Focused
+            on designing digital products with modern interfaces, and friendly
+            and intuitive&nbsp;experiences.
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="w-25-ns white lh-copy fw4 mb3 monospace">Work</h3>
+          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+            02&nbsp;&nbsp;&nbsp;Work
+          </h3>
           <p className="w-75-ns light-gray f4 lh-copy ma0">
             Contributed to create products for clients such as
             CVS&nbsp;Pharmacy, AMC, Under&nbsp;Armour, AT&amp;T, Teespring,
@@ -32,7 +36,9 @@ const Footer = () => (
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="w-25-ns white lh-copy fw4 mb3 monospace">Skills</h3>
+          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+            03&nbsp;&nbsp;&nbsp;Skills
+          </h3>
           <p className="w-75-ns light-gray f4 lh-copy ma0">
             Visual Design, Experience Design, Interaction Design, Product
             Design, Front-end Development, Strong knowledge of
@@ -42,7 +48,9 @@ const Footer = () => (
           </p>
         </div>
         <div className="flex-ns flex-row">
-          <h3 className="w-25-ns white lh-copy fw4 mb3 monospace">Contact</h3>
+          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+            04&nbsp;&nbsp;&nbsp;Contact
+          </h3>
           <a
             href="mailto:iam@jefflupinski.com"
             className="w-75-m light-gray f4 lh-copy ma0 di"
@@ -54,7 +62,7 @@ const Footer = () => (
     </div>
     <footer>
       <nav className="pt6 pb5 ph4 ph5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
-        <div className="self-start">
+        <div className="self-start dn-ns">
           <a href="mailto:iam@jefflupinski.com" className="white-40">
             iam@jefflupinski.com
           </a>
