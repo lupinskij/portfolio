@@ -31,6 +31,7 @@
 }
 
 .pr-nav {
+  animation-delay: 500ms;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-name: navIn;
@@ -94,7 +95,7 @@
 }
 
 .txt {
-  animation-delay: 400ms;
+  animation-delay: 500ms;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-name: textIn;
@@ -207,5 +208,35 @@
       top: 5.65vw;
       width: 11.75vw;
     }
+  }
+}
+
+.progress {
+  animation-duration: 700ms;
+  animation-fill-mode: forwards;
+  animation-name: progress;
+  animation-timing-function: $animation-function;
+  background: $black;
+  height: 5px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+}
+
+@keyframes progress {
+  0% {
+    opacity: 1;
+    width: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
   }
 }
