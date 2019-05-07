@@ -24,7 +24,7 @@ const Footer = props => (
       </div>
       <div className="w-50-l mt5-l">
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
             01&nbsp;&nbsp;&nbsp;About
           </h3>
           <p className="w-75-ns white f4 lh-copy ma0">
@@ -34,7 +34,7 @@ const Footer = props => (
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
             02&nbsp;&nbsp;&nbsp;Work
           </h3>
           <p className="w-75-ns white f4 lh-copy ma0">
@@ -44,7 +44,7 @@ const Footer = props => (
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
             03&nbsp;&nbsp;&nbsp;Skills
           </h3>
           <p className="w-75-ns white f4 lh-copy ma0">
@@ -55,7 +55,7 @@ const Footer = props => (
           </p>
         </div>
         <div className="flex-ns flex-row">
-          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
             04&nbsp;&nbsp;&nbsp;Contact
           </h3>
           <a
@@ -68,7 +68,7 @@ const Footer = props => (
       </div>
     </div>
     <footer>
-      <nav className="pt6 pb5 ph4 ph5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
+      <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
         <div className="self-start dn-ns">
           <a href="mailto:iam@jefflupinski.com" className="white-40">
             iam@jefflupinski.com
