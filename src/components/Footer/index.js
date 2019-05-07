@@ -1,45 +1,53 @@
 import React from 'react'
 import styled from 'styled-components'
+import src from './images/scribbs.svg'
+import { Image } from 'components'
 
 const StyledBreak = styled.div`
   display: block;
   transform: translateX(8.33333333vw);
 `
 
-const Footer = () => (
+const StyledImage = styled(props => <Image {...props} />)`
+  right: -20%;
+  bottom: -5%;
+`
+
+const Footer = props => (
   <section className="bg-black begin-pres">
     <div className="flex flex-wrap pt6 pb4 pt7-l pb6-l ph4 ph5-l">
       <div className="w-50-l mb5 pl4-l">
-        <h2 className="white txt-f lh-solid">
+        <h2 className="dark-gray txt-f lh-solid">
           Hello <StyledBreak>World.</StyledBreak>
+          <StyledImage className="absolute" image={src} alt="" {...props} />
         </h2>
       </div>
       <div className="w-50-l mt5-l">
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
             01&nbsp;&nbsp;&nbsp;About
           </h3>
-          <p className="w-75-ns light-gray f4 lh-copy ma0">
+          <p className="w-75-ns white f4 lh-copy ma0">
             Designer & Front-end Developer based in Boulder, Colorado. Focused
             on designing digital products with modern interfaces, and friendly
             and intuitive&nbsp;experiences.
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
             02&nbsp;&nbsp;&nbsp;Work
           </h3>
-          <p className="w-75-ns light-gray f4 lh-copy ma0">
+          <p className="w-75-ns white f4 lh-copy ma0">
             Contributed to create products for clients such as
             Under&nbsp;Armour, AMC, CVS&nbsp;Pharmacy, United&nbsp;Way,
             AT&amp;T, Teespring, Aetna, and Delta&nbsp;Dental.
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
             03&nbsp;&nbsp;&nbsp;Skills
           </h3>
-          <p className="w-75-ns light-gray f4 lh-copy ma0">
+          <p className="w-75-ns white f4 lh-copy ma0">
             Visual Design, Experience Design, Interaction Design, Product
             Design, Front-end Development, Strong knowledge of
             HTML&nbsp;/&nbsp;CSS&nbsp;/&nbsp;JS, User&nbsp;Testing, Prototyping,
@@ -47,12 +55,12 @@ const Footer = () => (
           </p>
         </div>
         <div className="flex-ns flex-row">
-          <h3 className="f6 mt1 w-25-ns white lh-copy fw4 mb3 monospace">
+          <h3 className="f6 mt1 w-25-ns light-gray lh-copy fw4 mb3 monospace">
             04&nbsp;&nbsp;&nbsp;Contact
           </h3>
           <a
             href="mailto:iam@jefflupinski.com"
-            className="w-75-m light-gray f4 lh-copy ma0 di"
+            className="w-75-m white f4 lh-copy ma0 di"
           >
             iam@jefflupinski.com
           </a>
