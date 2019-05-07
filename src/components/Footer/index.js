@@ -68,7 +68,7 @@ const Footer = props => (
       </div>
     </div>
     <footer>
-      <nav className="pt6 pb5 ph4 ph5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
+      <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
         <div className="self-start dn-ns">
           <a href="mailto:iam@jefflupinski.com" className="white-40">
             iam@jefflupinski.com
