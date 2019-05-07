@@ -26,7 +26,7 @@ const Chewsi = () => (
     <div className="wrap-pres">
       <p>
         Delta Dental’s goal is to make affordable dental care available to
-        everyone, giving customers another reason to smile. As a result, I
+        everyone, giving customers another reason to smile. During two months, I
         worked with their team to design a ground up marketplace and search tool
         for dental patients. Providing a dentist and procedure search engine
         designed to increase coverage selection and conversion rates, while
@@ -57,7 +57,7 @@ const Chewsi = () => (
           />,
         ]}
       </ImageQuery>
-      <div className="pr-asset pr-video-wrap ba b--mid-gray overflow-hidden relative">
+      <div className="pr-asset pr-video-wrap ba bw4 b--white overflow-hidden relative">
         <video
           src="/chewsi-flow.mp4"
           className="pr-video"
