@@ -39,7 +39,7 @@ const UnderArmour = () => (
       <div className="flex">
         <div className="mr4 mr6-l">
           <p className="f6 monospace p-break fw4 light-gray">Role</p>
-          <ul className="f6 fw4 lh-copy">
+          <ul className="f5 fw4 lh-copy">
             <li>Visual Design</li>
             <li>UI / UX Design</li>
             <li>Research</li>
@@ -51,7 +51,7 @@ const UnderArmour = () => (
         </div>
         <div>
           <p className="f6 monospace p-break fw4 light-gray">Collaborators</p>
-          <ul className="f6 fw4 lh-copy">
+          <ul className="f5 fw4 lh-copy">
             <li>Amy Rubino</li>
             <li>Matt Rossi</li>
           </ul>
