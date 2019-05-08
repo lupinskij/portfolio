@@ -60,10 +60,10 @@ const UnderArmour = () => (
     </div>
     <div className="block wrap-single">
       <ImageQuery>
-        {({ imageTwo, imageThree, imageFour, imageFive, imageSix }) => [
+        {({ imageTwo, imageThree, imageFour, imageFive }) => [
           <Image
-            key="UA Mast"
-            image={imageTwo.childImageSharp}
+            key="UA Web"
+            image={imageFour.childImageSharp}
             type="fluid"
             alt="Under Armour web screens"
           />,
@@ -80,14 +80,8 @@ const UnderArmour = () => (
             alt="Under Armour web screens"
           />,
           <StyledImage
-            key="UA Web"
-            image={imageFour.childImageSharp}
-            type="fluid"
-            alt="Under Armour web screens"
-          />,
-          <StyledImage
-            key="UA Pages"
-            image={imageSix.childImageSharp}
+            key="UA Mast"
+            image={imageTwo.childImageSharp}
             type="fluid"
             alt="Under Armour web screens"
           />,
