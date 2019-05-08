@@ -28,7 +28,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageFour: file(relativePath: { eq: "underarmour-web.jpg" }) {
+          imageFour: file(relativePath: { eq: "underarmour-web-shot.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -36,13 +36,6 @@ function ImageQuery({ children }) {
             }
           }
           imageFive: file(relativePath: { eq: "underarmour-wires.jpg" }) {
-            childImageSharp {
-              fluid(maxWidth: 2000) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-          imageSix: file(relativePath: { eq: "underarmour-pages.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
