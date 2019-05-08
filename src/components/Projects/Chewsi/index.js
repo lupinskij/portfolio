@@ -35,7 +35,7 @@ const Chewsi = () => (
       <div className="flex">
         <div>
           <p className="f6 fw4 monospace p-break light-gray">Role</p>
-          <ul className="f6 fw4 lh-copy">
+          <ul className="f5 fw4 lh-copy">
             <li>Product Design</li>
             <li>UI / UX Design</li>
             <li>Information Architecture</li>
