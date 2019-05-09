@@ -1,4 +1,5 @@
 @font-face {
+  font-display: auto;
   font-family: 'Input Mono';
   src:
     url('~styles/fonts/InputMono-Regular.woff2') format('woff2'),
@@ -6,6 +7,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: 'Interface';
   src:
     url('~styles/fonts/Inter-Light.woff2') format('woff2'),
@@ -14,6 +16,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: 'Interface';
   src:
     url('~styles/fonts/Inter-Regular.woff2') format('woff2'),
@@ -22,6 +25,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: 'Interface';
   src:
     url('~styles/fonts/Inter-SemiBold.woff2') format('woff2'),
@@ -30,6 +34,7 @@
 }
 
 @font-face {
+  font-display: auto;
   font-family: 'Interface';
   src:
     url('~styles/fonts/Inter-Bold.woff2') format('woff2'),
@@ -38,6 +43,7 @@
 }
 
 @font-face {
+  font-display: swap;
   font-family: 'Interface';
   src:
     url('~styles/fonts/Inter-ExtraBold.woff2') format('woff2'),
