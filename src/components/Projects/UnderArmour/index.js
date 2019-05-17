@@ -62,8 +62,8 @@ const UnderArmour = () => (
       <ImageQuery>
         {({ imageTwo, imageThree, imageFour, imageFive }) => [
           <Image
-            key="UA Web"
-            image={imageFour.childImageSharp}
+            key="UA Mast"
+            image={imageTwo.childImageSharp}
             type="fluid"
             alt="Under Armour web screens"
           />,
@@ -80,8 +80,8 @@ const UnderArmour = () => (
             alt="Under Armour web screens"
           />,
           <StyledImage
-            key="UA Mast"
-            image={imageTwo.childImageSharp}
+            key="UA Web"
+            image={imageFour.childImageSharp}
             type="fluid"
             alt="Under Armour web screens"
           />,
