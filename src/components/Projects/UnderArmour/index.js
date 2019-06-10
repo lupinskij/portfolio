@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Parallax, Background } from 'react-parallax'
 import { Image } from 'components'
 import ImageQuery from './ImageQuery'
 
@@ -13,16 +14,24 @@ const StyledImage = styled(props => <Image {...props} />)`
 
 const UnderArmour = () => (
   <div className="project">
-    <ImageQuery>
-      {({ imageOne }) => [
-        <Image
-          key="UA Hero"
-          image={imageOne.childImageSharp}
-          type="fluid"
-          alt="Under Armour web screens"
-        />,
-      ]}
-    </ImageQuery>
+    <Parallax
+      strength={200}
+      style={{ paddingBottom: '69.1394%' }}
+      bgStyle={{ width: '100%' }}
+    >
+      <Background>
+        <ImageQuery>
+          {({ imageOne }) => [
+            <Image
+              key="UA Hero"
+              image={imageOne.childImageSharp}
+              type="fluid"
+              alt="Under Armour web screens"
+            />,
+          ]}
+        </ImageQuery>
+      </Background>
+    </Parallax>
     <div className="wrap-pres">
       <p>
         In 2017, I had the pleasure to work with the team at Under Armour to

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Parallax, Background } from 'react-parallax'
 import { Image } from 'components'
 import ImageQuery from './ImageQuery'
 
@@ -13,16 +14,25 @@ const StyledImage = styled(props => <Image {...props} />)`
 
 const Chewsi = () => (
   <div className="project begin-pres">
-    <ImageQuery>
-      {({ imageOne }) => [
-        <Image
-          key="Chewsi Hero"
-          image={imageOne.childImageSharp}
-          type="fluid"
-          alt="Delta Dental Chewsi mobile screens"
-        />,
-      ]}
-    </ImageQuery>
+    <Parallax
+      blur={{ min: -1, max: 3 }}
+      strength={200}
+      style={{ paddingBottom: '69.1394%' }}
+      bgStyle={{ width: '100%' }}
+    >
+      <Background>
+        <ImageQuery>
+          {({ imageOne }) => [
+            <Image
+              key="Chewsi Hero"
+              image={imageOne.childImageSharp}
+              type="fluid"
+              alt="Delta Dental Chewsi mobile screens"
+            />,
+          ]}
+        </ImageQuery>
+      </Background>
+    </Parallax>
     <div className="wrap-pres">
       <p>
         Delta Dental’s goal is to make affordable dental care available to
