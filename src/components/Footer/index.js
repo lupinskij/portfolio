@@ -3,26 +3,32 @@ import styled from 'styled-components'
 import src from './images/scribbs.svg'
 import { Image } from 'components'
 
-const StyledBreak = styled.div`
-  display: block;
-  transform: translateX(8.33333333vw);
-`
-
 const StyledImage = styled(props => <Image {...props} />)`
-  right: -20%;
-  bottom: -5%;
+  left: 33%;
+  max-width: 40%;
+  bottom: 0;
+
+  @media screen and (max-width: 30em) {
+    left: 0;
+    max-width: 60%;
+  }
 `
 
 const Footer = props => (
   <section className="bg-black begin-pres">
     <div className="flex flex-wrap pt6 pb4 pt7-l pb6-l ph4 ph5-l">
-      <div className="w-50-l mb5 pl4-l">
-        <h2 className="dark-gray txt-f lh-solid">
-          Hello <StyledBreak>World.</StyledBreak>
-          <StyledImage className="absolute" image={src} alt="" {...props} />
+      <div className="w-50-l mb5">
+        <h2 className="light-gray txt-f lh-solid">
+          <div className="dark-gray relative">
+            Hello World.
+            <StyledImage className="absolute" image={src} alt="" {...props} />
+          </div>
+          Nice to meet you.
+          <br />
+          Let’s begin.
         </h2>
       </div>
-      <div className="w-50-l mt5-l">
+      <div className="w-50-l">
         <div className="flex-ns flex-row mb5">
           <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
             01&nbsp;&nbsp;&nbsp;About
