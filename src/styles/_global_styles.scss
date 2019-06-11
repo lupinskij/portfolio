@@ -190,24 +190,13 @@
 
 .txt-f {
   display: inline-block;
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 800;
-  letter-spacing: -0.035em;
+  letter-spacing: -0.045em;
   position: relative;
 
   @media (min-width: 35.5em) {
-    font-size: 8.2vw;
-
-    &::after {
-      background: $dark-gray;
-      content: '';
-      display: inline-block;
-      height: 1px;
-      position: absolute;
-      right: -8.15vw;
-      top: 5.65vw;
-      width: 11.75vw;
-    }
+    font-size: 4.6vw;
   }
 }
 
