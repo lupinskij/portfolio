@@ -4,8 +4,8 @@ import src from './images/scribbs.svg'
 import { Image } from 'components'
 
 const StyledImage = styled(props => <Image {...props} />)`
-  left: 33%;
-  max-width: 40%;
+  left: 32%;
+  max-width: 45%;
   bottom: 0;
 
   @media screen and (max-width: 30em) {
