@@ -10,8 +10,10 @@ export default function useScrollPercentage() {
 
   useEffect(() => {
     window.addEventListener('scroll', reportScroll, { passive: true })
+    window.addEventListener('resize', reportScroll, { passive: true })
     return () => {
       window.removeEventListener('scroll', reportScroll)
+      window.removeEventListener('resize', reportScroll)
     }
   }, [])
 
