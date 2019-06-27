@@ -1,5 +1,14 @@
 import React from 'react'
-import { Layout, Hero, SEO, UnderArmour, AMC, Chewsi, Footer } from 'components'
+import {
+  AMC,
+  Chewsi,
+  Footer,
+  Hero,
+  Layout,
+  ScrollSection,
+  SEO,
+  UnderArmour,
+} from 'components'
 import NavController from 'components/SideNav/NavController'
 
 const IndexPage = () => (
@@ -10,9 +19,15 @@ const IndexPage = () => (
     />
     <Hero title="Crafting thoughtful digital experiences through visual &amp; coded solutions." />
     <NavController>
-      <UnderArmour />
-      <AMC />
-      <Chewsi />
+      <ScrollSection>
+        <UnderArmour />
+      </ScrollSection>
+      <ScrollSection>
+        <AMC />
+      </ScrollSection>
+      <ScrollSection>
+        <Chewsi />
+      </ScrollSection>
     </NavController>
     <Footer />
   </Layout>
