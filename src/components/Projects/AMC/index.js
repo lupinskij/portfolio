@@ -11,7 +11,7 @@ const StyledImage = styled(props => <Image {...props} />)`
   }
 `
 
-const AMC = props => (
+const AMC = () => (
   <div className="project begin-pres">
     <ImageQuery>
       {({ imageOne }) => [
