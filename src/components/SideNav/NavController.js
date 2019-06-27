@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import SideNav from './'
+import useSideNavReady from './useSideNavReady'
 
 const NavWrapper = styled.div`
   position: relative;
@@ -16,6 +17,8 @@ const links = [
 
 function NavController({ children }) {
   const CHILDREN_LENGTH = React.Children.count(children)
+  // Basically sideNav is "ready" when the first child is scrolled to the top of the screen
+  const sideNavReady = useSideNavReady(links[0].id)
 
   const [visibilityArray, setVisibilityArray] = React.useState(
     Array(CHILDREN_LENGTH).fill(0)
@@ -38,7 +41,11 @@ function NavController({ children }) {
 
   return (
     <NavWrapper>
-      <SideNav links={links} visibilityArray={visibilityArray} />
+      <SideNav
+        isReady={sideNavReady}
+        links={links}
+        visibilityArray={visibilityArray}
+      />
       {React.Children.map(children, (el, i) =>
         React.cloneElement(el, {
           id: links[i].id,

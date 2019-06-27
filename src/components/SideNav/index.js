@@ -18,15 +18,18 @@ const LinkItem = styled.li`
 `
 
 const StyledSideNav = styled.nav`
-  opacity: 1;
-  position: sticky;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  width: 80px;
+  display: flex;
   height: 100vh;
+  justify-content: center;
+  left: 0;
+  opacity: ${({ isReady }) => (isReady ? 1 : 0)};
+  position: sticky;
+  pointer-events: ${({ isReady }) => (isReady ? 'initial' : 'none')};
+  transform: translateX(${({ isReady }) => (isReady ? 0 : -80)}px);
+  transition: opacity 500ms ease-out, transform 300ms ease-out;
+  top: 0;
+  width: 80px;
   z-index: 100;
 `
 
@@ -40,7 +43,7 @@ const LinkRow = styled.ul`
 
 function SideNav({ isReady, links, visibilityArray }) {
   return (
-    <StyledSideNav className="SideNav">
+    <StyledSideNav className="SideNav" isReady={isReady}>
       <LinkRow>
         {links.map((link, i) => (
           <LinkItem key={link.id}>

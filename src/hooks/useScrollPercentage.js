@@ -26,8 +26,7 @@ function getScrollPercentage(element) {
   // When actualTop is between 0 and height, the component is in view
   if (actualTop <= 0 && bottom > window.innerHeight) {
     const percent = Math.ceil((Math.abs(actualTop) / height) * 100)
-    // There could be a bug here if you scroll really fast, this should prevent from
-    // going over 100
+    // This is probably unncecessary but I just want to make sure it never goes over 100
     return percent > 100 ? 100 : percent
   }
   return 0
