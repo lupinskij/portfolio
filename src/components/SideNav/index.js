@@ -3,6 +3,13 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import NavLink from './NavLink'
 
+const SideNavContainer = styled.div`
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+`
+
 const LinkItem = styled.li`
   cursor: pointer;
   position: relative;
@@ -43,17 +50,19 @@ const LinkRow = styled.ul`
 
 function SideNav({ isReady, links, visibilityArray }) {
   return (
-    <StyledSideNav className="SideNav" isReady={isReady}>
-      <LinkRow>
-        {links.map((link, i) => (
-          <LinkItem key={link.id}>
-            <NavLink id={link.id} lineWidth={visibilityArray[i]}>
-              {link.name}
-            </NavLink>
-          </LinkItem>
-        ))}
-      </LinkRow>
-    </StyledSideNav>
+    <SideNavContainer>
+      <StyledSideNav isReady={isReady}>
+        <LinkRow>
+          {links.map((link, i) => (
+            <LinkItem key={link.id}>
+              <NavLink id={link.id} lineWidth={visibilityArray[i]}>
+                {link.name}
+              </NavLink>
+            </LinkItem>
+          ))}
+        </LinkRow>
+      </StyledSideNav>
+    </SideNavContainer>
   )
 }
 
