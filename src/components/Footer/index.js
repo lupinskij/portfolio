@@ -15,7 +15,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Footer = props => (
-  <section className="bg-black begin-pres">
+  <section className="bg-black">
     <div className="flex flex-wrap pt6 pb4 pt7-l pb6-l ph4 ph5-l">
       <div className="w-50-l mb5">
         <h2 className="light-gray txt-f lh-solid">
@@ -74,7 +74,7 @@ const Footer = props => (
       </div>
     </div>
     <footer>
-      <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-nav white-40">
+      <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-header white-40">
         <div className="self-start dn-ns">
           <a href="mailto:iam@jefflupinski.com" className="white-40">
             iam@jefflupinski.com

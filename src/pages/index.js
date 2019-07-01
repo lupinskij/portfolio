@@ -9,7 +9,7 @@ import {
   SEO,
   UnderArmour,
 } from 'components'
-import NavController from 'components/SideNav/NavController'
+import NavController from 'components/Nav/NavController'
 
 const IndexPage = () => (
   <Layout>

@@ -4,17 +4,17 @@ import styled from 'styled-components'
 import { animated, useSpring } from 'react-spring'
 
 const StyledNavLink = styled.div`
-  color: black;
   position: relative;
 `
 
 const Line = styled(({ lineWidth, ...props }) => <animated.span {...props} />)`
-  background-color: black;
+  background: #adb5bd;
   bottom: -3px;
   display: block;
   height: 1px;
   position: absolute;
   transform-origin: ${({ lineWidth }) => (lineWidth > 0 ? 'right' : 'left')};
+  transition: background 250ms cubic-bezier(0.44, 0.13, 0.48, 0.87);
   width: 100%;
   will-change: transform;
 `

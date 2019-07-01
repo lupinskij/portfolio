@@ -1,6 +1,6 @@
 import React from 'react'
 
-function useSideNavReady(id) {
+function useNavReady(id) {
   const [isReady, setIsReady] = React.useState(false)
 
   function checkScroll() {
@@ -23,4 +23,4 @@ function useSideNavReady(id) {
   return isReady
 }
 
-export default useSideNavReady
+export default useNavReady
