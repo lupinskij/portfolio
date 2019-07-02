@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { Layout, SEO, Nope } from 'components'
+import { Layout, SEO, FourOhFour } from 'components'
 
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not Found" />
-    <Nope />
+    <FourOhFour />
   </Layout>
 )
 
