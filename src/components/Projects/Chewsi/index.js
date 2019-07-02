@@ -12,7 +12,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Chewsi = () => (
-  <div className="project begin-pres">
+  <div className="project pl4 pl5-l">
     <ImageQuery>
       {({ imageOne }) => [
         <Image

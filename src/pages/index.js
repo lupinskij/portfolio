@@ -1,5 +1,15 @@
 import React from 'react'
-import { Layout, Hero, SEO, UnderArmour, AMC, Chewsi, Footer } from 'components'
+import {
+  AMC,
+  Chewsi,
+  Footer,
+  Hero,
+  Layout,
+  ScrollSection,
+  SEO,
+  UnderArmour,
+} from 'components'
+import NavController from 'components/Nav/NavController'
 
 const IndexPage = () => (
   <Layout>
@@ -8,9 +18,17 @@ const IndexPage = () => (
       keywords={[`jeff lupinski`, `design`, `product`]}
     />
     <Hero title="Crafting thoughtful digital experiences through visual &amp; coded solutions." />
-    <UnderArmour />
-    <AMC />
-    <Chewsi />
+    <NavController>
+      <ScrollSection>
+        <UnderArmour />
+      </ScrollSection>
+      <ScrollSection>
+        <AMC />
+      </ScrollSection>
+      <ScrollSection>
+        <Chewsi />
+      </ScrollSection>
+    </NavController>
     <Footer />
   </Layout>
 )

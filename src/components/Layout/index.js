@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import { Nav } from 'components'
+import { Header } from 'components'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,7 +17,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Nav siteTitle={data.site.siteMetadata.title} />
+        <Header />
         <div
           style={{
             margin: `0 auto`,
