@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 import { Image } from 'components'
@@ -5,7 +6,7 @@ import { Image } from 'components'
 import giphy from './images/giphy.gif'
 import screen from './images/screen.png'
 
-const Container = styled.div`
+const StyledWrap = styled.div`
   font-size: 0;
 `
 
@@ -37,14 +38,28 @@ const StyledScreen = styled.div`
   z-index: 1;
 `
 
-const Nope = props => (
+const FourOhFour = props => (
   <div className="h-100 min-vh-100 pt6 pb5 relative">
-    <StyledTitle className="sans-serif">404: Not Found</StyledTitle>
-    <Container className="wrap-single relative overflow-hidden">
-      <StyledScreen />
-      <StyledImage image={giphy} alt="404: Not Found" {...props} />
-    </Container>
+    <div className="wrap-single">
+      <div className="relative overflow-hidden">
+        <StyledTitle className="sans-serif">
+          Page not found &nbsp; :(
+        </StyledTitle>
+        <StyledWrap>
+          <StyledScreen />
+          <StyledImage image={giphy} alt="404: Not Found" {...props} />
+        </StyledWrap>
+      </div>
+      <div className="tc pt5">
+        <Link
+          to="/"
+          className="f6 fw6 link dim ba br1 ph4 pv3 dib nowrap center black"
+        >
+          Back to Home
+        </Link>
+      </div>
+    </div>
   </div>
 )
 
-export default Nope
+export default FourOhFour
