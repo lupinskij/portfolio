@@ -8,7 +8,7 @@ const StyledNavLink = styled.div`
 `
 
 const Line = styled(({ lineWidth, ...props }) => <animated.span {...props} />)`
-  background: #adb5bd;
+  background: #868e96;
   bottom: -3px;
   display: block;
   height: 1px;

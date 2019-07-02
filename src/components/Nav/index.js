@@ -12,7 +12,7 @@ const NavContainer = styled.div`
 
 const LinkItem = styled.li`
   bottom: -2px;
-  color: #adb5bd;
+  color: #868e96;
   cursor: pointer;
   margin-left: 4em;
   padding-bottom: 4px;
@@ -46,7 +46,7 @@ const StyledNav = styled.nav`
   top: 0;
   transform: translateY(${({ isReady }) => (isReady ? 0 : -30)}px);
   transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
-    transform 750ms cubic-bezier(0.26, 0.54, 0.32, 1);
+    transform 750ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
   width: 60px;
   z-index: 100;
 `
