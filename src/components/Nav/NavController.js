@@ -17,8 +17,11 @@ const links = [
 
 function NavController({ children }) {
   const CHILDREN_LENGTH = React.Children.count(children)
-  // Basically Nav is "ready" when the first child is scrolled to the top of the screen
-  const NavReady = useNavReady(links[0].id)
+  // Nav is ready when the first child's top position has
+  // scrolled to or past the top of the viewport  and the
+  // last child's bottom position has passed the bottom
+  // of the screen.
+  const NavReady = useNavReady(links[0].id, links[links.length - 1].id)
 
   const [visibilityArray, setVisibilityArray] = React.useState(
     Array(CHILDREN_LENGTH).fill(0)
