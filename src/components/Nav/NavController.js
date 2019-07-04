@@ -20,8 +20,8 @@ function NavController({ children }) {
   // Nav is ready when the first child's top position has
   // scrolled to or past the top of the viewport  and the
   // last child's bottom position has passed the bottom
-  // of the screen.
-  const NavReady = useNavReady(links[0].id, links[links.length - 1].id)
+  // of the viewport.
+  const navReady = useNavReady(links[0].id, links[links.length - 1].id)
 
   const [visibilityArray, setVisibilityArray] = React.useState(
     Array(CHILDREN_LENGTH).fill(0)
@@ -44,7 +44,7 @@ function NavController({ children }) {
 
   return (
     <NavWrapper>
-      <Nav isReady={NavReady} links={links} visibilityArray={visibilityArray} />
+      <Nav isReady={navReady} links={links} visibilityArray={visibilityArray} />
       {React.Children.map(children, (el, i) =>
         React.cloneElement(el, {
           id: links[i].id,
