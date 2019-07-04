@@ -6,8 +6,7 @@ function useNavReady(firstChildId, lastChildId) {
   function checkScroll() {
     const firstChild = document.getElementById(firstChildId)
     const lastChild = document.getElementById(lastChildId)
-    const firstTop = firstChild.offsetTop
-    const topReady = firstTop + window.innerHeight
+    const topReady = firstChild.offsetTop + window.innerHeight
     const scrolledBottom = lastChild.offsetHeight + lastChild.offsetTop
     setIsReady(window.scrollY >= topReady && window.scrollY <= scrolledBottom)
   }
