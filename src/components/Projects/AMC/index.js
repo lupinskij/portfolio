@@ -27,10 +27,16 @@ const AMC = () => (
       <p>
         While working with the team at Handsome, a holistic experience design
         agency, I had the opportunity to help lead the design for AMC Network
-        Entertainment’s streaming OTT platform. We partnered with AMC to help
-        implement and carry designs across platforms including AppleTV, Roku,
-        FireTV, and XBOX. In addition, we got to work on their iOS platforms for
-        mobile and&nbsp;tablet.
+        Entertainment’s Premiere streaming platform. Partnering with AMC, we
+        created a seamless experience across multiple OTT streaming devices.
+        Helping design the network’s very first direct-to-consumer content
+        platform.
+      </p>
+
+      <p>
+        We produced, evolved, and implemented system-wide designs for AppleTV,
+        FireTV, Roku, and XBOX. In addition, we designed for iOS on both mobile
+        and&nbsp;tablet.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
