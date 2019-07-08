@@ -1,13 +1,14 @@
 import React from 'react'
 
-function useNavReady(id) {
+function useNavReady(firstChildId, lastChildId) {
   const [isReady, setIsReady] = React.useState(false)
 
   function checkScroll() {
-    const el = document.getElementById(id)
-    const { offsetTop } = el
-    const readyPoint = offsetTop + window.innerHeight
-    setIsReady(window.scrollY >= readyPoint)
+    const firstChild = document.getElementById(firstChildId)
+    const lastChild = document.getElementById(lastChildId)
+    const topReady = firstChild.offsetTop + window.innerHeight
+    const scrolledBottom = lastChild.offsetHeight + lastChild.offsetTop
+    setIsReady(window.scrollY >= topReady && window.scrollY <= scrolledBottom)
   }
 
   React.useEffect(() => {
