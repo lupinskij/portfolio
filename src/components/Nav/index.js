@@ -12,7 +12,7 @@ const NavContainer = styled.div`
 
 const LinkItem = styled.li`
   bottom: -2px;
-  color: #868e96;
+  color: #68717a;
   cursor: pointer;
   margin-left: 4em;
   padding-bottom: 4px;
