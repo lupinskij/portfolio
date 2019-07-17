@@ -55,10 +55,11 @@
   &::before {
     content: '';
     display: block;
-    height: 1px;
+    height: 0.15rem;
     left: -10%;
     position: absolute;
     top: 50%;
+    transform: translateY(-50%);
     transition: width 0s ease, background 400ms ease;
     width: 0;
   }
@@ -67,10 +68,11 @@
     background: $black;
     content: '';
     display: block;
-    height: 1px;
+    height: 0.15rem;
     position: absolute;
     right: -10%;
     top: 50%;
+    transform: translateY(-50%);
     transition: width 400ms ease;
     width: 0;
   }
