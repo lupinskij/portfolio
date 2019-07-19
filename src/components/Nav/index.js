@@ -8,6 +8,10 @@ const NavContainer = styled.div`
   left: 0;
   position: absolute;
   top: 0;
+
+  @media (max-width: 60em) {
+    display: none;
+  }
 `
 
 const LinkItem = styled.li`

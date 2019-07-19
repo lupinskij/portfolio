@@ -30,7 +30,7 @@ function ImageQuery({ children }) {
           }
           imageFour: file(relativePath: { eq: "chewsi-web.jpg" }) {
             childImageSharp {
-              fluid(maxWidth: 2000, quality: 90) {
+              fluid(maxWidth: 2000, quality: 91) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
