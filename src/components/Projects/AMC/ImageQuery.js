@@ -23,7 +23,7 @@ function ImageQuery({ children }) {
           }
           imageThree: file(relativePath: { eq: "amc-tv.jpg" }) {
             childImageSharp {
-              fluid(maxWidth: 2000) {
+              fluid(maxWidth: 2000, quality: 91) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
