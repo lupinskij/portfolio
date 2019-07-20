@@ -60,7 +60,7 @@ const AMC = () => (
     </div>
     <div className="block wrap-single">
       <ImageQuery>
-        {({ imageTwo, imageThree, imageFour }) => [
+        {({ imageTwo, imageThree, imageFour, imageFive }) => [
           <Image
             key="AMC Mast"
             image={imageTwo.childImageSharp}
@@ -70,6 +70,12 @@ const AMC = () => (
           <StyledImage
             key="AMC TV"
             image={imageThree.childImageSharp}
+            type="fluid"
+            alt="AMC OTT screens"
+          />,
+          <StyledImage
+            key="AMC Mock"
+            image={imageFive.childImageSharp}
             type="fluid"
             alt="AMC OTT screens"
           />,
