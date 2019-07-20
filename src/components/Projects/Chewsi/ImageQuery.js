@@ -35,6 +35,13 @@ function ImageQuery({ children }) {
               }
             }
           }
+          imageFive: file(relativePath: { eq: "chewsi-mock.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
         }
       `}
       render={data => children(data)}

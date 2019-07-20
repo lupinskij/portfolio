@@ -68,7 +68,13 @@ const Chewsi = () => (
         />
       </div>
       <ImageQuery>
-        {({ imageThree }) => [
+        {({ imageThree, imageFive }) => [
+          <StyledImage
+            key="Chewsi Mock"
+            image={imageFive.childImageSharp}
+            type="fluid"
+            alt="Chewsi screens"
+          />,
           <StyledImage
             key="Chewsi Mobile"
             image={imageThree.childImageSharp}

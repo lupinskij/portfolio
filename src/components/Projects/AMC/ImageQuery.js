@@ -23,12 +23,19 @@ function ImageQuery({ children }) {
           }
           imageThree: file(relativePath: { eq: "amc-tv.jpg" }) {
             childImageSharp {
-              fluid(maxWidth: 2000, quality: 91) {
+              fluid(maxWidth: 2000, quality: 95) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
           imageFour: file(relativePath: { eq: "amc-mobile.jpg" }) {
+            childImageSharp {
+              fluid(maxWidth: 2000) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          imageFive: file(relativePath: { eq: "amc-mock.jpg" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
