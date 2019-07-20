@@ -48,12 +48,12 @@ const Chewsi = () => (
     </div>
     <div className="block wrap-single">
       <ImageQuery>
-        {({ imageFour }) => [
+        {({ imageFive }) => [
           <Image
-            key="Chewsi Web"
-            image={imageFour.childImageSharp}
+            key="Chewsi Mock"
+            image={imageFive.childImageSharp}
             type="fluid"
-            alt="Delta Dental Chewsi website screen"
+            alt="Chewsi screens"
           />,
         ]}
       </ImageQuery>
@@ -68,18 +68,18 @@ const Chewsi = () => (
         />
       </div>
       <ImageQuery>
-        {({ imageThree, imageFive }) => [
-          <StyledImage
-            key="Chewsi Mock"
-            image={imageFive.childImageSharp}
-            type="fluid"
-            alt="Chewsi screens"
-          />,
+        {({ imageThree, imageFour }) => [
           <StyledImage
             key="Chewsi Mobile"
             image={imageThree.childImageSharp}
             type="fluid"
             alt="Delta Dental Chewsi mobile screens"
+          />,
+          <StyledImage
+            key="Chewsi Web"
+            image={imageFour.childImageSharp}
+            type="fluid"
+            alt="Delta Dental Chewsi website screen"
           />,
         ]}
       </ImageQuery>
