@@ -31,7 +31,7 @@
 }
 
 .pr-header {
-  animation-delay: 500ms;
+  animation-delay: 700ms;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-name: headerIn;
@@ -97,7 +97,7 @@
 }
 
 .txt {
-  animation-delay: 500ms;
+  animation-delay: 700ms;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-name: textIn;
@@ -213,7 +213,7 @@
     width: 0;
   }
 
-  50% {
+  99% {
     opacity: 1;
   }
 

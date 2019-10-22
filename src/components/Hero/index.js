@@ -26,7 +26,6 @@ function Hero({ title }) {
           }
         </Split>
       </div>
-      <div className="progress" />
     </StyledHero>
   )
 }
