@@ -21,7 +21,7 @@ const Header = props => (
       <li>
         <a
           href="https://dribbble.com/jefflupinski"
-          className="black header-link"
+          className="black trans-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -31,7 +31,7 @@ const Header = props => (
       <li>
         <a
           href="https://github.com/lupinskij"
-          className="black header-link"
+          className="black trans-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -43,7 +43,7 @@ const Header = props => (
       <li>
         <a
           href="https://www.linkedin.com/in/jefflupinski"
-          className="black header-link"
+          className="black trans-link"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -53,7 +53,7 @@ const Header = props => (
       <li>
         <a
           href="https://twitter.com/jefflupinski"
-          className="black header-link"
+          className="black trans-link"
           target="_blank"
           rel="noopener noreferrer"
         >

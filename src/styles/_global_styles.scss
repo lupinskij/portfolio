@@ -49,47 +49,6 @@
   }
 }
 
-.header-link {
-  position: relative;
-
-  &::before {
-    content: '';
-    display: block;
-    height: 0.15rem;
-    left: -10%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: width 0s ease, background 400ms ease;
-    width: 0;
-  }
-
-  &::after {
-    background: $black;
-    content: '';
-    display: block;
-    height: 0.15rem;
-    position: absolute;
-    right: -10%;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: width 400ms ease;
-    width: 0;
-  }
-
-  &:hover::before {
-    background: $black;
-    transition: width 400ms ease;
-    width: 120%;
-  }
-
-  &:hover::after {
-    background: transparent;
-    transition: all 0 ease;
-    width: 120%;
-  }
-}
-
 .wrd {
   display: inline-block;
   margin-right: 0.35rem;
@@ -130,6 +89,74 @@
   to {
     transform: translateY(0);
   }
+}
+
+.trans-link {
+  position: relative;
+
+  &::before {
+    content: '';
+    display: block;
+    height: 2px;
+    left: -10%;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(50%);
+    transition: width 0s ease, background 400ms ease;
+    width: 0;
+  }
+
+  &::after {
+    background: $black;
+    content: '';
+    display: block;
+    height: 2px;
+    position: absolute;
+    right: -10%;
+    bottom: 50%;
+    transform: translateY(50%);
+    transition: width 400ms ease;
+    width: 0;
+  }
+
+  &:hover::before {
+    background: $black;
+    transition: width 400ms ease;
+    width: 120%;
+  }
+
+  &:hover::after {
+    background: transparent;
+    transition: all 0 ease;
+    width: 120%;
+  }
+}
+
+.in-link::before {
+  bottom: 0;
+  left: 0;
+  transform: translateY(0);
+}
+
+.in-link::after {
+  background: $near-white;
+  bottom: 0;
+  right: 0;
+  transform: translateY(0);
+}
+
+.in-link:hover::before {
+  background: $near-white;
+  width: 100%;
+}
+
+.in-link:hover::after {
+  width: 100%;
+}
+
+.dim-link:hover {
+  color: $near-white;
+  transition: color 500ms;
 }
 
 .block {

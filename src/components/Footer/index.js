@@ -66,7 +66,7 @@ const Footer = props => (
           </h3>
           <a
             href="mailto:iam@jefflupinski.com"
-            className="w-75-m white f4 lh-copy ma0 di"
+            className="w-75-m white f4 lh-copy ma0 di trans-link in-link"
           >
             iam@jefflupinski.com
           </a>
@@ -76,7 +76,7 @@ const Footer = props => (
     <footer>
       <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-header white-40">
         <div className="self-start dn-ns">
-          <a href="mailto:iam@jefflupinski.com" className="white-40">
+          <a href="mailto:iam@jefflupinski.com" className="white-40 dim-link">
             iam@jefflupinski.com
           </a>
         </div>
@@ -84,7 +84,7 @@ const Footer = props => (
           <li>
             <a
               href="https://dribbble.com/jefflupinski"
-              className="white-40"
+              className="white-40 dim-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -94,7 +94,7 @@ const Footer = props => (
           <li>
             <a
               href="https://github.com/lupinskij"
-              className="white-40"
+              className="white-40 dim-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +106,7 @@ const Footer = props => (
           <li>
             <a
               href="https://www.linkedin.com/in/jefflupinski"
-              className="white-40"
+              className="white-40 dim-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -116,7 +116,7 @@ const Footer = props => (
           <li>
             <a
               href="https://twitter.com/jefflupinski"
-              className="white-40"
+              className="white-40 dim-link"
               target="_blank"
               rel="noopener noreferrer"
             >
