@@ -8,6 +8,7 @@ const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
     height: 100vh;
+    margin-bottom: 4vw;
   }
 `
 
