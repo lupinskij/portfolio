@@ -65,10 +65,10 @@ const Footer = props => (
             04&nbsp;&nbsp;&nbsp;Contact
           </h3>
           <a
-            href="mailto:iam@jefflupinski.com"
+            href="mailto:hello@jefflupinski.com"
             className="w-75-m white f4 lh-copy ma0 di trans-link in-link"
           >
-            iam@jefflupinski.com
+            hello@jefflupinski.com
           </a>
         </div>
       </div>
@@ -76,8 +76,8 @@ const Footer = props => (
     <footer>
       <nav className="pt6 pb5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-header white-40">
         <div className="self-start dn-ns">
-          <a href="mailto:iam@jefflupinski.com" className="white-40 dim-link">
-            iam@jefflupinski.com
+          <a href="mailto:hello@jefflupinski.com" className="white-40 dim-link">
+            hello@jefflupinski.com
           </a>
         </div>
         <ul className="dn-ns">

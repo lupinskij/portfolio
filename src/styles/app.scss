@@ -78,6 +78,10 @@ ul {
 
 a {
   text-decoration: none;
+
+  &:focus {
+    outline: dotted 1px $black;
+  }
 }
 
 ::selection {
