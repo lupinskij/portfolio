@@ -45,8 +45,8 @@ const Footer = props => (
           </h3>
           <p className="w-75-ns white f4 lh-copy ma0">
             Contributed to create products for clients such as
-            Under&nbsp;Armour, AMC, CVS&nbsp;Pharmacy, United&nbsp;Way,
-            AT&amp;T, Teespring, Aetna, and Delta&nbsp;Dental.
+            Under&nbsp;Armour, AMC Entertainment, CVS&nbsp;Pharmacy, AT&amp;T,
+            United&nbsp;Way, Teespring, Aetna, and Delta&nbsp;Dental.
           </p>
         </div>
         <div className="flex-ns flex-row mb5">
