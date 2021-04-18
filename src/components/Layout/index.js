@@ -18,6 +18,7 @@ const Layout = ({ children }) => (
     render={data => (
       <div>
         <Loader />
+        <div className="grain" />
         <Header />
         <div
           style={{

@@ -1,76 +1,51 @@
 import React from 'react'
-import styled from 'styled-components'
-import src from './images/scribbs.svg'
-import { Image } from 'components'
-
-const StyledImage = styled(props => <Image {...props} />)`
-  left: 32%;
-  max-width: 45%;
-  bottom: 0;
-
-  @media screen and (max-width: 30em) {
-    left: 0;
-    max-width: 60%;
-  }
-`
 
 const Footer = props => (
   <section className="bg-black">
-    <div className="flex flex-wrap pt6 pb4 pt7-l pb6-l ph4 ph5-l">
-      <div className="w-50-l mb5">
-        <h2 className="light-gray txt-f lh-solid">
-          <div className="dark-gray relative">
-            Hello World.
-            <StyledImage className="absolute" image={src} alt="" {...props} />
-          </div>
-          Nice to meet you.
-          <br />
-          Let’s begin.
-        </h2>
+    <div className="wrap-pres">
+      <div className="mb5">
+        <h3 className="f6 mt2 pt1 light-gray fw4 mb2 monospace">
+          &#11096;&nbsp;&nbsp;&nbsp;Info
+        </h3>
+        <p className="white ma0">
+          Digital designer currently living in Colorado. Focused on designing
+          digital products and interactive experiences. I enjoy working closely
+          with teams to create thoughtful and intuitive solutions for problems
+          of all sizes.
+        </p>
       </div>
-      <div className="w-50-l">
-        <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
-            01&nbsp;&nbsp;&nbsp;About
-          </h3>
-          <p className="w-75-ns white f4 lh-copy ma0">
-            Designer & Front-end Developer based in Boulder, Colorado. Focused
-            on designing digital products with modern interfaces, and friendly
-            and intuitive&nbsp;experiences.
-          </p>
-        </div>
-        <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
-            02&nbsp;&nbsp;&nbsp;Work
-          </h3>
-          <p className="w-75-ns white f4 lh-copy ma0">
-            Contributed to create products for clients such as
-            Under&nbsp;Armour, AMC Entertainment, CVS&nbsp;Pharmacy, AT&amp;T,
-            United&nbsp;Way, Teespring, Aetna, and Delta&nbsp;Dental.
-          </p>
-        </div>
-        <div className="flex-ns flex-row mb5">
-          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
-            03&nbsp;&nbsp;&nbsp;Skills
-          </h3>
-          <p className="w-75-ns white f4 lh-copy ma0">
-            Visual Design, Experience Design, Interaction Design, Product
-            Design, Front-end Development, Strong knowledge of
-            HTML&nbsp;/&nbsp;CSS&nbsp;/&nbsp;JS, User&nbsp;Testing, Prototyping,
-            UX&nbsp;Strategy
-          </p>
-        </div>
-        <div className="flex-ns flex-row">
-          <h3 className="f6 mt2 pt1 w-25-ns light-gray fw4 mb3 monospace">
-            04&nbsp;&nbsp;&nbsp;Contact
-          </h3>
+      <div className="mb5">
+        <h3 className="f6 mt2 pt1 light-gray fw4 mb2 monospace">
+          &#11096;&nbsp;&nbsp;&nbsp;Work
+        </h3>
+        <p className="white ma0">
+          Contributed to projects for Under&nbsp;Armour, AMC&nbsp;Television,
+          Specialized&nbsp;Bicycles, Ueno, Instrument, Epic&nbsp;Games,
+          CVS&nbsp;Pharmacy, AT&amp;T, Dell&nbsp;EMC, Zwift, United&nbsp;Way,
+          Teespring, Chubb, Aetna, Delta Dental, and more.
+        </p>
+      </div>
+      <div className="mb6">
+        <h3 className="f6 mt2 pt1 light-gray fw4 mb2 monospace">
+          &#11096;&nbsp;&nbsp;&nbsp;Skills
+        </h3>
+        <p className="white ma0">
+          User Interface and Experience Design, Visual Design, Interaction
+          Design, Digital Product Design, Design Systems, Web and App Design,
+          User&nbsp;Testing, Front-end Development, Strong knowledge of
+          HTML&nbsp;/&nbsp;CSS&nbsp;/&nbsp;JS
+        </p>
+      </div>
+      <div className="mb5">
+        <p className="white ma0 di">
+          &#8618;&nbsp;&nbsp;
           <a
             href="mailto:hello@jefflupinski.com"
-            className="w-75-m white f4 lh-copy ma0 di trans-link in-link"
+            className="white trans-link in-link"
           >
             hello@jefflupinski.com
           </a>
-        </div>
+        </p>
       </div>
     </div>
     <footer>

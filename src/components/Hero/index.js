@@ -2,29 +2,41 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
-import { Split } from '@squib/react-split'
+import { SplitText } from './SplitText'
+import { AnimatePresence, motion } from 'framer-motion'
 
 const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
-    height: 100vh;
-    margin-bottom: 4vw;
+    margin-top: 16vw;
+    margin-bottom: 8vw;
   }
 `
 
 function Hero({ title }) {
   return (
-    <StyledHero className="Hero vh-100 vw-100 bg-near-white ph4 ph5-l pv5 pv6-ns relative flex items-center items-end-l">
+    <StyledHero className="Hero ph4 ph5-l pv5 relative flex items-center items-end-l">
       <div className="mw-100 mw8-m mw9-l">
-        <Split string={title} separator={/\s+/}>
-          {substrings =>
-            substrings.map(({ substring, key }) => (
-              <span key={key} className="wrd">
-                <span className="txt">{substring} </span>
-              </span>
-            ))
-          }
-        </Split>
+        <AnimatePresence>
+          <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
+            <SplitText
+              initial={{ y: '100%' }}
+              animate="visible"
+              variants={{
+                visible: i => ({
+                  y: 0,
+                  transition: {
+                    ease: 'easeOut',
+                    duration: 0.5,
+                    delay: 1,
+                  },
+                }),
+              }}
+            >
+              {title}
+            </SplitText>
+          </motion.div>
+        </AnimatePresence>
       </div>
     </StyledHero>
   )

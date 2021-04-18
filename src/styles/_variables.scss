@@ -1,6 +1,6 @@
 // // Converted Variables
 
-$sans-serif: 'Interface', -apple-system, BlinkMacSystemFont,
+$sans-serif: 'Beautiful Ground', -apple-system, BlinkMacSystemFont,
   'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto,
   'segoe ui', arial, sans-serif !default;
 $monospace: 'Input Mono', Consolas, 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier, monospace !default;
@@ -70,7 +70,7 @@ $line-height-copy: 2 !default;
 // $box-shadow-3: 2px 2px 4px 2px rgba( 0, 0, 0, 0.2 ) !default;
 // $box-shadow-4: 2px 2px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
 // $box-shadow-5: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ) !default;
-$black: #343a40 !default;
+$black: #2c2c2c !default;
 $white: #fff !default;
 $near-white: #f8f9fa !default;
 $gray: #868e96 !default;
@@ -85,8 +85,9 @@ MTS = Place colors here that need to be assigned variables in the future
 */
 
 // $transparent: transparent !default;
-// $black-90: rgba(0,0,0,.9) !default;
-// $black-80: rgba(0,0,0,.8) !default;
+$black-100: rgba(0, 0, 0, 1) !default;
+// $black-90: rgba(0, 0, 0, 0.9) !default;
+$black-80: rgba(0, 0, 0, 0.8) !default;
 $black-70: rgba(52, 58, 64, 0.7) !default; // used in Scroll Transition
 // $black-60: rgba(0,0,0,.6) !default;
 // $black-50: rgba(0, 0, 0, 0.5) !default;

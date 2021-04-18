@@ -30,43 +30,11 @@
   font-family: $monospace;
 }
 
-.pr-header {
-  animation-delay: 700ms;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-name: headerIn;
-  animation-timing-function: $animation-function;
-  transform: translateY(-150%);
-}
-
-@keyframes headerIn {
-  from {
-    transform: translateY(-150%);
-  }
-
-  to {
-    transform: translateY(0);
-  }
-}
-
-.wrd {
-  display: inline-block;
-  margin-right: 0.35rem;
-  overflow: hidden;
-}
-
 .txt {
-  animation-delay: 700ms;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  animation-name: textIn;
-  animation-timing-function: $animation-function;
-  display: block;
   font-size: 2.25rem;
-  font-weight: 800;
-  letter-spacing: -0.055em;
-  line-height: 1.16;
-  transform: translateY(100%);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
   white-space: pre;
 
   @media (min-width: 35.5em) {
@@ -78,17 +46,7 @@
   }
 
   @media (min-width: 64em) {
-    font-size: 6.2vw;
-  }
-}
-
-@keyframes textIn {
-  from {
-    transform: translateY(100%);
-  }
-
-  to {
-    transform: translateY(0);
+    font-size: 6.025vw;
   }
 }
 
@@ -180,10 +138,10 @@
 }
 
 .wrap-pres {
-  font: 300 normal 2.15vw/3.42vw $sans-serif;
+  font: 300 normal 2.3vw/3.25vw $sans-serif;
   margin: 0 auto;
   padding: 13.4vw 0 3vw;
-  width: 44.5vw;
+  width: 48vw;
 
   @media (max-width: 767px) {
     font: 400 normal 20px/36px $sans-serif;
@@ -213,7 +171,7 @@
 .txt-f {
   display: inline-block;
   font-size: 3.6rem;
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: -0.045em;
   position: relative;
 
@@ -249,5 +207,73 @@
     opacity: 0;
     width: 100%;
     visibility: hidden;
+  }
+}
+
+.grain {
+  display: block;
+  overflow: hidden;
+  pointer-events: none;
+
+  &::after {
+    animation: grain 8s steps(10) infinite;
+    background: url(~styles/images/noise.png);
+    content: "";
+    display: block;
+    height: 300%;
+    left: -100%;
+    opacity: 0.3;
+    pointer-events: none;
+    position: fixed;
+    top: -100%;
+    width: 300%;
+    z-index: 0;
+
+    @media (min-width: 500px) {
+      opacity: 0.6;
+    }
+  }
+}
+
+@keyframes grain {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  10% {
+    transform: translate(-5%, -10%);
+  }
+
+  20% {
+    transform: translate(-15%, 5%);
+  }
+
+  30% {
+    transform: translate(7%, -25%);
+  }
+
+  40% {
+    transform: translate(-5%, 25%);
+  }
+
+  50% {
+    transform: translate(-15%, 10%);
+  }
+
+  60% {
+    transform: translate(15%, 0%);
+  }
+
+  70% {
+    transform: translate(0%, 15%);
+  }
+
+  80% {
+    transform: translate(3%, 25%);
+  }
+
+  90% {
+    transform: translate(-10%, 10%);
   }
 }
