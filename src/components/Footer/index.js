@@ -20,9 +20,9 @@ const Footer = props => (
         </h3>
         <p className="white ma0">
           Contributed to projects for Under&nbsp;Armour, AMC&nbsp;Television,
-          Specialized&nbsp;Bicycles, Ueno, Instrument, Epic&nbsp;Games,
-          CVS&nbsp;Pharmacy, AT&amp;T, Dell&nbsp;EMC, Zwift, United&nbsp;Way,
-          Teespring, Chubb, Aetna, Delta Dental, and more.
+          Specialized&nbsp;Bicycles, 7-Eleven, Marriott, Salesforce,
+          Epic&nbsp;Games, CVS&nbsp;Pharmacy, Aetna, AT&amp;T, Dell&nbsp;EMC,
+          United&nbsp;Way, Teespring, Chubb, Zwift, Delta Dental, and more.
         </p>
       </div>
       <div className="mb6">
