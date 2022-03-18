@@ -30,6 +30,25 @@
   font-family: $monospace;
 }
 
+.pr-header {
+  animation-delay: 700ms;
+  animation-duration: 900ms;
+  animation-fill-mode: forwards;
+  animation-name: headerIn;
+  animation-timing-function: $animation-function;
+  transform: translateY(-150%);
+}
+
+@keyframes headerIn {
+  from {
+    transform: translateY(-150%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
 .txt {
   font-size: 2.25rem;
   font-weight: 700;
