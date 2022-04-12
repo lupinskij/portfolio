@@ -37,6 +37,7 @@
   animation-name: headerIn;
   animation-timing-function: $animation-function;
   transform: translateY(-150%);
+  z-index: 9999;
 }
 
 @keyframes headerIn {
