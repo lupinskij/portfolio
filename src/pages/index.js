@@ -1,7 +1,7 @@
 import React from 'react'
 import {
   AMC,
-  Chewsi,
+  Peddle,
   Footer,
   Hero,
   Layout,
@@ -23,10 +23,10 @@ const IndexPage = () => (
         <UnderArmour />
       </ScrollSection>
       <ScrollSection>
-        <AMC />
+        <Peddle />
       </ScrollSection>
       <ScrollSection>
-        <Chewsi />
+        <AMC />
       </ScrollSection>
     </NavController>
     <Footer />

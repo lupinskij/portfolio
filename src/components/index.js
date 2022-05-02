@@ -1,5 +1,5 @@
 export { default as AMC } from './Projects/AMC'
-export { default as Chewsi } from './Projects/Chewsi'
+export { default as Peddle } from './Projects/Peddle'
 export { default as Footer } from './Footer'
 export { default as Hero } from './Hero'
 export { default as Image } from './Image'
