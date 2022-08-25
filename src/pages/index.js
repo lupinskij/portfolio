@@ -23,10 +23,10 @@ const IndexPage = () => (
         <UnderArmour />
       </ScrollSection>
       <ScrollSection>
-        <Peddle />
+        <AMC />
       </ScrollSection>
       <ScrollSection>
-        <AMC />
+        <Peddle />
       </ScrollSection>
     </NavController>
     <Footer />
