@@ -11,8 +11,8 @@ const NavWrapper = styled.div`
 // Edit your links here
 const links = [
   { name: 'Under Armour', id: 'under-armour' },
-  { name: 'Peddle', id: 'peddle' },
   { name: 'AMC Premiere', id: 'amc' },
+  { name: 'Peddle', id: 'peddle' },
 ]
 
 function NavController({ children }) {
