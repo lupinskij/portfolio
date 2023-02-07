@@ -27,14 +27,14 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Footer = props => (
-  <section className="bg-light-gray">
-    <p className="txt ws-normal mw-100 mw8-m mw9-l pt7 ph4 ph5-l center mb0">
+  <section className="bg-black">
+    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt7 ph4 ph5-l center mb0">
       I am a digital designer living in Colorado. I lead, design, and help build
       strategic solutions for products and digital experiences.
     </p>
     <div className="wrap-pres">
       <div className="mb5">
-        <p className="black ma0">
+        <p className="white ma0">
           With over 10 years of experience in the industry, product design has
           been the core of my career for many years. Throughout I've had the
           opportunity to work at agencies, in-house, and independently. I enjoy
@@ -43,14 +43,14 @@ const Footer = props => (
         </p>
       </div>
       <div className="mb5">
-        <p className="black ma0">
+        <p className="white ma0">
           My focus includes User Interface and Experience Design, Visual Design,
           Interaction Design, Digital Product Design, Design Systems, Web and
           App Design, and Front-end Development.
         </p>
       </div>
       <div className="mb6">
-        <p className="black ma0">
+        <p className="white ma0">
           I've had the chance to work on a wide range of projects for brands in
           almost every vertical. Over the years I've contributed and lead
           projects for Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
@@ -112,12 +112,12 @@ const Footer = props => (
     </div>
 
     <div className="mh5-l">
-      <h2 className="black mb5 f-subheadline">Let's connect</h2>
+      <h2 className="white mb5 f-subheadline">Let's connect</h2>
     </div>
     <footer>
-      <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy black bt bw1">
+      <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy white bt bw1">
         <div className="self-start dn-ns">
-          <a href="mailto:hello@jefflupinski.com" className="black trans-link">
+          <a href="mailto:hello@jefflupinski.com" className="white trans-link">
             hello@jefflupinski.com
           </a>
         </div>
@@ -125,7 +125,7 @@ const Footer = props => (
           <li>
             <a
               href="https://dribbble.com/jefflupinski"
-              className="black trans-link"
+              className="white trans-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -135,7 +135,7 @@ const Footer = props => (
           <li>
             <a
               href="https://github.com/lupinskij"
-              className="black trans-link"
+              className="white trans-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -147,7 +147,7 @@ const Footer = props => (
           <li>
             <a
               href="https://www.linkedin.com/in/jefflupinski"
-              className="black trans-link"
+              className="white trans-link"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -157,7 +157,7 @@ const Footer = props => (
           <li>
             <a
               href="https://twitter.com/jefflupinski"
-              className="black trans-link"
+              className="white trans-link"
               target="_blank"
               rel="noopener noreferrer"
             >
