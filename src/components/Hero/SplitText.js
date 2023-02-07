@@ -13,7 +13,7 @@ export function SplitText({ children, ...rest }) {
           {...rest}
           style={{ display: 'inline-block', willChange: 'transform' }}
           custom={i}
-          className="txt"
+          className="txt ws-pre"
         >
           {word + (i !== words.length - 1 ? '\u00A0' : '')}
         </motion.div>
