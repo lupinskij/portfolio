@@ -54,8 +54,8 @@ const Footer = props => (
         <p className="black ma0">
           I've had the chance to work on a wide range of projects for brands in
           almost every vertical. Over the years I've contributed and lead
-          projects for Under&nbsp;Armour, AMC&nbsp;Television, Salesforce,
-          7-Eleven, Epic&nbsp;Games, and more.
+          projects for Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
+          Salesforce, Epic&nbsp;Games, and more.
         </p>
       </div>
     </div>
