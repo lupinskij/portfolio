@@ -45,7 +45,7 @@ const Footer = props => (
       </div>
       <div className="mb5">
         <p className="black ma0">
-          My focus includes user Interface and Experience Design, Visual Design,
+          My focus includes User Interface and Experience Design, Visual Design,
           Interaction Design, Digital Product Design, Design Systems, Web and
           App Design, and Front-end Development.
         </p>
