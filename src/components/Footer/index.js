@@ -27,8 +27,8 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Footer = props => (
-  <section className="bg-black">
-    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt7 ph4 ph5-l center mb0">
+  <section id="footer" className="footer bg-black">
+    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt7 ph4 ph5-l center mb0 normal">
       I am a digital designer living in Colorado. I lead, design, and help build
       strategic solutions for products and digital experiences.
     </p>
@@ -59,7 +59,7 @@ const Footer = props => (
       </div>
     </div>
 
-    <div className="cf pv4 ph2-ns o-50">
+    <div className="cf pv4 ph2-ns o-100">
       <div className="fl w-20 pa4">
         <StyledImage image={logo1} alt="logo" {...props} />
       </div>
@@ -76,7 +76,7 @@ const Footer = props => (
         <StyledImage image={logo3} alt="logo" {...props} />
       </div>
     </div>
-    <div className="cf pv4 ph2-ns o-50">
+    <div className="cf pv4 ph2-ns o-100">
       <div className="fl w-20 pa4">
         <StyledImage image={logo15} alt="logo" {...props} />
       </div>
@@ -93,7 +93,7 @@ const Footer = props => (
         <StyledImage image={logo8} alt="logo" {...props} />
       </div>
     </div>
-    <div className="cf pv4 ph2-ns o-50 mb7">
+    <div className="cf pv4 ph2-ns o-100 mb7">
       <div className="fl w-20 pa4">
         <StyledImage image={logo11} alt="logo" {...props} />
       </div>
@@ -112,7 +112,7 @@ const Footer = props => (
     </div>
 
     <div className="mh5-l">
-      <h2 className="white mb5 f-subheadline">Let's connect</h2>
+      <h2 className="white mb5 f-subheadline normal">Let's connect</h2>
     </div>
     <footer>
       <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy white bt bw1">

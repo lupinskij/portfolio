@@ -7,11 +7,20 @@ export function SplitText({ children, ...rest }) {
     return (
       <div
         key={children + i}
-        style={{ display: 'inline-block', overflow: 'hidden' }}
+        style={{
+          display: 'inline-block',
+          overflow: 'hidden',
+          perspective: 1000,
+        }}
       >
         <motion.div
           {...rest}
-          style={{ display: 'inline-block', willChange: 'transform' }}
+          style={{
+            display: 'inline-block',
+            transformOrigin: 'left top',
+            transformStyle: 'preserve-3d',
+            willChange: 'transform',
+          }}
           custom={i}
           className="txt ws-pre"
         >

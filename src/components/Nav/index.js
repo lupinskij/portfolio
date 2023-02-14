@@ -68,7 +68,7 @@ function Nav({ isReady, links, visibilityArray }) {
       <StyledNav isReady={isReady}>
         <LinkRow>
           {links.map((link, i) => (
-            <LinkItem key={link.id} className="monospace f7">
+            <LinkItem key={link.id} className="monospace f7 ttu tracked">
               <NavLink id={link.id} lineWidth={visibilityArray[i]}>
                 {link.name}
               </NavLink>

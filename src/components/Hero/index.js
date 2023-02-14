@@ -8,27 +8,28 @@ import { AnimatePresence, motion } from 'framer-motion'
 const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
-    min-height: 100vh;
     padding-top: 17.5vw;
     padding-bottom: 8vw;
   }
 `
 
-function Hero({ title }) {
+function Hero({ title, paragraph }) {
   return (
-    <StyledHero className="Hero ph4 ph5-l pv5 relative flex items-center items-end-l">
-      <div className="mw-100 mw8-m mw9-l">
+    <StyledHero className="Hero ph4 ph5-l pv5 relative flex justify-between items-end">
+      <div className="hero-title mw-100 mw8-m w-two-thirds-l">
         <AnimatePresence>
           <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
             <SplitText
-              initial={{ y: '100%' }}
+              initial={{ y: '100%', rotateY: -45, opacity: 1 }}
               animate="visible"
               variants={{
                 visible: i => ({
                   y: 0,
+                  rotateY: 0,
+                  opacity: 1,
                   transition: {
-                    ease: 'easeOut',
-                    duration: 0.5,
+                    ease: [0.16, 1, 0.3, 1],
+                    duration: 2,
                     delay: 1,
                   },
                 }),
@@ -39,12 +40,36 @@ function Hero({ title }) {
           </motion.div>
         </AnimatePresence>
       </div>
+
+      <div className="hero-intro pb4 pr4 mw-100 mw8-m w-30-l">
+        <AnimatePresence>
+          <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
+            <SplitText
+              initial={{ y: '100%' }}
+              animate="visible"
+              variants={{
+                visible: i => ({
+                  y: 0,
+                  transition: {
+                    ease: [0.25, 0.46, 0.45, 0.94],
+                    duration: 0.5,
+                    delay: 1.5,
+                  },
+                }),
+              }}
+            >
+              {paragraph}
+            </SplitText>
+          </motion.div>
+        </AnimatePresence>
+      </div>
     </StyledHero>
   )
 }
 
 Hero.propTypes = {
   title: PropTypes.string,
+  paragraph: PropTypes.string,
 }
 
 export default Hero

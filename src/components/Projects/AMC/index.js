@@ -40,7 +40,7 @@ const AMC = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f6 fw4 monospace p-break light-gray">Role</p>
+          <p className="f7 fw4 monospace p-break ttu tracked">Role</p>
           <ul className="f5 fw4 lh-copy">
             <li>Visual Design</li>
             <li>Product Design</li>
@@ -50,7 +50,7 @@ const AMC = () => (
           </ul>
         </div>
         <div>
-          <p className="f6 fw4 monospace p-break light-gray">Collaborators</p>
+          <p className="f7 fw4 monospace p-break ttu tracked">Collaborators</p>
           <ul className="f5 fw4 lh-copy">
             <li>Sam Thibault</li>
             <li>Adam Deutsch</li>

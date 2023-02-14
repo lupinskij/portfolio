@@ -1,25 +1,16 @@
 @font-face {
   font-display: auto;
-  font-family: 'Input Mono';
+  font-family: 'S';
   src:
-    url('~styles/fonts/InputMono-Regular.woff2') format('woff2'),
-    url('~styles/fonts/InputMono-Regular.woff') format('woff');
+    url('~styles/fonts/S.woff2') format('woff2'),
+    url('~styles/fonts/S.woff') format('woff');
 }
 
 @font-face {
   font-display: auto;
-  font-family: 'Beautiful Ground';
+  font-family: 'F';
   src:
-    url('~styles/fonts/BeautifulGround190101-Regular.woff2') format('woff2'),
-    url('~styles/fonts/BeautifulGround190101-Regular.woff') format('woff');
+    url('~styles/fonts/F.woff2') format('woff2'),
+    url('~styles/fonts/F.woff') format('woff');
   font-weight: 400;
-}
-
-@font-face {
-  font-display: swap;
-  font-family: 'Beautiful Ground';
-  src:
-    url('~styles/fonts/BeautifulGround190101-Regular.woff2') format('woff2'),
-    url('~styles/fonts/BeautifulGround190101-Regular.woff') format('woff');
-  font-weight: 700;
 }

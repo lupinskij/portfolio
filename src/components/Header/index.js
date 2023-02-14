@@ -1,70 +1,46 @@
 import { Link } from 'gatsby'
 import React from 'react'
-import styled from 'styled-components'
-
-import src from './images/jeff-lupinski-logo.svg'
-import { Image } from 'components'
-
-const StyledImage = styled(props => <Image {...props} />)`
-  margin: 0;
-  max-width: 100%;
-`
 
 const Header = props => (
-  <header className="pr-header absolute top-0 left-0 right-0 pt4 ph4 ph5-l flex justify-between items-center monospace f7 lh-header">
+  <header className="pr-header absolute top-0 left-0 right-0 pt4 ph4 ph5-l flex justify-between items-center monospace f7 lh-header ttu tracked">
     <div>
       <Link to="/" className="black">
         Jeff Lupinski
       </Link>
-      <div className="gray">Digital Designer</div>
+      <div className="o-50">Digital Designer</div>
     </div>
-    <ul className="dn-ns">
-      <li>
-        <a
-          href="https://dribbble.com/jefflupinski"
-          className="black trans-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dribbble
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/lupinskij"
-          className="black trans-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
-        </a>
-      </li>
-    </ul>
-    <ul className="dn-ns">
-      <li>
-        <a
-          href="https://www.linkedin.com/in/jefflupinski"
-          className="black trans-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          LinkedIn
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/jefflupinski"
-          className="black trans-link"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Twitter
-        </a>
-      </li>
-    </ul>
-    <Link to="/" className="dn-ns">
-      <StyledImage image={src} alt="Jeff Lupinski" {...props} />
-    </Link>
+    <div className="dn-ns tr">
+      <Link to="#footer" className="black trans-link">
+        Info
+      </Link>
+      <ul className="o-50">
+        <li className="dib">
+          <a href="mailto:hello@jefflupinski.com" className="black trans-link">
+            Email
+          </a>
+        </li>
+        <li className="dib">
+          <a
+            href="https://www.linkedin.com/in/jefflupinski"
+            className="black trans-link ml4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li className="dib">
+          <a
+            href="https://dribbble.com/jefflupinski"
+            className="black trans-link ml4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Dribbble
+          </a>
+        </li>
+      </ul>
+    </div>
   </header>
 )
 

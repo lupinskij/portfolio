@@ -35,7 +35,7 @@ const Peddle = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f6 monospace p-break fw4 light-gray">Role</p>
+          <p className="f7 monospace p-break fw4 ttu tracked">Role</p>
           <ul className="f5 fw4 lh-copy">
             <li>Product Design</li>
             <li>Visual Design</li>
@@ -47,7 +47,7 @@ const Peddle = () => (
           </ul>
         </div>
         <div>
-          <p className="f6 monospace p-break fw4 light-gray">Collaborators</p>
+          <p className="f7 monospace p-break fw4 ttu tracked">Collaborators</p>
           <ul className="f5 fw4 lh-copy">
             <li>Steven Hanley</li>
             <li>Ivan Alonso</li>
