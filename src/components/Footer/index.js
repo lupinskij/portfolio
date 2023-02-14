@@ -117,7 +117,11 @@ const Footer = props => (
     <footer>
       <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy white bt bw1">
         <div className="self-start dn-ns">
-          <a href="mailto:hello@jefflupinski.com" className="white trans-link">
+          <a
+            href="mailto:hello@jefflupinski.com"
+            className="white trans-link"
+            data-color="light"
+          >
             hello@jefflupinski.com
           </a>
         </div>
@@ -127,6 +131,7 @@ const Footer = props => (
               href="https://dribbble.com/jefflupinski"
               className="white trans-link"
               target="_blank"
+              data-color="light"
               rel="noopener noreferrer"
             >
               Dribbble
@@ -137,6 +142,7 @@ const Footer = props => (
               href="https://github.com/lupinskij"
               className="white trans-link"
               target="_blank"
+              data-color="light"
               rel="noopener noreferrer"
             >
               GitHub
@@ -149,6 +155,7 @@ const Footer = props => (
               href="https://www.linkedin.com/in/jefflupinski"
               className="white trans-link"
               target="_blank"
+              data-color="light"
               rel="noopener noreferrer"
             >
               LinkedIn
@@ -159,6 +166,7 @@ const Footer = props => (
               href="https://twitter.com/jefflupinski"
               className="white trans-link"
               target="_blank"
+              data-color="light"
               rel="noopener noreferrer"
             >
               Twitter

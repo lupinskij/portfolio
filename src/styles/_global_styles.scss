@@ -97,10 +97,18 @@
     width: 0;
   }
 
+  &[data-color="light"]::after {
+    background: $white;
+  }
+
   &:hover::before {
     background: $black;
     transition: width 400ms ease;
     width: 120%;
+  }
+
+  &[data-color="light"]:hover::before {
+    background: $white;
   }
 
   &:hover::after {
