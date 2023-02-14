@@ -59,7 +59,7 @@ const Footer = props => (
       </div>
     </div>
 
-    <div className="cf pv4 ph2-ns">
+    <div className="cf pv4 ph2-ns o-50">
       <div className="fl w-20 pa4">
         <StyledImage image={logo1} alt="logo" {...props} />
       </div>
@@ -76,7 +76,7 @@ const Footer = props => (
         <StyledImage image={logo3} alt="logo" {...props} />
       </div>
     </div>
-    <div className="cf pv4 ph2-ns">
+    <div className="cf pv4 ph2-ns o-50">
       <div className="fl w-20 pa4">
         <StyledImage image={logo15} alt="logo" {...props} />
       </div>
@@ -93,7 +93,7 @@ const Footer = props => (
         <StyledImage image={logo8} alt="logo" {...props} />
       </div>
     </div>
-    <div className="cf pv4 ph2-ns mb7">
+    <div className="cf pv4 ph2-ns o-50 mb7">
       <div className="fl w-20 pa4">
         <StyledImage image={logo11} alt="logo" {...props} />
       </div>
