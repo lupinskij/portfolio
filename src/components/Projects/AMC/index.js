@@ -27,9 +27,9 @@ const AMC = () => (
       <p>
         While working with the team at Handsome, a holistic experience design
         agency, I had the opportunity to help lead the design for AMC Network
-        Entertainment's Premiere streaming platform. Partnering with AMC, we
+        Entertainment’s Premiere streaming platform. Partnering with AMC, we
         created a seamless experience across multiple OTT streaming devices.
-        Helping design the network's very first direct-to-consumer content
+        Helping design the network’s very first direct-to-consumer content
         platform.
       </p>
 

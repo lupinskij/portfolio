@@ -270,12 +270,16 @@
     width: 0;
   }
 
+  60% {
+    width: 60%;
+  }
+
   70% {
-    width: 50%;
+    width: 60%;
   }
 
   80% {
-    width: 60%;
+    width: 75%;
   }
 
   99% {
@@ -355,27 +359,4 @@
   90% {
     transform: translate(-10%, 10%);
   }
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f0f2f3;
-  border-left: 1px solid #2c2c2c;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #f0f2f3;
-  border-bottom: 1px solid #2c2c2c;
-  border-left: 1px solid #2c2c2c;
-  border-top: 1px solid #2c2c2c;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #f0f2f3;
-  border-bottom: 1px solid #2c2c2c;
-  border-left: 1px solid #2c2c2c;
-  border-top: 1px solid #2c2c2c;
 }

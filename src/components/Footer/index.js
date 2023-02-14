@@ -36,7 +36,7 @@ const Footer = props => (
       <div className="mb5">
         <p className="white ma0">
           With over 10 years of experience in the industry, product design has
-          been the core of my career for many years. Throughout I've had the
+          been the core of my career for many years. Throughout I’ve had the
           opportunity to work at agencies, in-house, and independently. I enjoy
           working with teams to create thoughtful and intuitive solutions for
           problems of all sizes.
@@ -51,10 +51,11 @@ const Footer = props => (
       </div>
       <div className="mb6">
         <p className="white ma0">
-          I've had the chance to work on a wide range of projects for brands in
-          almost every vertical. Over the years I've contributed and lead
-          projects for Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
-          Salesforce, Epic&nbsp;Games, and more.
+          I’ve had the chance to work on a wide range of projects for brands in
+          almost every vertical. Over the years I’ve contributed and lead teams
+          for clients such as Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
+          Salesforce, Aetna, and Epic&nbsp;Games, helping to bring projects from
+          concept to fruition.
         </p>
       </div>
     </div>
@@ -112,7 +113,7 @@ const Footer = props => (
     </div>
 
     <div className="mh5-l">
-      <h2 className="white mb5 f-subheadline normal">Let's connect</h2>
+      <h2 className="white mb5 f-subheadline normal">Let’s connect</h2>
     </div>
     <footer>
       <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy white bt bw1">
