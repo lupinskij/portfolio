@@ -14,12 +14,23 @@ import NavController from 'components/Nav/NavController'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Jeff Lupinski — Product Designer"
-      keywords={[`jeff lupinski`, `design`, `product`]}
+      title="Jeff Lupinski — Digital Designer"
+      keywords={[
+        `Jeff Lupinski`,
+        `Designer`,
+        `Colorado`,
+        `UX`,
+        `UI`,
+        `Digital Products`,
+        `Digital Experiences`,
+        `Interfaces`,
+        `Interaction`,
+        `Strategy`,
+      ]}
     />
     <Hero
       title="I design interfaces."
-      paragraph="I am a digital designer living in Colorado. I design, lead, and help build solutions for digital products and experiences."
+      paragraph="I am a digital designer living in Colorado. I&nbsp;design, lead, and help build solutions for digital products and experiences."
     />
     <NavController>
       <ScrollSection>

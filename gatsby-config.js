@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: 'Jeff Lupinski — Product Designer',
-    description: 'Designer with a focus on product and interactive design. Helping clients communicate and solve problems through creative visual and coded solutions.',
+    title: 'Jeff Lupinski — Digital Designer',
+    description: 'Designer with a focus on digital experiences and products. Helping clients communicate and solve problems through creative visual and coded solutions.',
     author: '@lupinskij',
     siteUrl: 'https://jefflupinski.com',
   },

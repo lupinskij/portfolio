@@ -28,15 +28,15 @@ const StyledImage = styled(props => <Image {...props} />)`
 
 const Footer = props => (
   <section id="footer" className="footer bg-black">
-    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt7 ph4 ph5-l center mb0 normal">
+    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt6 pt7-l ph4 ph5-l center mb0 normal">
       I am a digital designer living in Colorado. I lead, design, and help build
-      strategic solutions for products and digital experiences.
+      strategic solutions for digital experiences and products.
     </p>
     <div className="wrap-pres">
       <div className="mb5">
         <p className="white ma0">
           With over 10 years of experience in the industry, product design has
-          been the core of my career for many years. Throughout I've had the
+          been the core of my career for many years. Throughout I’ve had the
           opportunity to work at agencies, in-house, and independently. I enjoy
           working with teams to create thoughtful and intuitive solutions for
           problems of all sizes.
@@ -51,72 +51,69 @@ const Footer = props => (
       </div>
       <div className="mb6">
         <p className="white ma0">
-          I've had the chance to work on a wide range of projects for brands in
-          almost every vertical. Over the years I've contributed and lead
-          projects for Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
-          Salesforce, Epic&nbsp;Games, and more.
+          I’ve had the chance to work on a wide range of projects for brands in
+          almost every vertical. Over the years I’ve contributed and lead teams
+          for clients such as Under&nbsp;Armour, AMC&nbsp;Television, 7-Eleven,
+          Salesforce, Aetna, and Epic&nbsp;Games, helping to bring projects from
+          concept to fruition.
         </p>
       </div>
     </div>
 
-    <div className="cf pv4 ph2-ns o-100">
-      <div className="fl w-20 pa4">
+    <div className="grid mh2 mh4-m mh5-l pt4 pb6-l ph2-ns mb6">
+      <div>
         <StyledImage image={logo1} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo2} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo5} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo4} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo3} alt="logo" {...props} />
       </div>
-    </div>
-    <div className="cf pv4 ph2-ns o-100">
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo15} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo6} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo9} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo7} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo8} alt="logo" {...props} />
       </div>
-    </div>
-    <div className="cf pv4 ph2-ns o-100 mb7">
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo11} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo14} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo13} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo10} alt="logo" {...props} />
       </div>
-      <div className="fl w-20 pa4">
+      <div>
         <StyledImage image={logo12} alt="logo" {...props} />
       </div>
     </div>
 
-    <div className="mh5-l">
-      <h2 className="white mb5 f-subheadline normal">Let's connect</h2>
+    <div className="mh4 mh5-l">
+      <h2 className="white mb5 f-subheadline normal">Let’s connect</h2>
     </div>
     <footer>
-      <nav className="pv5 mh4 mh5-l flex-ns justify-between items-center monospace f7 lh-copy white bt bw1">
-        <div className="self-start dn-ns">
+      <nav className="bt pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-copy ttu tracked">
+        <div className="self-start">
           <a
             href="mailto:hello@jefflupinski.com"
             className="white trans-link"
@@ -125,31 +122,7 @@ const Footer = props => (
             hello@jefflupinski.com
           </a>
         </div>
-        <ul className="dn-ns">
-          <li>
-            <a
-              href="https://dribbble.com/jefflupinski"
-              className="white trans-link"
-              target="_blank"
-              data-color="light"
-              rel="noopener noreferrer"
-            >
-              Dribbble
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/lupinskij"
-              className="white trans-link"
-              target="_blank"
-              data-color="light"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-        <ul className="dn-ns">
+        <ul>
           <li>
             <a
               href="https://www.linkedin.com/in/jefflupinski"
@@ -163,7 +136,31 @@ const Footer = props => (
           </li>
           <li>
             <a
-              href="https://twitter.com/jefflupinski"
+              href="https://dribbble.com/jefflupinski"
+              className="white trans-link"
+              target="_blank"
+              data-color="light"
+              rel="noopener noreferrer"
+            >
+              Dribbble
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/lupinskij"
+              className="white trans-link"
+              target="_blank"
+              data-color="light"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/"
               className="white trans-link"
               target="_blank"
               data-color="light"
@@ -173,7 +170,7 @@ const Footer = props => (
             </a>
           </li>
         </ul>
-        <div className="self-start">
+        <div className="self-start dn-ns">
           &copy; {new Date().getFullYear()} All Rights Reserved.
         </div>
       </nav>
