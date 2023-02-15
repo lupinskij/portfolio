@@ -7,35 +7,35 @@ function ImageQuery({ children }) {
     <StaticQuery
       query={graphql`
         query {
-          imageOne: file(relativePath: { eq: "amc-television.jpg" }) {
+          imageOne: file(relativePath: { eq: "amc-television.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 75) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageTwo: file(relativePath: { eq: "amc-screens.jpg" }) {
+          imageTwo: file(relativePath: { eq: "amc-screens.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageThree: file(relativePath: { eq: "amc-tv.jpg" }) {
+          imageThree: file(relativePath: { eq: "amc-tv.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 95) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFour: file(relativePath: { eq: "amc-mobile.jpg" }) {
+          imageFour: file(relativePath: { eq: "amc-mobile.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFive: file(relativePath: { eq: "amc-mock.jpg" }) {
+          imageFive: file(relativePath: { eq: "amc-mock.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
