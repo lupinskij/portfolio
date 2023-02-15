@@ -5,7 +5,7 @@ const Header = props => (
   <header className="pr-header absolute top-0 left-0 right-0 pt4 ph4 ph5-l flex justify-between items-center monospace f7 lh-header ttu tracked">
     <div>
       <Link to="/" className="black">
-        Jeff Lupinski
+        <span className="circle"></span> Jeff Lupinski
       </Link>
       <div className="o-50">Digital Designer</div>
     </div>
