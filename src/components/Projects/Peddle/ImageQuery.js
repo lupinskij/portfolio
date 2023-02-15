@@ -35,7 +35,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageFive: file(relativePath: { eq: "peddle-mock.jpg" }) {
+          imageFive: file(relativePath: { eq: "peddle-mock.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp

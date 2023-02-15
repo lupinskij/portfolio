@@ -7,35 +7,35 @@ function ImageQuery({ children }) {
     <StaticQuery
       query={graphql`
         query {
-          imageOne: file(relativePath: { eq: "underarmour-screens.jpg" }) {
+          imageOne: file(relativePath: { eq: "underarmour-screens.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageTwo: file(relativePath: { eq: "underarmour-image.jpg" }) {
+          imageTwo: file(relativePath: { eq: "underarmour-image.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageThree: file(relativePath: { eq: "underarmour-users.jpg" }) {
+          imageThree: file(relativePath: { eq: "underarmour-users.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFour: file(relativePath: { eq: "underarmour-web-shot.jpg" }) {
+          imageFour: file(relativePath: { eq: "underarmour-web-shot.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFive: file(relativePath: { eq: "underarmour-wires.jpg" }) {
+          imageFive: file(relativePath: { eq: "underarmour-wires.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000) {
                 ...GatsbyImageSharpFluid_withWebp
