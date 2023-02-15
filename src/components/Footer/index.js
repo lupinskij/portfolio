@@ -27,7 +27,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Footer = props => (
-  <section id="footer" className="footer bg-black">
+  <section id="about" className="footer bg-black">
     <p className="white txt ws-normal mw-100 mw8-m mw9-l pt6 pt7-l ph4 ph5-l center mb0 normal">
       I am a digital designer living in Colorado. I lead, design, and help build
       strategic solutions for digital experiences and products.
