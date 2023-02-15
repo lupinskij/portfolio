@@ -26,12 +26,11 @@ const Peddle = () => (
     <div className="wrap-pres">
       <p>
         The junkier, the better—Peddle sees value in the most broken down and
-        busted cars. Peddle is the largest automotive recycler in the United
-        States, processing 70,000 to 90,0000 vehicles per month. Their
-        innovative approach allows customers to sell their used vehicle and get
-        paid immediately. I helped with the product redesign and the creation of
-        a design system that could extend across Peddle’s various business
-        lanes.
+        busted cars. While processing 70,000 to 90,0000 vehicles per month,
+        Peddle is the largest automotive recycler in the United States. Their
+        innovative approach allows customers to sell their used cars and get
+        paid immediately. I helped with the product redesign and creating a
+        design system that could extend across Peddle’s various business lanes.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
