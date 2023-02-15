@@ -114,6 +114,7 @@ const Footer = props => (
     <footer>
       <nav className="bt pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-copy ttu tracked">
         <div className="self-start">
+          <span>&#8627;&nbsp;</span>
           <a
             href="mailto:hello@jefflupinski.com"
             className="white trans-link"
@@ -170,8 +171,9 @@ const Footer = props => (
             </a>
           </li>
         </ul>
-        <div className="self-start dn-ns">
-          &copy; {new Date().getFullYear()} All Rights Reserved.
+        <div className="self-start tr dn-ns">
+          <div>&copy; {new Date().getFullYear()}</div>
+          <div>All Rights Reserved</div>
         </div>
       </nav>
     </footer>
