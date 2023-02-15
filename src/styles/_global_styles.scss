@@ -31,13 +31,16 @@
 }
 
 .pr-header {
-  animation-delay: 1600ms;
-  animation-duration: 1000ms;
-  animation-fill-mode: forwards;
-  animation-name: headerIn;
-  animation-timing-function: $animation-function-fade;
-  transform: translateY(-150%);
   z-index: 9999;
+
+  @media (min-width: 40em) {
+    animation-delay: 1600ms;
+    animation-duration: 1000ms;
+    animation-fill-mode: forwards;
+    animation-name: headerIn;
+    animation-timing-function: $animation-function-fade;
+    transform: translateY(-150%);
+  }
 }
 
 @keyframes headerIn {
@@ -83,14 +86,6 @@
   }
 }
 
-.hero-intro {
-  display: none;
-
-  @media (min-width: 64em) {
-    display: block;
-  }
-}
-
 .txt {
   font-weight: 400;
 
@@ -103,16 +98,12 @@
     }
 
     @media (min-width: 40.063em) {
-      font-size: 15vw;
-    }
-
-    @media (min-width: 64em) {
       font-size: 11.11vw;
     }
   }
 
   .hero-intro & {
-    font-size: 2vw;
+    font-size: 0.9rem;
     line-height: 1.5;
 
     @media (min-width: 64em) {

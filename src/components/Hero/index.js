@@ -15,7 +15,7 @@ const StyledHero = styled.div`
 
 function Hero({ title, paragraph }) {
   return (
-    <StyledHero className="Hero ph4 ph5-l pv5 relative flex justify-between items-end">
+    <StyledHero className="Hero ph4 ph5-l pv5 relative flex flex-column flex-row-l justify-end justify-between-l items-end-l">
       <div className="hero-title mw-100 mw8-m w-two-thirds-l">
         <AnimatePresence>
           <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
@@ -41,7 +41,7 @@ function Hero({ title, paragraph }) {
         </AnimatePresence>
       </div>
 
-      <div className="hero-intro pb4 pr4 mw-100 mw8-m w-30-l">
+      <div className="hero-intro pt3 pb4-ns pr4 mw-100 mw6-m w-30-l">
         <AnimatePresence>
           <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
             <SplitText
