@@ -10,7 +10,7 @@ const Header = props => (
       <div className="o-50">Digital Designer</div>
     </div>
     <div className="dn-ns tr">
-      <Link to="#footer" className="black trans-link">
+      <Link to="#about" className="black trans-link">
         Info
       </Link>
       <ul className="o-50">
