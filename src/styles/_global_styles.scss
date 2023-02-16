@@ -15,7 +15,7 @@
 }
 
 .lh-header {
-  line-height: 1.8;
+  line-height: 2;
 }
 
 .dn-ns {
@@ -56,12 +56,26 @@
 .circle {
   background: $black;
   border-radius: 100%;
-  display: inline-block;
-  height: 0.8rem;
-  margin-right: 0.17rem;
+  content: '';
+  display: block;
+  float: left;
+  height: 8px;
+  margin-right: 40px;
   position: relative;
-  top: 0.17rem;
-  width: 0.8rem;
+  top: 8px;
+  width: 8px;
+
+  &::before {
+    background: $red;
+    border-radius: 100%;
+    content: '';
+    display: block;
+    float: left;
+    height: 8px;
+    margin-left: 16px;
+    position: relative;
+    width: 8px;
+  }
 }
 
 .Hero {
@@ -118,6 +132,16 @@
       font-size: 6vw;
     }
   }
+}
+
+.pre-graph::before {
+  background-color: $white;
+  content: '';
+  display: block;
+  height: 1px;
+  width: 35px;
+  top: -4.5rem;
+  position: relative;
 }
 
 .trans-link {
@@ -222,7 +246,7 @@
   width: 48vw;
 
   @media (max-width: 767px) {
-    font: 400 normal 20px/36px $sans-serif;
+    font: 300 normal 20px/36px $sans-serif;
     padding: 50px 7vw 0;
     width: 100%;
   }
@@ -308,7 +332,7 @@
   &::after {
     animation: grain 8s steps(10) infinite;
     background: url(~styles/images/noise.png);
-    content: "";
+    content: '';
     display: block;
     height: 300%;
     left: -100%;
@@ -383,8 +407,8 @@
   }
 
   @media (min-width: 64em) {
-    grid-column-gap: 6rem;
-    grid-row-gap: 10rem;
+    grid-column-gap: 10rem;
+    grid-row-gap: 12rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }

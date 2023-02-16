@@ -9,9 +9,9 @@ const StyledNavLink = styled.div`
 
 const Line = styled(({ lineWidth, ...props }) => <animated.span {...props} />)`
   background: #68717a;
-  bottom: -5px;
+  bottom: -6px;
   display: block;
-  height: 0.15rem;
+  height: 2px;
   position: absolute;
   transform-origin: ${({ lineWidth }) => (lineWidth > 0 ? 'right' : 'left')};
   transition: background 250ms cubic-bezier(0.44, 0.13, 0.48, 0.87);

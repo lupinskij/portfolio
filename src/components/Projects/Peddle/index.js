@@ -24,6 +24,9 @@ const Peddle = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
+      <div className="f7 fw4 monospace p-break ttu tracked black-40">
+        003-Peddle
+      </div>
       <p>
         The junkier, the better—Peddle sees value in the most broken down and
         busted cars. While processing 70,000 to 90,0000 vehicles per month,
@@ -34,7 +37,7 @@ const Peddle = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 monospace p-break fw4 ttu tracked">Role</p>
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
           <ul className="f5 fw4 lh-copy">
             <li>Product Design</li>
             <li>Visual Design</li>
@@ -46,7 +49,9 @@ const Peddle = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 monospace p-break fw4 ttu tracked">Collaborators</p>
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">
+            Collaborators
+          </p>
           <ul className="f5 fw4 lh-copy">
             <li>Steven Hanley</li>
             <li>Ivan Alonso</li>
