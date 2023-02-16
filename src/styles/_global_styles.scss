@@ -140,7 +140,7 @@
   display: block;
   height: 1px;
   width: 35px;
-  top: -4.5rem;
+  top: -2rem;
   position: relative;
 }
 
@@ -240,10 +240,10 @@
 }
 
 .wrap-pres {
-  font: 300 normal 2.3vw/3.25vw $sans-serif;
+  font: 300 normal 2.3vw/3.5vw $sans-serif;
   margin: 0 auto;
-  padding: 13.4vw 0 3vw;
-  width: 48vw;
+  padding: 12vw 0 3vw;
+  width: 50vw;
 
   @media (max-width: 767px) {
     font: 300 normal 20px/36px $sans-serif;

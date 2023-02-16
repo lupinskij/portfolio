@@ -25,9 +25,9 @@ const AMC = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <div className="f7 fw4 monospace p-break ttu tracked black-40">
-        002- AMC Premiere
-      </div>
+      <label className="f7 fw4 monospace p-break ttu tracked black-40">
+        001- AMC Premiere
+      </label>
       <p>
         While working with the team at Handsome, a holistic experience design
         agency, I had the opportunity to help lead the design for AMC Network
