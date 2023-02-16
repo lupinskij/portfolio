@@ -231,7 +231,7 @@
 
 .wrap-single {
   margin: 0 auto 10vw;
-  width: 71.5vw;
+  width: 72vw;
 
   @media (max-width: 767px) {
     margin-bottom: 50px;
@@ -288,7 +288,7 @@
   animation-name: progress;
   animation-timing-function: $animation-function-fade;
   background: $black;
-  height: 10px;
+  height: 8px;
   left: 0;
   position: absolute;
   top: 0;

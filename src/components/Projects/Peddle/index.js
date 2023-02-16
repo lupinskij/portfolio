@@ -19,13 +19,14 @@ const Peddle = () => (
           key="Peddle Hero"
           image={imageOne.childImageSharp}
           type="fluid"
+          className="banner-wrap"
           alt="Peddle hero screens"
         />,
       ]}
     </ImageQuery>
     <div className="wrap-pres">
       <div className="f7 fw4 monospace p-break ttu tracked black-40">
-        003-Peddle
+        003- Peddle
       </div>
       <p>
         The junkier, the better—Peddle sees value in the most broken down and
@@ -88,12 +89,14 @@ const Peddle = () => (
             key="Peddle Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Peddle mobile screens"
           />,
           <StyledImage
             key="Peddle Device"
             image={imageFive.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Peddle mobile pickup screen"
           />,
           <StyledImage
@@ -106,6 +109,7 @@ const Peddle = () => (
             key="Peddle System"
             image={imageSeven.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Peddle design system"
           />,
         ]}
