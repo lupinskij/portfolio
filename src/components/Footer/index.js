@@ -28,12 +28,17 @@ const StyledImage = styled(props => <Image {...props} />)`
 
 const Footer = props => (
   <section id="about" className="footer bg-black">
-    <p className="white txt ws-normal mw-100 mw8-m mw9-l pt6 pt7-l ph4 ph5-l center mb0 normal">
-      I am a digital designer living in Colorado. I lead, design, and help build
-      strategic solutions for digital experiences and products.
-    </p>
+    <div className="mw-100 mw8-m mw9-l pt6 ph4 ph5-l center">
+      <h3 className="f7 monospace p-break fw4 ttu tracked white-50 m0">
+        000-About
+      </h3>
+      <p className="white txt ws-normal normal mb0">
+        I am a digital designer living in Colorado. I lead, design, and help
+        craft strategic solutions for digital experiences and products.
+      </p>
+    </div>
     <div className="wrap-pres">
-      <div className="mb5">
+      <div className="mb5 pre-graph">
         <p className="white ma0">
           With over 10 years of experience in the industry, product design has
           been the core of my career for many years. Throughout, I’ve had the
@@ -45,8 +50,8 @@ const Footer = props => (
       <div className="mb5">
         <p className="white ma0">
           My focus includes User Interface and Experience Design, Visual Design,
-          Interaction Design, Digital Product Design, Design Systems, Web and
-          App Design, and Front-end Development.
+          Interaction Design, Product Design, Design Systems, Web and App
+          Design, and Front-end Development.
         </p>
       </div>
       <div className="mb6">
@@ -109,10 +114,13 @@ const Footer = props => (
     </div>
 
     <div className="mh4 mh5-l">
-      <h2 className="white mb5 f-subheadline normal">Let’s connect</h2>
+      <h2 className="white mb5  normal">
+        <span className="white-50">"</span>Hello, world.
+        <span className="white-50">^n"</span>
+      </h2>
     </div>
     <footer>
-      <nav className="bt pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-copy ttu tracked">
+      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-copy ttu tracked">
         <div className="self-start">
           <span>&#8627;&nbsp;</span>
           <a
@@ -172,7 +180,7 @@ const Footer = props => (
           </li>
         </ul>
         <div className="self-start tr dn-ns">
-          <div>&copy; {new Date().getFullYear()}</div>
+          <div>(c) {new Date().getFullYear()}</div>
           <div>All Rights Reserved</div>
         </div>
       </nav>

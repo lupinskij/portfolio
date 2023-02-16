@@ -24,8 +24,11 @@ const UnderArmour = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
+      <div className="f7 fw4 monospace p-break ttu tracked black-40">
+        001-Under Armour
+      </div>
       <p>
-        In 2017, I had the pleasure of working with Under Armor's team to
+        In 2017, I had the pleasure of working with Under Armor’s team to
         redesign their B2B platform. The 5 billion dollar lifestyle brand wanted
         to increase its wholesale velocity domestically and abroad. We began the
         year-long engagement with two months of research and development. The
@@ -38,7 +41,7 @@ const UnderArmour = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 monospace p-break fw4 ttu tracked">Role</p>
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
           <ul className="f5 fw4 lh-copy">
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -50,7 +53,9 @@ const UnderArmour = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 monospace p-break fw4 ttu tracked">Collaborators</p>
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">
+            Collaborators
+          </p>
           <ul className="f5 fw4 lh-copy">
             <li>Amy Rubino</li>
             <li>Matt Rossi</li>
