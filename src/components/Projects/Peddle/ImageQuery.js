@@ -49,7 +49,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageSeven: file(relativePath: { eq: "peddle-system.png" }) {
+          imageSeven: file(relativePath: { eq: "peddle-system-alt.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
