@@ -19,13 +19,14 @@ const UnderArmour = () => (
           key="UA Hero"
           image={imageOne.childImageSharp}
           type="fluid"
+          className="banner-wrap"
           alt="Under Armour web screens"
         />,
       ]}
     </ImageQuery>
     <div className="wrap-pres">
       <div className="f7 fw4 monospace p-break ttu tracked black-40">
-        001-Under Armour
+        001- Under Armour
       </div>
       <p>
         In 2017, I had the pleasure of working with Under Armor’s team to
@@ -70,24 +71,28 @@ const UnderArmour = () => (
             key="UA Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Users"
             image={imageThree.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Wires"
             image={imageFive.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Web"
             image={imageFour.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
         ]}

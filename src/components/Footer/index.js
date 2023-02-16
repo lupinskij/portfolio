@@ -30,7 +30,7 @@ const Footer = props => (
   <section id="about" className="footer bg-black">
     <div className="mw-100 mw8-m mw9-l pt6 ph4 ph5-l center">
       <h3 className="f7 monospace p-break fw4 ttu tracked white-50 m0">
-        000-About
+        000- About
       </h3>
       <p className="white txt ws-normal normal mb0">
         I am a digital designer living in Colorado. I lead, design, and help
