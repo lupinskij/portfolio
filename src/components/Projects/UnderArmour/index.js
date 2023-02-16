@@ -25,16 +25,16 @@ const UnderArmour = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <div className="f7 fw4 monospace p-break ttu tracked black-40">
-        001- Under Armour
-      </div>
+      <label className="f7 fw4 monospace p-break ttu tracked black-40">
+        002- Under Armour
+      </label>
       <p>
         In 2017, I had the pleasure of working with Under Armor’s team to
         redesign their B2B platform. The 5 billion dollar lifestyle brand wanted
         to increase its wholesale velocity domestically and abroad. We began the
         year-long engagement with two months of research and development. The
         result was a redesign of their B2B portal with an elevated experience
-        supporting internationalization.
+        and UI supporting internationalization.
       </p>
       <p>
         I led the team through completely redesigning their platform while

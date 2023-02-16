@@ -29,7 +29,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <section id="about" className="footer bg-black">
     <div className="mw-100 mw8-m mw9-l pt6 ph4 ph5-l center">
-      <h3 className="f7 monospace p-break fw4 ttu tracked white-50 m0">
+      <h3 className="mt5 f7 monospace p-break fw4 ttu tracked white-50 m0">
         000- About
       </h3>
       <p className="white txt ws-normal normal mb0">
@@ -38,29 +38,25 @@ const Footer = props => (
       </p>
     </div>
     <div className="wrap-pres">
-      <div className="mb5 pre-graph">
-        <p className="white ma0">
+      <div className="mb6 pre-graph">
+        <p className="white">
           With over 10 years of experience in the industry, product design has
           been the core of my career for many years. Throughout, I’ve had the
           opportunity to work at agencies, in-house, and independently. I enjoy
           working with teams to create thoughtful and intuitive solutions for
           problems of all sizes.
         </p>
-      </div>
-      <div className="mb5">
-        <p className="white ma0">
+        <p className="white">
           My focus includes User Interface and Experience Design, Visual Design,
           Interaction Design, Product Design, Design Systems, Web and App
           Design, and Front-end Development.
         </p>
-      </div>
-      <div className="mb6">
-        <p className="white ma0">
+        <p className="white">
           I’ve had the chance to work on a wide range of projects for brands in
           almost every vertical. Over the years, I’ve contributed to and led
-          teams for clients such as Under Armour, AMC Television, 7-Eleven,
-          Salesforce, Aetna, and Epic Games, helping to bring projects from
-          concept to fruition.
+          teams for clients such as Under Armour, AMC Television, Aetna,
+          7-Eleven, and Epic Games, helping to bring projects from concept to
+          fruition.
         </p>
       </div>
     </div>
