@@ -25,9 +25,9 @@ const UnderArmour = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <label className="f7 fw4 monospace p-break ttu tracked black-40">
+      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
         002- Under Armour
-      </label>
+      </h6>
       <p>
         In 2017, I had the pleasure of working with Under Armor’s team to
         redesign their B2B platform. The 5 billion dollar lifestyle brand wanted
@@ -43,7 +43,7 @@ const UnderArmour = () => (
       <div className="flex">
         <div className="mr4 mr6-l">
           <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
-          <ul className="f5 fw4 lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Visual Design</li>
             <li>UI / UX Design</li>
             <li>Research</li>
@@ -57,7 +57,7 @@ const UnderArmour = () => (
           <p className="f7 monospace p-break fw4 ttu tracked black-40">
             Collaborators
           </p>
-          <ul className="f5 fw4 lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Amy Rubino</li>
             <li>Matt Rossi</li>
           </ul>
