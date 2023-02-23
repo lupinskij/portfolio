@@ -25,27 +25,25 @@ const AMC = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <label className="f7 fw4 monospace p-break ttu tracked black-40">
+      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
         001- AMC Premiere
-      </label>
+      </h6>
       <p>
         While working with the team at Handsome, a holistic experience design
-        agency, I had the opportunity to help lead the design for AMC Network
-        Entertainment’s Premiere streaming platform. Partnering with AMC, we
-        created a seamless experience across multiple OTT streaming devices.
-        Helping design the network’s very first direct-to-consumer content
-        platform.
+        agency, I helped lead the design for AMC Television Network’s Premiere
+        streaming platform. Partnering with AMC, we created a seamless
+        experience across multiple OTT streaming devices. Helping design the
+        network’s very first direct-to-consumer content platform.
       </p>
-
       <p>
         We produced, evolved, and implemented system-wide designs for AppleTV,
         FireTV, Roku, and XBOX. In addition, we designed for iOS on both mobile
-        and&nbsp;tablet.
+        and tablet.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
           <p className="f7 fw4 monospace p-break ttu tracked black-40">Role</p>
-          <ul className="f5 fw4 lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Visual Design</li>
             <li>Product Design</li>
             <li>Prototyping</li>
@@ -57,7 +55,7 @@ const AMC = () => (
           <p className="f7 fw4 monospace p-break ttu tracked black-40">
             Collaborators
           </p>
-          <ul className="f5 fw4 lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Sam Thibault</li>
             <li>Adam Deutsch</li>
           </ul>

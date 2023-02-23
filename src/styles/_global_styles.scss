@@ -79,7 +79,7 @@
 }
 
 .Hero {
-  min-height: 100vh;
+  min-height: 88vh;
 
   @media (min-width: 40em) {
     animation-delay: 2000ms;
@@ -87,6 +87,7 @@
     animation-fill-mode: forwards;
     animation-name: hero;
     animation-timing-function: $animation-function-fade;
+    min-height: 100vh;
   }
 }
 
@@ -97,6 +98,14 @@
 
   to {
     min-height: 90vh;
+  }
+}
+
+.footer-intro {
+  padding: 8rem 4rem 0;
+
+  @media (max-width: 767px) {
+    padding: 50px 7vw 35px;
   }
 }
 
@@ -117,7 +126,7 @@
   }
 
   .hero-intro & {
-    font-size: 0.9rem;
+    font-size: 1rem;
     line-height: 1.5;
 
     @media (min-width: 64em) {
@@ -126,7 +135,7 @@
   }
 
   .footer & {
-    font-size: 2.7rem;
+    font-size: 2rem;
 
     @media (min-width: 64em) {
       font-size: 6vw;
@@ -225,7 +234,7 @@
   position: relative;
 
   @media (max-width: 767px) {
-    padding: 50px 0;
+    padding: 64px 0;
   }
 }
 
@@ -246,7 +255,7 @@
   width: 50vw;
 
   @media (max-width: 767px) {
-    font: 300 normal 20px/36px $sans-serif;
+    font: 300 normal 20px/32px $sans-serif;
     padding: 50px 7vw 0;
     width: 100%;
   }
