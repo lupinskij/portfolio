@@ -54,58 +54,59 @@ const Footer = props => (
         <p className="white">
           I’ve had the chance to work on a wide range of projects for brands in
           almost every vertical. Over the years, I’ve contributed to and led
-          teams for clients such as Under Armour, AMC Television, Aetna,
-          7-Eleven, and Epic Games, helping to bring projects from concept to
-          fruition.
+          teams for clients such as Google, Under Armour, Aetna, Taco Bell, and
+          Epic Games, helping to bring projects from concept to fruition.
         </p>
       </div>
     </div>
 
     <div className="grid mh2 mh4-m mh5-l pt4 pb6-l ph2-ns mb6">
       <div>
-        <StyledImage image={logo1} alt="logo" {...props} />
+        <StyledImage image={logo1} alt="Meta" {...props} />
       </div>
       <div>
-        <StyledImage image={logo2} alt="logo" {...props} />
+        <StyledImage image={logo2} alt="Salesforce" {...props} />
       </div>
       <div>
-        <StyledImage image={logo5} alt="logo" {...props} />
+        <StyledImage image={logo5} alt="Marriott Bonvoy" {...props} />
       </div>
       <div>
-        <StyledImage image={logo4} alt="logo" {...props} />
+        <StyledImage image={logo7} alt="Taco Bell" {...props} />
       </div>
       <div>
-        <StyledImage image={logo3} alt="logo" {...props} />
+        <StyledImage image={logo3} alt="Specialized" {...props} />
+      </div>
+
+      <div>
+        <StyledImage image={logo15} alt="CVS" {...props} />
       </div>
       <div>
-        <StyledImage image={logo15} alt="logo" {...props} />
+        <StyledImage image={logo6} alt="AMC" {...props} />
       </div>
       <div>
-        <StyledImage image={logo6} alt="logo" {...props} />
+        <StyledImage image={logo11} alt="Google" {...props} />
       </div>
       <div>
-        <StyledImage image={logo9} alt="logo" {...props} />
+        <StyledImage image={logo8} alt="AT&T" {...props} />
       </div>
       <div>
-        <StyledImage image={logo7} alt="logo" {...props} />
+        <StyledImage image={logo14} alt="Zwift" {...props} />
+      </div>
+
+      <div>
+        <StyledImage image={logo13} alt="Epic Games" {...props} />
       </div>
       <div>
-        <StyledImage image={logo8} alt="logo" {...props} />
+        <StyledImage image={logo9} alt="7-Eleven" {...props} />
       </div>
       <div>
-        <StyledImage image={logo11} alt="logo" {...props} />
+        <StyledImage image={logo4} alt="Under Armour" {...props} />
       </div>
       <div>
-        <StyledImage image={logo14} alt="logo" {...props} />
+        <StyledImage image={logo12} alt="Chubb" {...props} />
       </div>
       <div>
-        <StyledImage image={logo13} alt="logo" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo10} alt="logo" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo12} alt="logo" {...props} />
+        <StyledImage image={logo10} alt="Aetna" {...props} />
       </div>
     </div>
 
