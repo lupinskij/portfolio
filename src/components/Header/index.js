@@ -1,17 +1,26 @@
 import { Link } from 'gatsby'
 import React from 'react'
 
+function refreshTime() {
+  const timeDisplay = document.getElementById('time')
+  const dateString = new Date().toLocaleString('en-US', {
+    timeZone: 'America/Denver',
+    hour: 'numeric',
+    minute: 'numeric',
+  })
+  const formattedString = dateString.replace(', ', ' - ')
+  timeDisplay.textContent = formattedString
+}
+setInterval(refreshTime, 1000)
+
 const Header = props => (
   <header className="pr-header absolute top-0 left-0 right-0 pt4 ph4 ph5-l flex justify-between items-center monospace f7 lh-header ttu tracked">
     <div>
-      <div className="tr">
-        <span className="circle"></span>
-        <Link to="/" className="black">
-          Jeff Lupinski
-        </Link>
-      </div>
+      <Link to="/" className="black">
+        Jeff Lupinski
+      </Link>
       <div className="o-40">
-        {new Date().toLocaleString('en-US', { timeZone: 'America/Denver' })}
+        Denver,CO <span id="time"></span>
       </div>
     </div>
     <div className="dn-ns tr">
