@@ -26,10 +26,10 @@ const Peddle = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        003- Peddle
+        003 – Peddle
       </h6>
       <p>
-        The junkier, the better—Peddle sees value in the most broken down and
+        The junkier, the better — Peddle sees value in the most broken down and
         busted cars. Peddle is the largest automotive recycler in the United
         states, processing 70,000 to 90,000 vehicles per month Their innovative
         approach allows customers to sell their used cars and get paid
@@ -103,6 +103,7 @@ const Peddle = () => (
             key="Peddle Library"
             image={imageSix.childImageSharp}
             type="fluid"
+            className="img-wrap"
             alt="Peddle design library"
           />,
           <StyledImage
