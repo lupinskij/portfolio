@@ -26,7 +26,7 @@ const AMC = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        001- AMC Premiere
+        001 – AMC Premiere
       </h6>
       <p>
         While working with the team at Handsome, a holistic experience design

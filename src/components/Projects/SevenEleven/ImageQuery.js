@@ -7,49 +7,49 @@ function ImageQuery({ children }) {
     <StaticQuery
       query={graphql`
         query {
-          imageOne: file(relativePath: { eq: "peddle-hero.png" }) {
+          imageOne: file(relativePath: { eq: "seveneleven-hero.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 100) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          imageTwo: file(relativePath: { eq: "seveneleven-grid.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 95) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
+          imageThree: file(relativePath: { eq: "seveneleven-robot.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageTwo: file(relativePath: { eq: "peddle-screens.png" }) {
+          imageFour: file(relativePath: { eq: "seveneleven-interact.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageThree: file(relativePath: { eq: "peddle-web.png" }) {
+          imageFive: file(relativePath: { eq: "seveneleven-system.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFour: file(relativePath: { eq: "peddle-mobile.png" }) {
+          imageSix: file(relativePath: { eq: "seveneleven-col1.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
               }
             }
           }
-          imageFive: file(relativePath: { eq: "peddle-mock.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 2000, quality: 90) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-          imageSix: file(relativePath: { eq: "peddle-library.png" }) {
-            childImageSharp {
-              fluid(maxWidth: 2000, quality: 91) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
-            }
-          }
-          imageSeven: file(relativePath: { eq: "peddle-system.png" }) {
+          imageSeven: file(relativePath: { eq: "seveneleven-col2.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
