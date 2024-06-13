@@ -49,8 +49,8 @@ const SevenEleven = () => (
       <Lottie options={heroOptions} />
     </div>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        001 – 7-Eleven
+      <h6 className="f6 fw4 monospace p-break ttu tracked black-40">
+        001_<span className="black">7-Eleven</span>
       </h6>
       <p>
         As the world’s first convenience store, 7-Eleven is the leader in
@@ -98,7 +98,7 @@ const SevenEleven = () => (
             key="SevenEleven Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="7-Eleven mobile application screens"
           />,
         ]}
@@ -109,16 +109,16 @@ const SevenEleven = () => (
             key="SevenEleven Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="7-Eleven mobile application screens"
           />,
         ]}
       </ImageQuery>
       <div className="flex pr-asset">
-        <div className="img-wrap flex-auto mr3 mr4-ns w-50">
+        <div className="img-wrap br3 br0-m flex-auto mr3 mr4-ns w-50">
           <Lottie options={launcherOptions} />
         </div>
-        <div className="img-wrap flex-auto ml3 ml4-ns w-50">
+        <div className="img-wrap br3 br0-m flex-auto ml3 ml4-ns w-50">
           <ImageQuery>
             {({ imageSeven }) => [
               <Image
@@ -138,7 +138,7 @@ const SevenEleven = () => (
               key="SevenEleven TV"
               image={imageThree.childImageSharp}
               type="fluid"
-              className="img-wrap"
+              className="img-wrap br3 br0-m"
               alt="7-Eleven mobile application screens"
             />,
           ]}
@@ -153,7 +153,7 @@ const SevenEleven = () => (
             key="SevenEleven Mock"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="7-Eleven mobile application screens"
           />,
         ]}

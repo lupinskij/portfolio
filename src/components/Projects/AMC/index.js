@@ -25,8 +25,8 @@ const AMC = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        001 – AMC Premiere
+      <h6 className="f6 fw4 monospace p-break ttu tracked black-40">
+        001_<span className="black">AMC Premiere</span>
       </h6>
       <p>
         While working with the team at Handsome, a holistic experience design
@@ -42,7 +42,7 @@ const AMC = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">Role</p>
+          <p className="f6 fw4 monospace p-break ttu tracked black-40">Role</p>
           <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Visual Design</li>
             <li>Product Design</li>
@@ -52,7 +52,7 @@ const AMC = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">
+          <p className="f6 fw4 monospace p-break ttu tracked black-40">
             Collaborators
           </p>
           <ul className="f5 fw3 fw4-ns lh-copy">
@@ -69,28 +69,28 @@ const AMC = () => (
             key="AMC Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC TV"
             image={imageThree.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC Mock"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="AMC mobile screens"
           />,
         ]}
