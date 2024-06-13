@@ -25,8 +25,8 @@ const Peddle = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        003 – Peddle
+      <h6 className="f6 fw4 monospace p-break ttu tracked black-40">
+        003_<span className="black">Peddle</span>
       </h6>
       <p>
         The junkier, the better — Peddle sees value in the most broken down and
@@ -38,7 +38,7 @@ const Peddle = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
+          <p className="f6 monospace p-break fw4 ttu tracked black-40">Role</p>
           <ul className="f5 fw3 fw4-ns lh-copy">
             <li>Product Design</li>
             <li>Visual Design</li>
@@ -50,7 +50,7 @@ const Peddle = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">
+          <p className="f6 monospace p-break fw4 ttu tracked black-40">
             Collaborators
           </p>
           <ul className="f5 fw3 fw4-ns lh-copy">
@@ -66,7 +66,7 @@ const Peddle = () => (
       <div className="pr-video-wrap overflow-hidden relative">
         <video
           src="/peddle-desktop.mp4"
-          className="pr-video"
+          className="pr-video br3 br0-m"
           autoPlay
           muted
           loop
@@ -76,7 +76,7 @@ const Peddle = () => (
       <div className="pr-asset pr-video-wrap overflow-hidden relative">
         <video
           src="/peddle-screens.mp4"
-          className="pr-video"
+          className="pr-video br3 br0-m"
           autoPlay
           muted
           loop
@@ -89,28 +89,28 @@ const Peddle = () => (
             key="Peddle Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="Peddle mobile screens"
           />,
           <StyledImage
             key="Peddle Device"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="Peddle mobile pickup screen"
           />,
           <StyledImage
             key="Peddle Library"
             image={imageSix.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="Peddle design library"
           />,
           <StyledImage
             key="Peddle System"
             image={imageSeven.childImageSharp}
             type="fluid"
-            className="img-wrap"
+            className="img-wrap br3 br0-m"
             alt="Peddle design system"
           />,
         ]}

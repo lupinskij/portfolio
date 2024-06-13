@@ -29,12 +29,12 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <section id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m mw9-l center">
-      <h3 className="mt5 f7 monospace p-break fw4 ttu tracked white-50 m0">
-        000 – About
+      <h3 className="mt5 f6 monospace p-break fw4 ttu tracked white-50 m0">
+        000_Introduction
       </h3>
       <p className="white txt ws-normal normal mb0">
         I am a digital designer living in Colorado. I lead, design, and help
-        craft strategic solutions for digital experiences and products.
+        craft strategic solutions for digital products and experiences.
       </p>
     </div>
     <div className="wrap-pres">
@@ -117,7 +117,7 @@ const Footer = props => (
       </h2>
     </div>
     <footer>
-      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-copy ttu tracked">
+      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f6 lh-copy ttu tracked">
         <div className="self-start">
           <span>&#8627;&nbsp;</span>
           <a
@@ -139,6 +139,18 @@ const Footer = props => (
             >
               LinkedIn
             </a>
+            <i className="inline-flex relative i-arrow">
+              <svg
+                viewBox="0 0 7 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                  fill="#ffffff"
+                ></path>
+              </svg>
+            </i>
           </li>
           <li>
             <a
@@ -150,6 +162,18 @@ const Footer = props => (
             >
               Dribbble
             </a>
+            <i className="inline-flex relative i-arrow">
+              <svg
+                viewBox="0 0 7 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                  fill="#ffffff"
+                ></path>
+              </svg>
+            </i>
           </li>
         </ul>
         <ul>
@@ -163,6 +187,18 @@ const Footer = props => (
             >
               GitHub
             </a>
+            <i className="inline-flex relative i-arrow">
+              <svg
+                viewBox="0 0 7 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                  fill="#ffffff"
+                ></path>
+              </svg>
+            </i>
           </li>
           <li>
             <a
@@ -174,11 +210,23 @@ const Footer = props => (
             >
               Twitter
             </a>
+            <i className="inline-flex relative i-arrow">
+              <svg
+                viewBox="0 0 7 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                  fill="#ffffff"
+                ></path>
+              </svg>
+            </i>
           </li>
         </ul>
-        <div className="self-start tr dn-ns">
+        <div className="self-start tr dn-ns o-50">
           <div>(c) {new Date().getFullYear()}</div>
-          <div>All Rights Reserved</div>
+          <div>All_Rights_Reserved</div>
         </div>
       </nav>
     </footer>

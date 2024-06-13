@@ -19,21 +19,36 @@ const Header = props => (
       <Link to="/" className="black">
         Jeff Lupinski
       </Link>
-      <div className="o-40">
-        Denver,CO <span id="time"></span>
+      <div className="o-50">
+        Denver_CO <span id="time"></span>
       </div>
     </div>
     <div className="dn-ns tr">
       <Link to="#about" className="black trans-link">
-        Info
+        About
       </Link>
-      <ul className="o-40">
-        <li className="dib">
-          <a href="mailto:hello@jefflupinski.com" className="black trans-link">
+      <ul className="flex">
+        <li className="inline-flex relative items-center">
+          <a
+            href="mailto:hello@jefflupinski.com"
+            className="dib relative black trans-link"
+          >
             Email
           </a>
+          <i className="inline-flex relative i-arrow">
+            <svg
+              viewBox="0 0 7 5"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                fill="#2c2c2c"
+              ></path>
+            </svg>
+          </i>
         </li>
-        <li className="dib">
+        <li className="inline-flex relative items-center">
           <a
             href="https://www.linkedin.com/in/jefflupinski"
             className="black trans-link ml4"
@@ -42,8 +57,20 @@ const Header = props => (
           >
             LinkedIn
           </a>
+          <i className="inline-flex relative i-arrow">
+            <svg
+              viewBox="0 0 7 5"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                fill="#2c2c2c"
+              ></path>
+            </svg>
+          </i>
         </li>
-        <li className="dib">
+        <li className="inline-flex relative items-center">
           <a
             href="https://dribbble.com/jefflupinski"
             className="black trans-link ml4"
@@ -52,6 +79,18 @@ const Header = props => (
           >
             Dribbble
           </a>
+          <i className="inline-flex relative i-arrow">
+            <svg
+              viewBox="0 0 7 5"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                fill="#2c2c2c"
+              ></path>
+            </svg>
+          </i>
         </li>
       </ul>
     </div>
