@@ -31,7 +31,7 @@ const Header = props => (
         <li className="inline-flex relative items-center">
           <a
             href="mailto:hello@jefflupinski.com"
-            className="dib relative black trans-link"
+            className="dib relative black trans-link o-50"
           >
             Email
           </a>
@@ -51,7 +51,7 @@ const Header = props => (
         <li className="inline-flex relative items-center">
           <a
             href="https://www.linkedin.com/in/jefflupinski"
-            className="black trans-link ml4"
+            className="black trans-link ml4 o-50"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -73,7 +73,7 @@ const Header = props => (
         <li className="inline-flex relative items-center">
           <a
             href="https://dribbble.com/jefflupinski"
-            className="black trans-link ml4"
+            className="black trans-link ml4 o-50"
             target="_blank"
             rel="noopener noreferrer"
           >
