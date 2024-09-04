@@ -31,7 +31,7 @@
 }
 
 .tracked {
-  letter-spacing: 0.8px;
+  letter-spacing: 0;
 }
 
 .i-arrow {
@@ -41,35 +41,41 @@
   width: 0.55rem;
 }
 
+.globe {
+  margin-right: 8px;
+  position: relative;
+  top: 6px;
+}
+
 .pr-header {
   z-index: 9999;
 
   @media (min-width: 40em) {
-    animation-delay: 1600ms;
-    animation-duration: 1000ms;
+    animation-delay: 1500ms;
+    animation-duration: 650ms;
     animation-fill-mode: forwards;
     animation-name: headerIn;
-    animation-timing-function: $animation-function-fade;
-    transform: translateY(-150%);
+    animation-timing-function: linear;
+    opacity: 0;
   }
 }
 
 @keyframes headerIn {
   from {
-    transform: translateY(-150%);
+    opacity: 0;
   }
 
   to {
-    transform: translateY(0);
+    opacity: 1;
   }
 }
 
 .Hero {
-  min-height: 88vh;
+  min-height: 80vh;
 
   @media (min-width: 40em) {
-    animation-delay: 2000ms;
-    animation-duration: 1000ms;
+    animation-delay: 2500ms;
+    animation-duration: 1200ms;
     animation-fill-mode: forwards;
     animation-name: hero;
     animation-timing-function: $animation-function-fade;
@@ -83,15 +89,15 @@
   }
 
   to {
-    min-height: 92vh;
+    min-height: 96vh;
   }
 }
 
 .footer-intro {
-  padding: 8rem 4rem 0;
+  padding: 8rem 3.5rem 0;
 
   @media (max-width: 767px) {
-    padding: 50px 7vw 35px;
+    padding: 50px 5vw 35px;
   }
 }
 
@@ -127,6 +133,10 @@
       font-size: 6vw;
     }
   }
+}
+
+.lh-double {
+  line-height: $line-height-double;
 }
 
 .pre-graph::before {
@@ -422,14 +432,14 @@
 
   @media (min-width: 64em) {
     grid-column-gap: 10rem;
-    grid-row-gap: 12rem;
+    grid-row-gap: 10rem;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 }
 
 .seveneleven-robot {
-  left: 4%;
+  left: 18%;
   position: absolute;
-  top: 5%;
+  top: 8%;
   width: 20vw;
 }

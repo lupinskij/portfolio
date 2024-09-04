@@ -10,6 +10,7 @@ const NavWrapper = styled.div`
 
 // Edit your links here
 const links = [
+  { name: '7-Eleven', id: 'SevenEleven' },
   { name: 'AMC Premiere', id: 'amc' },
   { name: 'Under Armour', id: 'under-armour' },
   { name: 'Peddle', id: 'peddle' },

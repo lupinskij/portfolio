@@ -25,8 +25,8 @@ const Peddle = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f6 fw4 monospace p-break ttu tracked black-40">
-        003_<span className="black">Peddle</span>
+      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
+        [004] <span className="black">Peddle</span>
       </h6>
       <p>
         The junkier, the better — Peddle sees value in the most broken down and
@@ -38,8 +38,8 @@ const Peddle = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f6 monospace p-break fw4 ttu tracked black-40">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-copy">
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
+          <ul className="f5 fw3 fw4-ns lh-double">
             <li>Product Design</li>
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -50,10 +50,10 @@ const Peddle = () => (
           </ul>
         </div>
         <div>
-          <p className="f6 monospace p-break fw4 ttu tracked black-40">
+          <p className="f7 monospace p-break fw4 ttu tracked black-40">
             Collaborators
           </p>
-          <ul className="f5 fw3 fw4-ns lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-double">
             <li>Steven Hanley</li>
             <li>Ivan Alonso</li>
             <li>Celine Thibault</li>

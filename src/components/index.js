@@ -1,4 +1,5 @@
 export { default as AMC } from './Projects/AMC'
+export { default as SevenEleven } from './Projects/SevenEleven'
 export { default as Peddle } from './Projects/Peddle'
 export { default as Footer } from './Footer'
 export { default as Hero } from './Hero'

@@ -56,6 +56,13 @@ function ImageQuery({ children }) {
               }
             }
           }
+          imageEight: file(relativePath: { eq: "seveneleven-store.png" }) {
+            childImageSharp {
+              fluid(maxWidth: 2000, quality: 90) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
+          }
         }
       `}
       render={data => children(data)}

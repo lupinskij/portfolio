@@ -27,40 +27,94 @@ const StyledImage = styled(props => <Image {...props} />)`
 `
 
 const Footer = props => (
-  <section id="about" className="footer bg-black">
+  <footer id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m mw9-l center">
-      <h3 className="mt5 f6 monospace p-break fw4 ttu tracked white-50 m0">
-        000_Introduction
+      <h3 className="mt5 f7 monospace p-break fw4 ttu tracked white-70 m0 pa2">
+        [000] Introduction
       </h3>
-      <p className="white txt ws-normal normal mb0">
+      <p className="white txt fw3 ws-normal normal mb0 mb4-ns pa2">
         I am a digital designer living in Colorado. I lead, design, and help
         craft strategic solutions for digital products and experiences.
       </p>
     </div>
-    <div className="wrap-pres">
-      <div className="mb6 pre-graph">
-        <p className="white">
-          With over 10 years of experience in the industry, product design has
-          been the core of my career for many years. Throughout, I’ve had the
-          opportunity to work at agencies, in-house, and independently. I enjoy
-          working with teams to create thoughtful and intuitive solutions for
-          problems of all sizes.
-        </p>
-        <p className="white">
-          My focus includes User Interface and Experience Design, Visual Design,
-          Interaction Design, Product Design, Design Systems, Web and App
-          Design, and Front-end Development.
-        </p>
-        <p className="white">
-          I’ve had the chance to work on a wide range of projects for brands in
-          almost every vertical. Over the years, I’ve contributed to and led
-          teams for clients such as Google, Under Armour, Aetna, Taco Bell, and
-          Epic Games, helping to bring projects from concept to fruition.
-        </p>
-      </div>
-    </div>
 
-    <div className="grid mh2 mh4-m mh5-l pt4 pb6-l ph2-ns mb6">
+    <section className="footer-intro mw9 center ph3-ns f5 f4-ns lh-copy lh-title-ns">
+      <div className="cf ph2-ns">
+        <div className="fl w-100 w-25-ns pa2">
+          <h3 className="f7 monospace fw4 ttu tracked white-70">Information</h3>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="white ma0">
+            Jeff Lupinski
+            <br />
+            Interactive Designer
+          </p>
+          <p className="white ma0">
+            <a
+              href="mailto:hello@jefflupinski.com"
+              className="white ma trans-link"
+              data-color="light"
+            >
+              hello@jefflupinski.com
+            </a>
+          </p>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="white ma0">
+            39.7392° N, 104.9903° W
+            <br />
+            Denver, Colorado
+          </p>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="white ma0">
+            <a
+              href="/jeff-lupinski-resume.pdf"
+              className="white ma trans-link"
+              target="_blank"
+              data-color="light"
+              rel="noopener noreferrer"
+            >
+              Resume
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 f4-ns lh-copy lh-title-ns">
+      <div className="cf ph2-ns">
+        <div className="fl w-100 w-25-ns pa2">
+          <h3 className="f7 monospace fw4 ttu tracked white-70">Profile</h3>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="white mb1 ma0-ns">
+            With over a decade of experience in the industry, product design has
+            been the core of my career for many years. Throughout, I’ve had the
+            opportunity to work at agencies, in-house, and independently. I
+            enjoy working with teams to create solutions for problems of all
+            sizes.
+          </p>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="white mb1 ma0-ns">
+            My focus includes User Interface and Experience Design, Visual
+            Design, Interaction Design, Product Design, Design Systems, Web and
+            App Design, and Front-end Development.
+          </p>
+        </div>
+        <div className="fl w-100 w-25-ns pa2">
+          <p className="des white mb1 ma0-ns">
+            I’ve had the chance to work on a wide range of projects for brands
+            in almost every vertical. I’ve contributed and led teams for clients
+            such as Google, Under Armour, Aetna, Taco Bell, and Epic Games,
+            helping to bring projects from concept to fruition.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section className="grid mh2 mh4-m mh5-l pt4 pb6-l ph2-ns mb6 mb5-ns o-50">
       <div>
         <StyledImage image={logo1} alt="Meta" {...props} />
       </div>
@@ -108,17 +162,17 @@ const Footer = props => (
       <div>
         <StyledImage image={logo10} alt="Aetna" {...props} />
       </div>
-    </div>
+    </section>
 
     <div className="mh4 mh5-l">
-      <h2 className="f2 white mb5 normal">
+      <h2 className="f2 white mb5 dn db-ns normal">
         <span className="white-50">"</span>Hello, world.
         <span className="white-50">^n"</span>
       </h2>
     </div>
     <footer>
-      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f6 lh-copy ttu tracked">
-        <div className="self-start">
+      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-double ttu tracked">
+        <div className="self-start mb3 mb0-ns">
           <span>&#8627;&nbsp;</span>
           <a
             href="mailto:hello@jefflupinski.com"
@@ -129,7 +183,7 @@ const Footer = props => (
           </a>
         </div>
         <ul>
-          <li>
+          <li className="mb3 mb0-ns">
             <a
               href="https://www.linkedin.com/in/jefflupinski"
               className="white trans-link"
@@ -152,7 +206,7 @@ const Footer = props => (
               </svg>
             </i>
           </li>
-          <li>
+          <li className="mb3 mb0-ns">
             <a
               href="https://dribbble.com/jefflupinski"
               className="white trans-link"
@@ -177,7 +231,7 @@ const Footer = props => (
           </li>
         </ul>
         <ul>
-          <li>
+          <li className="mb3 mb0-ns">
             <a
               href="https://github.com/lupinskij"
               className="white trans-link"
@@ -200,7 +254,7 @@ const Footer = props => (
               </svg>
             </i>
           </li>
-          <li>
+          <li className="mb3 mb0-ns">
             <a
               href="https://twitter.com/"
               className="white trans-link"
@@ -224,13 +278,13 @@ const Footer = props => (
             </i>
           </li>
         </ul>
-        <div className="self-start tr dn-ns o-50">
-          <div>(c) {new Date().getFullYear()}</div>
+        <div className="self-start tr-ns o-50">
+          <div>[c] {new Date().getFullYear()}</div>
           <div>All_Rights_Reserved</div>
         </div>
       </nav>
     </footer>
-  </section>
+  </footer>
 )
 
 export default Footer

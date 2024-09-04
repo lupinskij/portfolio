@@ -8,7 +8,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
-    padding-top: 17.5vw;
+    padding-top: 21vw;
     padding-bottom: 8vw;
   }
 `

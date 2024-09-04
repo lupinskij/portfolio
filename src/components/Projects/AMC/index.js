@@ -25,8 +25,8 @@ const AMC = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f6 fw4 monospace p-break ttu tracked black-40">
-        001_<span className="black">AMC Premiere</span>
+      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
+        [002] <span className="black">AMC Premiere</span>
       </h6>
       <p>
         While working with the team at Handsome, a holistic experience design
@@ -42,8 +42,8 @@ const AMC = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f6 fw4 monospace p-break ttu tracked black-40">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-copy">
+          <p className="f7 fw4 monospace p-break ttu tracked black-40">Role</p>
+          <ul className="f5 fw3 fw4-ns lh-double">
             <li>Visual Design</li>
             <li>Product Design</li>
             <li>Prototyping</li>
@@ -52,10 +52,10 @@ const AMC = () => (
           </ul>
         </div>
         <div>
-          <p className="f6 fw4 monospace p-break ttu tracked black-40">
+          <p className="f7 fw4 monospace p-break ttu tracked black-40">
             Collaborators
           </p>
-          <ul className="f5 fw3 fw4-ns lh-copy">
+          <ul className="f5 fw3 fw4-ns lh-double">
             <li>Sam Thibault</li>
             <li>Adam Deutsch</li>
           </ul>
