@@ -69,28 +69,28 @@ const AMC = () => (
             key="AMC Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC TV"
             image={imageThree.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC Mock"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="AMC OTT screens"
           />,
           <StyledImage
             key="AMC Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="AMC mobile screens"
           />,
         ]}

@@ -71,28 +71,28 @@ const UnderArmour = () => (
             key="UA Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Users"
             image={imageThree.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Wires"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Web"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap br3 br0-m"
+            className="img-wrap br2 br0-m"
             alt="Under Armour web screens"
           />,
         ]}

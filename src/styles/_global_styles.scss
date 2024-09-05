@@ -48,6 +48,7 @@
 }
 
 .pr-header {
+  font-size: 0.68rem;
   z-index: 9999;
 
   @media (min-width: 40em) {
@@ -89,7 +90,7 @@
   }
 
   to {
-    min-height: 96vh;
+    min-height: 90vh;
   }
 }
 
@@ -156,7 +157,7 @@
   &::before {
     content: '';
     display: block;
-    height: 2px;
+    height: 10px;
     left: 0;
     position: absolute;
     bottom: 50%;
@@ -169,7 +170,7 @@
     background: $black;
     content: '';
     display: block;
-    height: 2px;
+    height: 10px;
     position: absolute;
     right: 0;
     bottom: 50%;
@@ -289,8 +290,8 @@
 
 .banner-wrap {
   @media (min-width: 60em) {
-    border-bottom-left-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
   }
 }
 

@@ -31,7 +31,7 @@ const IndexPage = () => (
     />
     <Hero
       title="I design interfaces."
-      paragraph="I am a digital designer living in Colorado. I&nbsp;design, lead, and help craft solutions for digital products and experiences."
+      paragraph="I am a digital designer specializing in combining aesthetics and functionality to create impactful user experiences."
     />
     <NavController>
       <ScrollSection>
