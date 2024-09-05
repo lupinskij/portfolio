@@ -157,11 +157,11 @@
   &::before {
     content: '';
     display: block;
-    height: 10px;
+    height: 2px;
     left: 0;
     position: absolute;
-    bottom: 50%;
-    transform: translateY(50%);
+    bottom: 0;
+    transform: translateY(100%);
     transition: width 0s ease, background 400ms ease;
     width: 0;
   }
@@ -170,11 +170,11 @@
     background: $black;
     content: '';
     display: block;
-    height: 10px;
+    height: 2px;
     position: absolute;
     right: 0;
-    bottom: 50%;
-    transform: translateY(50%);
+    bottom: 0;
+    transform: translateY(100%);
     transition: width 400ms ease;
     width: 0;
   }
