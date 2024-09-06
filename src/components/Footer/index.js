@@ -51,7 +51,7 @@ const Footer = props => (
           </p>
           <p className="white ma0">
             <a
-              href="mailto:hello@jefflupinski.com"
+              href="mailto:hello@jefflupinski.com?subject=Saying%20hey%20%F0%9F%91%8B%20"
               className="white ma trans-link"
               data-color="light"
             >
@@ -106,9 +106,8 @@ const Footer = props => (
         <div className="fl w-100 w-25-ns pa2">
           <p className="des white mb1 ma0-ns">
             I’ve had the chance to work on a wide range of projects for brands
-            in almost every vertical. I’ve contributed and led teams for clients
-            such as Google, Under Armour, Aetna, Taco Bell, and Epic Games,
-            helping to bring projects from concept to fruition.
+            in almost every vertical. Contributed and led teams, helping to
+            bring projects from concept to fruition.
           </p>
         </div>
       </div>
@@ -175,7 +174,7 @@ const Footer = props => (
         <div className="self-start mb3 mb0-ns">
           <span>&#8627;&nbsp;</span>
           <a
-            href="mailto:hello@jefflupinski.com"
+            href="mailto:hello@jefflupinski.com?subject=Saying%20hey%20%F0%9F%91%8B%20"
             className="white trans-link"
             data-color="light"
           >
