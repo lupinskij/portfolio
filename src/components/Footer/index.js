@@ -28,7 +28,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 
 const Footer = props => (
   <footer id="about" className="footer bg-black">
-    <div className="footer-intro mw-100 mw8-m mw9-l center">
+    <div className="footer-intro mw-100 mw8-m center">
       <h3 className="mt5 f7 monospace p-break fw4 ttu tracked white-70 m0 pa2">
         [000] Introduction
       </h3>
@@ -113,7 +113,7 @@ const Footer = props => (
       </div>
     </section>
 
-    <section className="grid mh2 mh4-m mh5-l pt4 pb6-l ph2-ns mb6 o-50">
+    <section className="grid ph2 ph4-m ph5-l mw9-l center pt4 pb6-l ph2-ns mb6 o-50">
       <div>
         <StyledImage image={logo1} alt="Meta" {...props} />
       </div>
