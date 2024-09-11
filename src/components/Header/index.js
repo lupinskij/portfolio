@@ -14,7 +14,7 @@ function refreshTime() {
 setInterval(refreshTime, 1000)
 
 const Header = props => (
-  <header className="pr-header absolute top-0 left-0 right-0 pt3 ph4 ph5-l flex justify-between items-center monospace lh-header ttu tracked">
+  <header className="pr-header absolute top-0 left-0 right-0 pt4 pt3-l ph4 ph5-l flex justify-between items-center monospace lh-header ttu tracked">
     <Link to="/" className="black o-60">
       Jeff Lupinski
     </Link>
@@ -23,7 +23,7 @@ const Header = props => (
       <li className="inline-flex relative items-center">
         <a
           href="mailto:hello@jefflupinski.com"
-          className="dib relative black trans-link ph1"
+          className="dib relative black trans-link"
         >
           Mail
         </a>
@@ -31,7 +31,7 @@ const Header = props => (
       <li className="inline-flex relative items-center">
         <a
           href="https://www.linkedin.com/in/jefflupinski"
-          className="black trans-link ph1 ml3"
+          className="black trans-link ml4"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -41,7 +41,7 @@ const Header = props => (
       <li className="inline-flex relative items-center">
         <a
           href="https://dribbble.com/jefflupinski"
-          className="black trans-link ph1 ml3"
+          className="black trans-link ml4"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -51,7 +51,7 @@ const Header = props => (
       <li className="inline-flex relative items-center">
         <a
           href="https://github.com/lupinskij"
-          className="black trans-link ph1 ml3"
+          className="black trans-link ml4"
           target="_blank"
           rel="noopener noreferrer"
         >
