@@ -35,10 +35,10 @@ const IndexPage = () => (
     />
     <NavController>
       <ScrollSection>
-        <SevenEleven />
+        <AMC />
       </ScrollSection>
       <ScrollSection>
-        <AMC />
+        <SevenEleven />
       </ScrollSection>
       <ScrollSection>
         <UnderArmour />

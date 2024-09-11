@@ -50,7 +50,7 @@ const SevenEleven = () => (
     </div>
     <div className="wrap-pres">
       <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [001] <span className="black">7-Eleven</span>
+        [002] <span className="black">7-Eleven</span>
       </h6>
       <p>
         As the world’s first convenience store, 7-Eleven is the leader in
@@ -104,17 +104,16 @@ const SevenEleven = () => (
           />,
         ]}
       </ImageQuery>
-      <ImageQuery>
-        {({ imageFour }) => [
-          <StyledImage
-            key="SevenEleven Mobile"
-            image={imageFour.childImageSharp}
-            type="fluid"
-            className="img-wrap br2 br0-m"
-            alt="7-Eleven mobile application screens"
-          />,
-        ]}
-      </ImageQuery>
+      <div className="pr-asset pr-video-wrap overflow-hidden relative">
+        <video
+          src="/seven-eleven.mp4"
+          className="pr-video br2 br0-m"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </div>
       <div className="flex pr-asset">
         <div className="img-wrap br2 br0-m flex-auto mr3-ns mr4-l w-50-ns">
           <Lottie options={launcherOptions} />
@@ -126,7 +125,7 @@ const SevenEleven = () => (
                 key="SevenEleven TV"
                 image={imageSeven.childImageSharp}
                 type="fluid"
-                alt="7-Eleven mobile application screens"
+                alt="7-Eleven mobile rewards screen"
               />,
             ]}
           </ImageQuery>
@@ -155,7 +154,18 @@ const SevenEleven = () => (
             image={imageFive.childImageSharp}
             type="fluid"
             className="img-wrap br2 br0-m"
-            alt="7-Eleven mobile application screens"
+            alt="7-Eleven mobile design system"
+          />,
+        ]}
+      </ImageQuery>
+      <ImageQuery>
+        {({ imageOne }) => [
+          <StyledImage
+            key="SevenEleven Mock"
+            image={imageOne.childImageSharp}
+            type="fluid"
+            className="img-wrap br2 br0-m"
+            alt="7-Eleven mobile design system"
           />,
         ]}
       </ImageQuery>

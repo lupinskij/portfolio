@@ -26,7 +26,7 @@ const AMC = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [002] <span className="black">AMC Premiere</span>
+        [001] <span className="black">AMC Premiere</span>
       </h6>
       <p>
         While working with the team at Handsome, a holistic experience design
@@ -80,18 +80,18 @@ const AMC = () => (
             alt="AMC OTT screens"
           />,
           <StyledImage
-            key="AMC Mock"
-            image={imageFive.childImageSharp}
-            type="fluid"
-            className="img-wrap br2 br0-m"
-            alt="AMC OTT screens"
-          />,
-          <StyledImage
             key="AMC Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
             className="img-wrap br2 br0-m"
             alt="AMC mobile screens"
+          />,
+          <StyledImage
+            key="AMC Mock"
+            image={imageFive.childImageSharp}
+            type="fluid"
+            className="img-wrap br2 br0-m"
+            alt="AMC OTT screens"
           />,
         ]}
       </ImageQuery>

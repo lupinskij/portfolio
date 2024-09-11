@@ -7,7 +7,7 @@ function ImageQuery({ children }) {
     <StaticQuery
       query={graphql`
         query {
-          imageOne: file(relativePath: { eq: "seveneleven-hero.png" }) {
+          imageOne: file(relativePath: { eq: "seveneleven-checkout.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 100) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -49,7 +49,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageSeven: file(relativePath: { eq: "seveneleven-col2.png" }) {
+          imageSeven: file(relativePath: { eq: "seveneleven-col2-alt.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
