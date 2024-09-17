@@ -1,3 +1,4 @@
+import { Link } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -29,7 +30,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <footer id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m center">
-      <h3 className="mt5 f7 monospace p-break fw4 ttu tracked white-70 m0 pa2">
+      <h3 className="mt5 f7 monospace p-break ttu white-70 m0 pa2">
         [000] Introduction
       </h3>
       <p className="white txt fw3 ws-normal normal mb0 mb4-ns pa2">
@@ -41,7 +42,7 @@ const Footer = props => (
     <section className="footer-intro mw9 center ph3-ns f5 f4-ns lh-copy lh-title-ns">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 monospace fw4 ttu tracked white-70">Information</h3>
+          <h3 className="f7 monospace lh-double ttu white-70">Information</h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white ma0">
@@ -85,7 +86,7 @@ const Footer = props => (
     <section className="footer-intro mw9 mb6-ns center ph3-ns f5 f4-ns lh-copy lh-title-ns">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 monospace fw4 ttu tracked white-70">Profile</h3>
+          <h3 className="f7 monospace lh-double ttu white-70">Profile</h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white mb1 ma0-ns">
@@ -172,14 +173,7 @@ const Footer = props => (
     <footer>
       <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-double ttu tracked">
         <div className="self-start mb3 mb0-ns">
-          <span>&#8627;&nbsp;</span>
-          <a
-            href="mailto:hello@jefflupinski.com?subject=Saying%20hey%20%F0%9F%91%8B%20"
-            className="white trans-link"
-            data-color="light"
-          >
-            hello@jefflupinski.com
-          </a>
+          <div>Jeff Lupinski [C/{new Date().getFullYear()}]</div>
         </div>
         <ul>
           <li className="mb3 mb0-ns">
@@ -232,6 +226,27 @@ const Footer = props => (
         <ul>
           <li className="mb3 mb0-ns">
             <a
+              href="mailto:hello@jefflupinski.com?subject=Saying%20hey%20%F0%9F%91%8B%20"
+              className="white trans-link"
+              data-color="light"
+            >
+              E-Mail
+            </a>
+            <i className="inline-flex relative i-arrow">
+              <svg
+                viewBox="0 0 7 5"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
+                  fill="#ffffff"
+                ></path>
+              </svg>
+            </i>
+          </li>
+          <li className="mb3 mb0-ns">
+            <a
               href="https://github.com/lupinskij"
               className="white trans-link"
               target="_blank"
@@ -253,33 +268,25 @@ const Footer = props => (
               </svg>
             </i>
           </li>
-          <li className="mb3 mb0-ns">
-            <a
-              href="https://twitter.com/"
-              className="white trans-link"
-              target="_blank"
-              data-color="light"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-            <i className="inline-flex relative i-arrow">
-              <svg
-                viewBox="0 0 7 5"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
-                  fill="#ffffff"
-                ></path>
-              </svg>
-            </i>
-          </li>
         </ul>
-        <div className="self-start tr-ns o-50">
-          <div>[c] {new Date().getFullYear()}</div>
-          <div>All_Rights_Reserved</div>
+        <div className="self-start tr-ns">
+          <i className="mr2 inline-flex relative">
+            <svg
+              width="12"
+              height="12"
+              viewBox="0 0 7 7"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.98562 2.74371L6.40862 3.32071L5.37342 2.2855L4.87279 1.68305L4.83885 1.70002L4.90673 2.85402L4.90673 8.55613L4.09214 8.55613L4.09214 2.85402L4.16002 1.70002L4.12608 1.68305L3.62545 2.2855L2.59025 3.32071L2.01325 2.74371L4.49944 0.257522L6.98562 2.74371Z"
+                fill="#ffffff"
+              />
+            </svg>
+          </i>
+          <Link to="/" className="white trans-link" data-color="light">
+            Back to top
+          </Link>
         </div>
       </nav>
     </footer>
