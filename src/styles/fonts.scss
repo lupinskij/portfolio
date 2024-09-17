@@ -23,3 +23,11 @@
     url('~styles/fonts/F-300.woff') format('woff');
   font-weight: 300;
 }
+
+@font-face {
+  font-display: auto;
+  font-family: 'AB';
+  src:
+    url('~styles/fonts/AB.woff2') format('woff2'),
+    url('~styles/fonts/AB.woff') format('woff');
+}
