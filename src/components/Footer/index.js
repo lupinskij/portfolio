@@ -30,7 +30,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <footer id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m center">
-      <h3 className="mt5 f7 monospace p-break ttu white-70 m0 pa2">
+      <h3 className="mt6 f7 monospace p-break ttu white-70 m0 pa2">
         [000] Introduction
       </h3>
       <p className="white txt fw3 ws-normal normal mb0 mb4-ns pa2">
