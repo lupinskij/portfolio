@@ -114,7 +114,7 @@ const Footer = props => (
       </div>
     </section>
 
-    <section className="grid ph2 ph4-m ph5-l mw9-l center pt4 pb6-l ph2-ns mb6 o-50">
+    <section className="grid ph2 ph4-m ph5-l mw9-l center pt5 pb6-l ph2-ns mb6 o-50">
       <div>
         <StyledImage image={logo1} alt="Meta" {...props} />
       </div>
