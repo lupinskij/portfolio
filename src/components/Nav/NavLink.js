@@ -14,7 +14,7 @@ const Line = styled(({ lineWidth, ...props }) => <animated.span {...props} />)`
   height: 2px;
   position: absolute;
   transform-origin: ${({ lineWidth }) => (lineWidth > 0 ? 'right' : 'left')};
-  transition: background 250ms cubic-bezier(0.44, 0.13, 0.48, 0.87);
+  transition: background 150ms cubic-bezier(0.39, 0.58, 0.57, 1);
   width: 100%;
   will-change: transform;
 `

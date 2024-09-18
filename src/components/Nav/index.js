@@ -21,7 +21,7 @@ const LinkItem = styled.li`
   margin-left: 4em;
   padding-bottom: 4px;
   position: relative;
-  transition: color 250ms cubic-bezier(0.44, 0.13, 0.48, 0.87);
+  transition: color 150ms cubic-bezier(0.39, 0.58, 0.57, 1);
   user-select: none;
   white-space: nowrap;
 
