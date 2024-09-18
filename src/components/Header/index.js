@@ -28,7 +28,7 @@ const Header = props => (
           data-color="dark"
           rel="noopener noreferrer"
         >
-          LinkedIn
+          Li
         </a>
         <i className="inline-flex relative i-arrow">
           <svg viewBox="0 0 7 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -47,7 +47,7 @@ const Header = props => (
           data-color="dark"
           rel="noopener noreferrer"
         >
-          Dribbble
+          Dr
         </a>
         <i className="inline-flex relative i-arrow">
           <svg viewBox="0 0 7 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const Header = props => (
           href="mailto:hello@jefflupinski.com"
           className="black dib relative trans-link ml3"
         >
-          E-Mail
+          Mail
         </a>
       </li>
     </ul>
