@@ -16,7 +16,7 @@ const NavContainer = styled.div`
 
 const LinkItem = styled.li`
   bottom: -2px;
-  color: #68717a;
+  color: rgba(0, 0, 0, 0.4);
   cursor: pointer;
   margin-left: 4em;
   padding-bottom: 4px;
@@ -30,10 +30,10 @@ const LinkItem = styled.li`
   }
 
   &:hover {
-    color: #343a40;
+    color: rgba(0, 0, 0, 0.8);
 
     span {
-      background-color: #343a40;
+      background-color: rgba(0, 0, 0, 0.8);
     }
   }
 `
