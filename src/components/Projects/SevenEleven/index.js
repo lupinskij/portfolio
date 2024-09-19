@@ -104,16 +104,6 @@ const SevenEleven = () => (
           />,
         ]}
       </ImageQuery>
-      <div className="pr-asset pr-video-wrap overflow-hidden relative">
-        <video
-          src="/seven-eleven.mp4"
-          className="pr-video br2 br0-m"
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
-      </div>
       <div className="flex pr-asset">
         <div className="img-wrap br2 br0-m flex-auto mr3-ns mr4-l w-50-ns">
           <Lottie options={launcherOptions} />
@@ -147,11 +137,21 @@ const SevenEleven = () => (
           <Lottie options={robotOptions} />
         </div>
       </div>
+      <div className="pr-asset pr-video-wrap overflow-hidden relative">
+        <video
+          src="/seven-eleven.mp4"
+          className="pr-video br2 br0-m"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </div>
       <ImageQuery>
-        {({ imageFive }) => [
+        {({ imageOne }) => [
           <StyledImage
             key="SevenEleven Mock"
-            image={imageFive.childImageSharp}
+            image={imageOne.childImageSharp}
             type="fluid"
             className="img-wrap br2 br0-m"
             alt="7-Eleven mobile design system"
@@ -159,10 +159,10 @@ const SevenEleven = () => (
         ]}
       </ImageQuery>
       <ImageQuery>
-        {({ imageOne }) => [
+        {({ imageFive }) => [
           <StyledImage
             key="SevenEleven Mock"
-            image={imageOne.childImageSharp}
+            image={imageFive.childImageSharp}
             type="fluid"
             className="img-wrap br2 br0-m"
             alt="7-Eleven mobile design system"
