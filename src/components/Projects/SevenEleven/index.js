@@ -121,6 +121,16 @@ const SevenEleven = () => (
           </ImageQuery>
         </div>
       </div>
+      <div className="pr-asset pr-video-wrap overflow-hidden relative">
+        <video
+          src="/seven-eleven.mp4"
+          className="pr-video br2 br0-m"
+          autoPlay
+          muted
+          loop
+          playsInline
+        />
+      </div>
       <div className="relative">
         <ImageQuery>
           {({ imageThree }) => [
@@ -136,16 +146,6 @@ const SevenEleven = () => (
         <div className="seveneleven-robot">
           <Lottie options={robotOptions} />
         </div>
-      </div>
-      <div className="pr-asset pr-video-wrap overflow-hidden relative">
-        <video
-          src="/seven-eleven.mp4"
-          className="pr-video br2 br0-m"
-          autoPlay
-          muted
-          loop
-          playsInline
-        />
       </div>
       <ImageQuery>
         {({ imageOne }) => [
