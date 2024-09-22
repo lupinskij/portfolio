@@ -18,6 +18,7 @@ const LinkItem = styled.li`
   bottom: -2px;
   color: rgba(0, 0, 0, 0.4);
   cursor: pointer;
+  font-weight: 600;
   margin-left: 4em;
   padding-bottom: 4px;
   position: relative;

@@ -25,8 +25,8 @@ const UnderArmour = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [003] <span className="black">Under Armour</span>
+      <h6 className="f5 fw5 monospace p-break">
+        003 &nbsp; &nbsp; &nbsp; Under Armour
       </h6>
       <p>
         In 2017, I had the pleasure of working with Under Armor’s team to
@@ -42,7 +42,7 @@ const UnderArmour = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
+          <p className="f7 fw6 monospace p-break ttu">Role</p>
           <ul className="f5 fw3 fw4-ns lh-double">
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -54,9 +54,7 @@ const UnderArmour = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">
-            Collaborators
-          </p>
+          <p className="f7 fw6 monospace p-break ttu">Collaborators</p>
           <ul className="f5 fw3 fw4-ns lh-double">
             <li>Amy Rubino</li>
             <li>Matt Rossi</li>

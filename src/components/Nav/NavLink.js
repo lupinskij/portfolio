@@ -11,6 +11,7 @@ const Line = styled(({ lineWidth, ...props }) => <animated.span {...props} />)`
   background: rgba(0, 0, 0, 0.4);
   bottom: -3px;
   display: block;
+  font-weight: 600;
   height: 2px;
   position: absolute;
   transform-origin: ${({ lineWidth }) => (lineWidth > 0 ? 'right' : 'left')};

@@ -49,8 +49,8 @@ const SevenEleven = () => (
       <Lottie options={heroOptions} />
     </div>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [002] <span className="black">7-Eleven</span>
+      <h6 className="f5 fw5 monospace p-break">
+        002 &nbsp; &nbsp; &nbsp; 7-Eleven
       </h6>
       <p>
         As the world’s first convenience store, 7-Eleven is the leader in
@@ -67,8 +67,8 @@ const SevenEleven = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw6 monospace p-break ttu">Role</p>
+          <ul className="f5 lh-double">
             <li>Product Design</li>
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -79,10 +79,8 @@ const SevenEleven = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">
-            Collaborators
-          </p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw6 monospace p-break ttu">Collaborators</p>
+          <ul className="f5 lh-double">
             <li>Steven Hanley</li>
             <li>Lee Simpson</li>
             <li>Ivan Alonso</li>

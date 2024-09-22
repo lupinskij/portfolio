@@ -9,6 +9,7 @@ export function SplitText({ children, ...rest }) {
         key={children + i}
         style={{
           display: 'inline-block',
+          marginTop: '-2rem',
           overflow: 'hidden',
           perspective: 1000,
         }}

@@ -1,33 +1,35 @@
 @font-face {
   font-display: auto;
-  font-family: 'S';
+  font-family: 'NM';
   src:
-    url('~styles/fonts/S.woff2') format('woff2'),
-    url('~styles/fonts/S.woff') format('woff');
-}
-
-@font-face {
-  font-display: auto;
-  font-family: 'F';
-  src:
-    url('~styles/fonts/F.woff2') format('woff2'),
-    url('~styles/fonts/F.woff') format('woff');
+    url('~styles/fonts/NM-400.woff2') format('woff2'),
+    url('~styles/fonts/NM-400.woff') format('woff');
   font-weight: 400;
 }
 
 @font-face {
   font-display: auto;
-  font-family: 'F';
+  font-family: 'NM';
   src:
-    url('~styles/fonts/F-300.woff2') format('woff2'),
-    url('~styles/fonts/F-300.woff') format('woff');
-  font-weight: 300;
+    url('~styles/fonts/NM-500.woff2') format('woff2'),
+    url('~styles/fonts/NM-500.woff') format('woff');
+  font-weight: 500;
 }
 
 @font-face {
   font-display: auto;
-  font-family: 'AB';
+  font-family: 'NM';
   src:
-    url('~styles/fonts/AB.woff2') format('woff2'),
-    url('~styles/fonts/AB.woff') format('woff');
+    url('~styles/fonts/NM-600.woff2') format('woff2'),
+    url('~styles/fonts/NM-600.woff') format('woff');
+  font-weight: 600;
+}
+
+@font-face {
+  font-display: auto;
+  font-family: 'NM';
+  src:
+    url('~styles/fonts/NM-700.woff2') format('woff2'),
+    url('~styles/fonts/NM-700.woff') format('woff');
+  font-weight: 700;
 }

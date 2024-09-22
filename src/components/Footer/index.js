@@ -30,19 +30,21 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <footer id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m center">
-      <h3 className="mt6 f7 monospace p-break ttu white-70 m0 pa2">
+      <h3 className="mt6 fw6 f7 monospace p-break ttu white-70 m0 pa2">
         [000] Introduction
       </h3>
-      <p className="white txt fw3 ws-normal normal mb0 mb4-ns pa2">
+      <p className="white txt ws-normal normal mb0 mb4-ns pa2 fw5">
         I am a digital designer living in Colorado. I lead, design, and help
         craft strategic solutions for digital products and experiences.
       </p>
     </div>
 
-    <section className="footer-intro mw9 center ph3-ns f5 f4-ns lh-copy lh-title-ns">
+    <section className="footer-intro mw9 center ph3-ns f5 f4-ns lh-copy">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 monospace lh-double ttu white-70">Information</h3>
+          <h3 className="f7 fw6 monospace lh-double ttu white-70">
+            Information
+          </h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white ma0">
@@ -83,10 +85,10 @@ const Footer = props => (
       </div>
     </section>
 
-    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 f4-ns lh-copy lh-title-ns">
+    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 f4-ns lh-copy">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 monospace lh-double ttu white-70">Profile</h3>
+          <h3 className="f7 fw6 monospace lh-double ttu white-70">Profile</h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white mb1 ma0-ns">

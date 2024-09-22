@@ -29,10 +29,7 @@ const IndexPage = () => (
         `Strategy`,
       ]}
     />
-    <Hero
-      title="I design interfaces."
-      paragraph="I am a digital designer specializing in combining aesthetics and functionality to create impactful user experiences."
-    />
+    <Hero title="Jeff Lupinski" />
     <NavController>
       <ScrollSection>
         <AMC />
