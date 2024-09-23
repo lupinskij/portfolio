@@ -25,7 +25,7 @@ const Peddle = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f5 fw5 monospace p-break">
+      <h6 className="f5 fw5 tracked p-break">
         004 &nbsp; &nbsp; &nbsp; Peddle
       </h6>
       <p>
@@ -38,8 +38,8 @@ const Peddle = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 fw6 monospace p-break ttu">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Role</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Product Design</li>
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -50,8 +50,8 @@ const Peddle = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 fw6 monospace p-break ttu">Collaborators</p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Collaborators</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Steven Hanley</li>
             <li>Ivan Alonso</li>
             <li>Celine Thibault</li>

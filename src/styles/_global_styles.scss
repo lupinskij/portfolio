@@ -26,15 +26,23 @@
   line-height: 0.8;
 }
 
+.tracked {
+  letter-spacing: 0.02em;
+}
+
+.tracked-tighten {
+  letter-spacing: -0.03em;
+}
+
 .pr-header {
   z-index: 9999;
 
   @media (min-width: 40em) {
-    animation-delay: 1800ms;
-    animation-duration: 500ms;
+    animation-delay: 1500ms;
+    animation-duration: 1500ms;
     animation-fill-mode: forwards;
     animation-name: headerIn;
-    animation-timing-function: linear;
+    animation-timing-function: cubic-bezier(0.5, 0, 0, 1);
     display: grid;
     grid-column-gap: 16px;
     grid-row-gap: 0;
@@ -96,7 +104,7 @@
   }
 
   to {
-    min-height: 88vh;
+    min-height: 90vh;
   }
 }
 
@@ -165,11 +173,11 @@
   &::before {
     content: '';
     display: block;
-    height: 2px;
+    height: 1px;
     left: 0;
     position: absolute;
-    bottom: 50%;
-    transform: translateY(60%);
+    bottom: 0;
+    transform: translateY(100%);
     transition: width 0s ease, background 400ms ease;
     width: 0;
   }
@@ -178,11 +186,11 @@
     background: $black;
     content: '';
     display: block;
-    height: 2px;
+    height: 1px;
     position: absolute;
     right: 0;
-    bottom: 50%;
-    transform: translateY(60%);
+    bottom: 0;
+    transform: translateY(100%);
     transition: width 400ms ease;
     width: 0;
   }
@@ -259,13 +267,13 @@
 }
 
 .wrap-pres {
-  font: 300 normal 2.3vw/3.5vw $sans-serif;
+  font: 400 normal 2.3vw/3.5vw $sans-serif;
   margin: 0 auto;
   padding: 12vw 0 3vw;
   width: 50vw;
 
   @media (max-width: 767px) {
-    font: 300 normal 20px/32px $sans-serif;
+    font: 400 normal 20px/32px $sans-serif;
     padding: 50px 7vw 0;
     width: 100%;
   }

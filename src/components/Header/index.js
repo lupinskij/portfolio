@@ -13,18 +13,18 @@ function refreshTime() {
 setInterval(refreshTime, 1000)
 
 const Header = props => (
-  <header className="pr-header f7 absolute top-0 left-0 right-0 pt4 ph4 ph5-l fw6">
-    <div className="db f5 lh-8 grid1 fw7">
+  <header className="pr-header f7 absolute top-0 left-0 right-0 pt4 ph4 ph5-l fw5">
+    <div className="db f5 lh-8 grid1 fw6">
       Interactive Designer
       <br />
       UI & UX
     </div>
     <div className="db grid2">
-      <a href="#about" className="black trans-link" data-color="dark">
+      <a href="#about" className="black trans-link tracked" data-color="dark">
         Information
       </a>
     </div>
-    <ul className="dn db-ns grid3">
+    <ul className="dn db-ns grid3 lh-copy tracked">
       <li>
         <a
           href="mailto:hello@jefflupinski.com"
@@ -57,7 +57,7 @@ const Header = props => (
         </a>
       </li>
     </ul>
-    <div className="grid4 w-50 grid4 cf inline-flex relative">
+    <div className="grid4 w-50 grid4 cf inline-flex relative tracked">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"

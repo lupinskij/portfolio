@@ -25,7 +25,7 @@ const AMC = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f5 fw5 monospace p-break">
+      <h6 className="f5 fw5 tracked p-break">
         001 &nbsp; &nbsp; &nbsp; AMC Premiere
       </h6>
       <p>
@@ -36,14 +36,14 @@ const AMC = () => (
         network’s very first direct-to-consumer content platform.
       </p>
       <p>
-        We produced, evolved, and implemented system-wide designs for AppleTV,
-        FireTV, Roku, and XBOX. In addition, we designed for iOS on both mobile
-        and tablet.
+        We produced, evolved, and implemented system wide designs for AppleTV,
+        FireTV, Roku, and XBOX. We also designed for iOS on both mobile and
+        tablet.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 fw6 monospace p-break ttu">Role</p>
-          <ul className="f5 lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Role</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Visual Design</li>
             <li>Product Design</li>
             <li>Prototyping</li>
@@ -52,8 +52,8 @@ const AMC = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 fw6 monospace p-break ttu">Collaborators</p>
-          <ul className="f5 lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Collaborators</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Sam Thibault</li>
             <li>Adam Deutsch</li>
           </ul>

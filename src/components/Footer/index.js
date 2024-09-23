@@ -30,7 +30,7 @@ const StyledImage = styled(props => <Image {...props} />)`
 const Footer = props => (
   <footer id="about" className="footer bg-black">
     <div className="footer-intro mw-100 mw8-m center">
-      <h3 className="mt6 fw6 f7 monospace p-break ttu white-70 m0 pa2">
+      <h3 className="f7 fw5 ttu tracked p-break white-70 mt6 pa2">
         [000] Introduction
       </h3>
       <p className="white txt ws-normal normal mb0 mb4-ns pa2 fw5">
@@ -39,12 +39,10 @@ const Footer = props => (
       </p>
     </div>
 
-    <section className="footer-intro mw9 center ph3-ns f5 f4-ns lh-copy">
+    <section className="footer-intro mw9 center ph3-ns f5 lh-copy tracked">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 fw6 monospace lh-double ttu white-70">
-            Information
-          </h3>
+          <h3 className="f7 fw5 ttu lh-double white-70">Information</h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white ma0">
@@ -85,25 +83,25 @@ const Footer = props => (
       </div>
     </section>
 
-    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 f4-ns lh-copy">
+    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 lh-copy tracked">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
-          <h3 className="f7 fw6 monospace lh-double ttu white-70">Profile</h3>
+          <h3 className="f7 fw5 ttu lh-double white-70">Profile</h3>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white mb1 ma0-ns">
-            With over a decade of experience in the industry, product design has
-            been the core of my career for many years. Throughout, I’ve had the
-            opportunity to work at agencies, in-house, and independently. I
-            enjoy working with teams to create solutions for problems of all
-            sizes.
+            With over a decade of experience, product design has been the core
+            of my career. Specializing in combining aesthetics and functionality
+            to create impactful, user-centered experiences from concept to final
+            execution. I enjoy working with teams to create solutions for
+            problems of all sizes.
           </p>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white mb1 ma0-ns">
-            My focus includes User Interface and Experience Design, Visual
-            Design, Interaction Design, Product Design, Design Systems, Web and
-            App Design, and Front-end Development.
+            Focused on Interaction Design, User Interface and Experience Design,
+            Visual Design, Product Design, Design Systems, and Front-end
+            Development.
           </p>
         </div>
         <div className="fl w-100 w-25-ns pa2">
@@ -173,9 +171,9 @@ const Footer = props => (
       </h2>
     </div>
     <footer>
-      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white monospace f7 lh-double ttu tracked">
+      <nav className="bt b--white-30 pv5 mh4 mh5-l flex-ns justify-between items-center white f7 fw5 tracked lh-double">
         <div className="self-start mb3 mb0-ns">
-          <div>Jeff Lupinski [C/{new Date().getFullYear()}]</div>
+          <div>All Rights Reserved &copy; {new Date().getFullYear()}</div>
         </div>
         <ul>
           <li className="mb3 mb0-ns">
@@ -188,18 +186,6 @@ const Footer = props => (
             >
               LinkedIn
             </a>
-            <i className="inline-flex relative i-arrow">
-              <svg
-                viewBox="0 0 7 5"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
-                  fill="#ffffff"
-                ></path>
-              </svg>
-            </i>
           </li>
           <li className="mb3 mb0-ns">
             <a
@@ -211,18 +197,6 @@ const Footer = props => (
             >
               Dribbble
             </a>
-            <i className="inline-flex relative i-arrow">
-              <svg
-                viewBox="0 0 7 5"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
-                  fill="#ffffff"
-                ></path>
-              </svg>
-            </i>
           </li>
         </ul>
         <ul>
@@ -232,20 +206,8 @@ const Footer = props => (
               className="white trans-link"
               data-color="light"
             >
-              E-Mail
+              E-mail
             </a>
-            <i className="inline-flex relative i-arrow">
-              <svg
-                viewBox="0 0 7 5"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
-                  fill="#ffffff"
-                ></path>
-              </svg>
-            </i>
           </li>
           <li className="mb3 mb0-ns">
             <a
@@ -257,18 +219,6 @@ const Footer = props => (
             >
               GitHub
             </a>
-            <i className="inline-flex relative i-arrow">
-              <svg
-                viewBox="0 0 7 5"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.49194 3.516H5.67594L5.67594 2.052L5.74794 1.272L5.71194 1.26L4.94394 2.124L0.911938 6.156L0.335937 5.58L4.36794 1.548L5.23194 0.78L5.21994 0.743999L4.43994 0.816L2.97594 0.816V0L6.49194 0L6.49194 3.516Z"
-                  fill="#ffffff"
-                ></path>
-              </svg>
-            </i>
           </li>
         </ul>
         <div className="self-start tr-ns">
