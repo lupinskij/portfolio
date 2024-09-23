@@ -8,14 +8,14 @@ import { AnimatePresence, motion } from 'framer-motion'
 const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
-    padding-left: 14.2vw;
+    padding-left: 15.2vw;
   }
 `
 
 function Hero({ title }) {
   return (
     <div className="relative">
-      <StyledHero className="Hero pt3 relative flex flex-column flex-row-l justify-end justify-middle-l items-center-l">
+      <StyledHero className="Hero ph4 pt4 relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
         <div className="hero-title mw-100 mw8-m w-two-thirds-l">
           <AnimatePresence>
             <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
@@ -43,12 +43,12 @@ function Hero({ title }) {
       </StyledHero>
       <div className="pr-header f7 absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between fw6">
         <div className="db f2 lh-8 grid1 fw6 tracked-tighten">(‘17–2021)</div>
-        <div className="db f2 lh-8 grid2 fw6 tracked-tighten">
+        <div className="dn db-ns f2 lh-8 grid2 fw6 tracked-tighten">
           Selected
           <br />
           Works
         </div>
-        <div className="db f6 fw5 tracked lh-solid grid4 mv0 w-50">
+        <div className="dn db-ns f6 fw5 tracked lh-solid grid4 mv0 w-50">
           Combining aesthetics and functionality
         </div>
       </div>

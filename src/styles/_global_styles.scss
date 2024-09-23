@@ -118,14 +118,15 @@
 
 .txt {
   font-weight: 700;
-  letter-spacing: -0.09rem;
 
   .hero-title & {
-    font-size: 16vw;
-    line-height: 1;
+    font-size: 20vw;
+    line-height: 1.2;
 
     @media (min-width: 35.5em) {
       font-size: 18vw;
+      letter-spacing: -0.09rem;
+      line-height: 0.95;
     }
 
     @media (min-width: 40.063em) {
