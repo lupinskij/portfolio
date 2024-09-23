@@ -34,8 +34,9 @@ const Footer = props => (
         [000] Introduction
       </h3>
       <p className="white txt ws-normal normal mb0 mb4-ns pa2 fw5">
-        I am a digital designer living in Colorado. I lead, design, and help
-        craft strategic solutions for digital products and experiences.
+        I am a designer with over a decade of experience creating interfaces in
+        Colorado. I lead, design, and help craft strategic solutions for digital
+        products and experiences.
       </p>
     </div>
 
@@ -93,7 +94,7 @@ const Footer = props => (
             With over a decade of experience, product design has been the core
             of my career. Specializing in combining aesthetics and functionality
             to create impactful, user-centered experiences from concept to final
-            execution. I enjoy working with teams to create solutions for
+            execution. I enjoy working collaboratively to create solutions for
             problems of all sizes.
           </p>
         </div>
