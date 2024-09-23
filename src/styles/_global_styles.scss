@@ -30,8 +30,8 @@
   z-index: 9999;
 
   @media (min-width: 40em) {
-    animation-delay: 1700ms;
-    animation-duration: 800ms;
+    animation-delay: 1800ms;
+    animation-duration: 500ms;
     animation-fill-mode: forwards;
     animation-name: headerIn;
     animation-timing-function: linear;
@@ -96,7 +96,7 @@
   }
 
   to {
-    min-height: 90vh;
+    min-height: 88vh;
   }
 }
 
@@ -294,13 +294,6 @@
 .banner-wrap {
   font-size: 0;
   overflow: hidden;
-}
-
-.banner-wrap {
-  @media (min-width: 60em) {
-    border-bottom-left-radius: 0.25rem;
-    border-top-left-radius: 0.25rem;
-  }
 }
 
 .progress {

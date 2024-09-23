@@ -64,7 +64,7 @@ const Peddle = () => (
       <div className="pr-video-wrap overflow-hidden relative">
         <video
           src="/peddle-desktop.mp4"
-          className="pr-video br2 br0-m"
+          className="pr-video"
           autoPlay
           muted
           loop
@@ -74,7 +74,7 @@ const Peddle = () => (
       <div className="pr-asset pr-video-wrap overflow-hidden relative">
         <video
           src="/peddle-screens.mp4"
-          className="pr-video br2 br0-m"
+          className="pr-video"
           autoPlay
           muted
           loop
@@ -87,28 +87,28 @@ const Peddle = () => (
             key="Peddle Mobile"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Peddle mobile screens"
           />,
           <StyledImage
             key="Peddle Device"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Peddle mobile pickup screen"
           />,
           <StyledImage
             key="Peddle Library"
             image={imageSix.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Peddle design library"
           />,
           <StyledImage
             key="Peddle System"
             image={imageSeven.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Peddle design system"
           />,
         ]}

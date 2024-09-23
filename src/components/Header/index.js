@@ -57,7 +57,7 @@ const Header = props => (
         </a>
       </li>
     </ul>
-    <div className="grid4 cf inline-flex relative">
+    <div className="grid4 w-50 grid4 cf inline-flex relative">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="20"

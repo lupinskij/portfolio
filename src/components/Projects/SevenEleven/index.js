@@ -97,16 +97,16 @@ const SevenEleven = () => (
             key="SevenEleven Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile application screens"
           />,
         ]}
       </ImageQuery>
       <div className="flex pr-asset">
-        <div className="img-wrap br2 br0-m flex-auto mr3-ns mr4-l w-50-ns">
+        <div className="img-wrap flex-auto mr3-ns mr4-l w-50-ns">
           <Lottie options={launcherOptions} />
         </div>
-        <div className="img-wrap br2 br0-m flex-auto ml3-ns ml4-l w-50-ns">
+        <div className="img-wrap flex-auto ml3-ns ml4-l w-50-ns">
           <ImageQuery>
             {({ imageSeven }) => [
               <Image
@@ -122,7 +122,7 @@ const SevenEleven = () => (
       <div className="pr-asset pr-video-wrap overflow-hidden relative">
         <video
           src="/seven-eleven.mp4"
-          className="pr-video br2 br0-m"
+          className="pr-video"
           autoPlay
           muted
           loop
@@ -136,7 +136,7 @@ const SevenEleven = () => (
               key="SevenEleven TV"
               image={imageThree.childImageSharp}
               type="fluid"
-              className="img-wrap br2 br0-m"
+              className="img-wrap"
               alt="7-Eleven mobile application screens"
             />,
           ]}
@@ -151,7 +151,7 @@ const SevenEleven = () => (
             key="SevenEleven Mock"
             image={imageOne.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile design system"
           />,
         ]}
@@ -162,7 +162,7 @@ const SevenEleven = () => (
             key="SevenEleven Mock"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile design system"
           />,
         ]}
