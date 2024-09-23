@@ -20,7 +20,12 @@ const Header = props => (
       UI & UX
     </div>
     <div className="db grid2">
-      <a href="#about" className="black trans-link tracked" data-color="dark">
+      <a
+        href="#about"
+        className="black trans-link tracked"
+        data-color="dark"
+        rel="noopener noreferrer"
+      >
         Information
       </a>
     </div>
