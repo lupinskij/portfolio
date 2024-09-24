@@ -8,68 +8,56 @@ import { AnimatePresence, motion } from 'framer-motion'
 const StyledHero = styled.div`
   // ns
   @media screen and (min-width: 30em) {
-    padding-top: 18vw;
-    padding-bottom: 6vw;
+    padding-left: 15.2vw;
   }
 `
 
-function Hero({ title, paragraph }) {
+function Hero({ title }) {
   return (
-    <StyledHero className="Hero ph4 ph5-l pv4 pv5-ns relative flex flex-column flex-row-l justify-end justify-between-l items-end-l">
-      <div className="hero-title mw-100 mw8-m w-two-thirds-l">
-        <AnimatePresence>
-          <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
-            <SplitText
-              initial={{ y: '100%', rotateY: -45, opacity: 1 }}
-              animate="visible"
-              variants={{
-                visible: i => ({
-                  y: 0,
-                  rotateY: 0,
-                  opacity: 1,
-                  transition: {
-                    ease: [0.16, 1, 0.3, 1],
-                    duration: 2,
-                    delay: 1,
-                  },
-                }),
-              }}
-            >
-              {title}
-            </SplitText>
-          </motion.div>
-        </AnimatePresence>
+    <div className="relative">
+      <StyledHero className="Hero ph4 pt6 pt4-l relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
+        <div className="hero-title mw-100 mw8-m w-two-thirds-l">
+          <AnimatePresence>
+            <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
+              <SplitText
+                initial={{ y: '100%', rotateY: -45, opacity: 1 }}
+                animate="visible"
+                variants={{
+                  visible: i => ({
+                    y: 0,
+                    rotateY: 0,
+                    opacity: 1,
+                    transition: {
+                      ease: [0.16, 1, 0.3, 1],
+                      duration: 2,
+                      delay: 1,
+                    },
+                  }),
+                }}
+              >
+                {title}
+              </SplitText>
+            </motion.div>
+          </AnimatePresence>
+        </div>
+      </StyledHero>
+      <div className="pr-header f7 absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between fw6">
+        <div className="db f2 lh-8 grid1 fw6 tracked-tighten">(‘17–2021)</div>
+        <div className="dn db-ns f2 lh-8 grid2 fw6 tracked-tighten">
+          Selected
+          <br />
+          Works
+        </div>
+        <div className="dn db-ns f6 fw5 tracked lh-solid grid4 mv0 w-50">
+          Combining aesthetics and functionality
+        </div>
       </div>
-
-      <div className="hero-intro pt3 pb4 pr4 mw-100 mw6-m w-30-l">
-        <AnimatePresence>
-          <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
-            <SplitText
-              initial={{ y: '100%' }}
-              animate="visible"
-              variants={{
-                visible: i => ({
-                  y: 0,
-                  transition: {
-                    ease: [0.25, 0.46, 0.45, 0.94],
-                    duration: 0.5,
-                    delay: 1.5,
-                  },
-                }),
-              }}
-            >
-              {paragraph}
-            </SplitText>
-          </motion.div>
-        </AnimatePresence>
-      </div>
-    </StyledHero>
+    </div>
   )
 }
 
 Hero.propTypes = {
   title: PropTypes.string,
-  paragraph: PropTypes.string,
 }
 
 export default Hero

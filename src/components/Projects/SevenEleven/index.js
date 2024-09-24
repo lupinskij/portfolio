@@ -49,8 +49,8 @@ const SevenEleven = () => (
       <Lottie options={heroOptions} />
     </div>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [002] <span className="black">7-Eleven</span>
+      <h6 className="f5 fw5 tracked p-break">
+        002 &nbsp; &nbsp; &nbsp; 7-Eleven
       </h6>
       <p>
         As the world’s first convenience store, 7-Eleven is the leader in
@@ -67,8 +67,8 @@ const SevenEleven = () => (
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Role</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Product Design</li>
             <li>Visual Design</li>
             <li>UI / UX Design</li>
@@ -79,10 +79,8 @@ const SevenEleven = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 fw4 monospace p-break ttu tracked black-40">
-            Collaborators
-          </p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Collaborators</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Steven Hanley</li>
             <li>Lee Simpson</li>
             <li>Ivan Alonso</li>
@@ -99,16 +97,16 @@ const SevenEleven = () => (
             key="SevenEleven Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile application screens"
           />,
         ]}
       </ImageQuery>
       <div className="flex pr-asset">
-        <div className="img-wrap br2 br0-m flex-auto mr3-ns mr4-l w-50-ns">
+        <div className="img-wrap flex-auto mr3-ns mr4-l w-50-ns">
           <Lottie options={launcherOptions} />
         </div>
-        <div className="img-wrap br2 br0-m flex-auto ml3-ns ml4-l w-50-ns">
+        <div className="img-wrap flex-auto ml3-ns ml4-l w-50-ns">
           <ImageQuery>
             {({ imageSeven }) => [
               <Image
@@ -124,7 +122,7 @@ const SevenEleven = () => (
       <div className="pr-asset pr-video-wrap overflow-hidden relative">
         <video
           src="/seven-eleven.mp4"
-          className="pr-video br2 br0-m"
+          className="pr-video"
           autoPlay
           muted
           loop
@@ -138,7 +136,7 @@ const SevenEleven = () => (
               key="SevenEleven TV"
               image={imageThree.childImageSharp}
               type="fluid"
-              className="img-wrap br2 br0-m"
+              className="img-wrap"
               alt="7-Eleven mobile application screens"
             />,
           ]}
@@ -153,7 +151,7 @@ const SevenEleven = () => (
             key="SevenEleven Mock"
             image={imageOne.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile design system"
           />,
         ]}
@@ -164,7 +162,7 @@ const SevenEleven = () => (
             key="SevenEleven Mock"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="7-Eleven mobile design system"
           />,
         ]}

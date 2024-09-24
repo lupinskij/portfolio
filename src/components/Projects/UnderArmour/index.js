@@ -25,25 +25,25 @@ const UnderArmour = () => (
       ]}
     </ImageQuery>
     <div className="wrap-pres">
-      <h6 className="f7 fw4 monospace p-break ttu tracked black-40">
-        [003] <span className="black">Under Armour</span>
+      <h6 className="f5 fw5 tracked p-break">
+        003 &nbsp; &nbsp; &nbsp; Under Armour
       </h6>
       <p>
-        In 2017, I had the pleasure of working with Under Armor’s team to
-        redesign their B2B platform. The 5 billion dollar lifestyle brand wanted
-        to increase its wholesale velocity domestically and abroad. We began the
-        year-long engagement with two months of research and development. The
-        result was a redesign of their B2B portal with an elevated experience
-        and UI supporting internationalization.
+        I had the opportunity to work with Under Armour’s team to revamp their
+        B2B platform. The active lifestyle brand aimed to boost its wholesale
+        sales domestically and internationally. We kicked off the year-long
+        project with two months of research and development. The outcome was a
+        revamped B2B portal with an enhanced user experience and user interface
+        that supported internationalization.
       </p>
       <p>
-        I led the team through completely redesigning their platform while
-        helping implement their performance brand.
+        I led the team in a comprehensive redesign of their platform while also
+        driving the implementation of their performance brand.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">Role</p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Role</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Visual Design</li>
             <li>UI / UX Design</li>
             <li>Research</li>
@@ -54,10 +54,8 @@ const UnderArmour = () => (
           </ul>
         </div>
         <div>
-          <p className="f7 monospace p-break fw4 ttu tracked black-40">
-            Collaborators
-          </p>
-          <ul className="f5 fw3 fw4-ns lh-double">
+          <p className="f7 fw5 p-break ttu tracked">Collaborators</p>
+          <ul className="f6 fw5 lh-double tracked">
             <li>Amy Rubino</li>
             <li>Matt Rossi</li>
           </ul>
@@ -71,28 +69,28 @@ const UnderArmour = () => (
             key="UA Mast"
             image={imageTwo.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Users"
             image={imageThree.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Wires"
             image={imageFive.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
           <StyledImage
             key="UA Web"
             image={imageFour.childImageSharp}
             type="fluid"
-            className="img-wrap br2 br0-m"
+            className="img-wrap"
             alt="Under Armour web screens"
           />,
         ]}
