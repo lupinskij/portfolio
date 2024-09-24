@@ -14,12 +14,12 @@ setInterval(refreshTime, 1000)
 
 const Header = props => (
   <header className="pr-header f7 absolute top-0 left-0 right-0 pt4 ph4 ph5-l fw5">
-    <div className="db f5 lh-8 grid1 fw6">
+    <div className="db f5 lh-8 hero-grid-1 fw6">
       Interactive Designer
       <br />
       UI & UX
     </div>
-    <div className="dn db-ns grid2">
+    <div className="dn db-ns hero-grid-2">
       <a
         href="#about"
         className="black trans-link tracked"
@@ -29,7 +29,7 @@ const Header = props => (
         Information
       </a>
     </div>
-    <ul className="db grid3 lh-copy tracked">
+    <ul className="db hero-grid-3 lh-copy tracked">
       <li>
         <a
           href="mailto:hello@jefflupinski.com"
@@ -62,7 +62,7 @@ const Header = props => (
         </a>
       </li>
     </ul>
-    <div className="dn db-ns grid4 w-50 grid4 cf">
+    <div className="dn db-ns hero-grid-4 w-50 grid4 cf">
       <span className="inline-flex-l relative tracked">
         <svg
           xmlns="http://www.w3.org/2000/svg"

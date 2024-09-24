@@ -42,13 +42,15 @@ function Hero({ title }) {
         </div>
       </StyledHero>
       <div className="pr-header f7 absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between fw6">
-        <div className="db f2 lh-8 grid1 fw6 tracked-tighten">(‘17–2021)</div>
-        <div className="dn db-ns f2 lh-8 grid2 fw6 tracked-tighten">
+        <div className="dn db-ns f3 f2-l lh-8 hero-grid-1 fw6 tracked-tighten">
+          (‘17–2021)
+        </div>
+        <div className="db f3 f2-l lh-8 hero-grid-2 fw6 tracked-tighten">
           Selected
           <br />
           Works
         </div>
-        <div className="dn db-ns f6 fw5 tracked lh-solid grid4 mv0 w-50">
+        <div className="dn db-ns f6 fw5 tracked lh-solid hero-grid-4 mv0 w-50">
           Combining aesthetics and functionality
         </div>
       </div>
