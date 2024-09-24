@@ -1,33 +1,17 @@
-.flex-1 {
-  flex: 1;
-}
-
 .vw-100 {
   width: 100vw;
 }
 
-.order-9 {
-  order: 9;
-}
-
-.order-10 {
-  order: 10;
-}
-
-.dn-ns {
-  display: none;
-
-  @media screen and (min-width: 30em) {
-    display: block;
-  }
-}
-
-.lh-6 {
-  line-height: 1.6;
-}
-
-.lh-8 {
+.lh-tighter {
   line-height: 0.8;
+}
+
+.lh-tight {
+  line-height: 0.9;
+}
+
+.lh-extend {
+  line-height: 1.6;
 }
 
 .lh-double {
@@ -123,10 +107,10 @@
 .globe {
   margin-right: 8px;
   position: relative;
-  top: -0.22rem;
+  top: -0.02rem;
 }
 
-.Hero {
+.hero {
   min-height: 80vh;
 
   @media (min-width: 40em) {
@@ -145,7 +129,7 @@
   }
 
   to {
-    min-height: 90vh;
+    min-height: 88vh;
   }
 }
 
@@ -233,18 +217,34 @@
     width: 0;
   }
 
-  &[data-color="light"]::after {
-    background: $white;
+  &[data-color="dark"] {
+    color: $black;
+
+    &::after {
+      background: $black;
+    }
+
+    &:hover::before {
+      background: $black;
+    }
+  }
+
+  &[data-color="light"] {
+    color: $white;
+
+    &::after {
+      background: $white;
+    }
+
+    &:hover::before {
+      background: $white;
+    }
   }
 
   &:hover::before {
     background: $black;
     transition: width 400ms ease;
     width: 100%;
-  }
-
-  &[data-color="light"]:hover::before {
-    background: $white;
   }
 
   &:hover {
@@ -256,33 +256,6 @@
     transition: all 0 ease;
     width: 100%;
   }
-}
-
-.in-link::before {
-  bottom: 0;
-  left: 0;
-  transform: translateY(0);
-}
-
-.in-link::after {
-  background: $near-white;
-  bottom: 0;
-  right: 0;
-  transform: translateY(0);
-}
-
-.in-link:hover::before {
-  background: $near-white;
-  width: 100%;
-}
-
-.in-link:hover::after {
-  width: 100%;
-}
-
-.dim-link:hover {
-  color: $near-white;
-  transition: color 500ms;
 }
 
 .block {

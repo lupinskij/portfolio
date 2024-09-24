@@ -13,27 +13,27 @@ function refreshTime() {
 setInterval(refreshTime, 1000)
 
 const Header = props => (
-  <header className="pr-header f7 absolute top-0 left-0 right-0 pt4 ph4 ph5-l fw5">
-    <div className="db f5 lh-8 hero-grid-1 fw6">
+  <header className="pr-header f7 lh-extend absolute top-0 left-0 right-0 pt4 ph4 ph5-l fw5">
+    <div className="db hero-grid-1 pt1 f5 fw6 lh-tight">
       Interactive Designer
       <br />
       UI & UX
     </div>
-    <div className="dn db-ns hero-grid-2">
+    <div className="dn db-ns hero-grid-2 tracked">
       <a
         href="#about"
-        className="black trans-link tracked"
+        className="trans-link"
         data-color="dark"
         rel="noopener noreferrer"
       >
         Information
       </a>
     </div>
-    <ul className="db hero-grid-3 lh-copy tracked">
+    <ul className="db hero-grid-3 tracked">
       <li>
         <a
           href="mailto:hello@jefflupinski.com"
-          className="black trans-link"
+          className="trans-link"
           data-color="dark"
         >
           Contact
@@ -42,7 +42,7 @@ const Header = props => (
       <li>
         <a
           href="https://www.linkedin.com/in/jefflupinski"
-          className="black trans-link"
+          className="trans-link"
           target="_blank"
           data-color="dark"
           rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Header = props => (
       <li>
         <a
           href="https://dribbble.com/jefflupinski"
-          className="black trans-link"
+          className="trans-link"
           target="_blank"
           data-color="dark"
           rel="noopener noreferrer"
@@ -62,8 +62,8 @@ const Header = props => (
         </a>
       </li>
     </ul>
-    <div className="dn db-ns hero-grid-4 w-50 grid4 cf">
-      <span className="inline-flex-l relative tracked">
+    <div className="dn db-ns hero-grid-4 w-50 cf">
+      <span className="inline-flex-l relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
@@ -78,7 +78,7 @@ const Header = props => (
             clip-rule="evenodd"
           ></path>
         </svg>
-        <span id="time"></span>
+        <span id="time" className="tracked"></span>
       </span>
     </div>
   </header>

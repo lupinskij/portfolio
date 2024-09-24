@@ -15,7 +15,7 @@ const StyledHero = styled.div`
 function Hero({ title }) {
   return (
     <div className="relative">
-      <StyledHero className="Hero ph4 pt6 pt4-l relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
+      <StyledHero className="hero ph4 pt6 pt4-l relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
         <div className="hero-title mw-100 mw8-m w-two-thirds-l">
           <AnimatePresence>
             <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
@@ -41,16 +41,16 @@ function Hero({ title }) {
           </AnimatePresence>
         </div>
       </StyledHero>
-      <div className="pr-header f7 absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between fw6">
-        <div className="dn db-ns f3 f2-l lh-8 hero-grid-1 fw6 tracked-tighten">
+      <div className="pr-header absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between f7 fw6">
+        <div className="dn db-ns hero-grid-1 f3 f2-l fw6 lh-tighter tracked-tighten">
           (‘17–2021)
         </div>
-        <div className="db f3 f2-l lh-8 hero-grid-2 fw6 tracked-tighten">
+        <div className="db hero-grid-2 f3 f2-l fw6 lh-tighter tracked-tighten">
           Selected
           <br />
           Works
         </div>
-        <div className="dn db-ns f6 fw5 tracked lh-solid hero-grid-4 mv0 w-50">
+        <div className="dn db-ns hero-grid-4 mv0 w-50 f6 fw5 tracked lh-solid">
           Combining aesthetics and functionality
         </div>
       </div>

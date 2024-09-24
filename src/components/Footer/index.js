@@ -40,7 +40,7 @@ const Footer = props => (
       </p>
     </div>
 
-    <section className="footer-intro mw9 center ph3-ns f5 lh-6 tracked">
+    <section className="footer-intro mw9 center ph3-ns f5 lh-extend tracked">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
           <h3 className="f7 fw5 ttu lh-double white-70">Information</h3>
@@ -84,7 +84,7 @@ const Footer = props => (
       </div>
     </section>
 
-    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 lh-6 tracked">
+    <section className="footer-intro mw9 mb6-ns center ph3-ns f5 lh-extend tracked">
       <div className="cf ph2-ns">
         <div className="fl w-100 w-25-ns pa2">
           <h3 className="f7 fw5 ttu lh-double white-70">Profile</h3>

@@ -3,6 +3,12 @@
 @import '~tachyons-sass/tachyons.scss';
 @import './global_styles';
 
+html,
+body {
+  cursor: default;
+  cursor: url('images/cursor.svg') 0 0, pointer;
+}
+
 html {
   background-color: $black;
   box-sizing: border-box;
