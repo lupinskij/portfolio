@@ -22,8 +22,16 @@
   }
 }
 
+.lh-6 {
+  line-height: 1.6;
+}
+
 .lh-8 {
   line-height: 0.8;
+}
+
+.lh-double {
+  line-height: $line-height-double;
 }
 
 .tracked {
@@ -151,10 +159,6 @@
       font-size: 6vw;
     }
   }
-}
-
-.lh-double {
-  line-height: $line-height-double;
 }
 
 .pre-graph::before {
