@@ -190,6 +190,19 @@ const Footer = props => (
           </li>
           <li className="mb3 mb0-ns">
             <a
+              href="https://read.cv/jefflupinski"
+              className="white trans-link"
+              target="_blank"
+              data-color="light"
+              rel="noopener noreferrer"
+            >
+              Read.cv
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li className="mb3 mb0-ns">
+            <a
               href="https://dribbble.com/jefflupinski"
               className="white trans-link"
               target="_blank"
@@ -197,17 +210,6 @@ const Footer = props => (
               rel="noopener noreferrer"
             >
               Dribbble
-            </a>
-          </li>
-        </ul>
-        <ul>
-          <li className="mb3 mb0-ns">
-            <a
-              href="mailto:hello@jefflupinski.com?subject=Saying%20hey%20%F0%9F%91%8B%20"
-              className="white trans-link"
-              data-color="light"
-            >
-              E-mail
             </a>
           </li>
           <li className="mb3 mb0-ns">
