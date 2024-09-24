@@ -15,7 +15,7 @@ const StyledHero = styled.div`
 function Hero({ title }) {
   return (
     <div className="relative">
-      <StyledHero className="Hero ph4 pt4 relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
+      <StyledHero className="Hero ph4 pt6 pt4-l relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
         <div className="hero-title mw-100 mw8-m w-two-thirds-l">
           <AnimatePresence>
             <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>

@@ -29,7 +29,7 @@ const Header = props => (
         Information
       </a>
     </div>
-    <ul className="dn db-ns grid3 lh-copy tracked">
+    <ul className="db grid3 lh-copy tracked">
       <li>
         <a
           href="mailto:hello@jefflupinski.com"

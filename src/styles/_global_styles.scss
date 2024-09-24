@@ -43,6 +43,11 @@
 }
 
 .pr-header {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 0;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1fr;
   z-index: 9999;
 
   @media (min-width: 40em) {
@@ -51,11 +56,6 @@
     animation-fill-mode: forwards;
     animation-name: headerIn;
     animation-timing-function: cubic-bezier(0.5, 0, 0, 1);
-    display: grid;
-    grid-column-gap: 16px;
-    grid-row-gap: 0;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
     opacity: 0;
   }
 }
@@ -72,6 +72,10 @@
 
 .grid1 {
   grid-area: 1 / 1 / 2 / 6;
+
+  @media (max-width: 767px) {
+    grid-area: 1 / 1 / 6 / 8;
+  }
 }
 
 .grid2 {
@@ -80,6 +84,10 @@
 
 .grid3 {
   grid-area: 1 / 9 / 2 / 12;
+
+  @media (max-width: 767px) {
+    grid-area: 1 / 10 / 2 / 12;
+  }
 }
 
 .grid4 {
