@@ -7,16 +7,20 @@ import { AnimatePresence, motion } from 'framer-motion'
 
 const StyledHero = styled.div`
   // ns
-  @media screen and (min-width: 30em) {
-    padding-left: 15.2vw;
+  @media screen and (min-width: 40em) {
+    padding-left: 16.2vw;
+  }
+
+  @media screen and (min-width: 64em) {
+    padding-left: 14.8vw;
   }
 `
 
 function Hero({ title }) {
   return (
     <div className="relative">
-      <StyledHero className="hero ph4 pt6 pt4-l relative flex flex-column flex-row-l justify-center items-center justify-end-l justify-middle-l">
-        <div className="hero-title mw-100 mw8-m w-two-thirds-l">
+      <StyledHero className="hero ph4 pt6 pt4-ns relative flex justify-center items-center justify-end-ns justify-middle-ns">
+        <div className="hero-title">
           <AnimatePresence>
             <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
               <SplitText
@@ -50,8 +54,12 @@ function Hero({ title }) {
           <br />
           Works
         </div>
-        <div className="dn db-ns hero-grid-4 mv0 w-50 f6 fw5 tracked lh-solid">
-          Combining aesthetics and functionality
+        <div className="dn db-ns hero-grid-4 mv0 f6 fw5 tracked lh-solid">
+          Combining
+          <br />
+          aesthetics and
+          <br />
+          functionality
         </div>
       </div>
     </div>

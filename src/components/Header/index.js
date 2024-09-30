@@ -62,8 +62,8 @@ const Header = props => (
         </a>
       </li>
     </ul>
-    <div className="dn db-ns hero-grid-4 w-50 cf">
-      <span className="inline-flex-l relative">
+    <div className="dn db-ns hero-grid-4">
+      <span className="inline-flex relative">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="20"
