@@ -29,16 +29,16 @@ const UnderArmour = () => (
         003 &nbsp; &nbsp; &nbsp; Under Armour
       </h6>
       <p>
-        I had the opportunity to work with Under Armour’s team to revamp their
-        B2B platform. The active lifestyle brand aimed to boost its wholesale
-        sales domestically and internationally. We kicked off the year-long
-        project with two months of research and development. The outcome was a
-        revamped B2B portal with an enhanced user experience and user interface
-        that supported internationalization.
+        Under Armour partnered with us to redesign their B2B platform to meet
+        rising demand for their products domestically and internationally. The
+        active lifestyle brand aimed to enhance product discovery, browsing, and
+        purchasing experiences for customers, local retailers, and wholesale
+        partners across global markets.
       </p>
       <p>
-        I led the team in a comprehensive redesign of their platform while also
-        driving the implementation of their performance brand.
+        Leading the design, we executed a comprehensive redesign of the platform
+        and implemented key elements of the performance brand, ensuring a
+        cohesive digital experience across all markets.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">

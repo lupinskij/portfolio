@@ -50,20 +50,21 @@ const SevenEleven = () => (
     </div>
     <div className="wrap-pres">
       <h6 className="f5 fw5 tracked p-break">
-        002 &nbsp; &nbsp; &nbsp; 7-Eleven
+        002 &nbsp; &nbsp; &nbsp; <span className="nowrap">7-Eleven</span>
       </h6>
       <p>
-        As the world’s first convenience store, 7-Eleven is the leader in
-        customer convenience. In recent years, they developed an ecosystem of
-        products to deliver fast and personalized convenience for their
-        customers. They engaged Raw Materials to create a unified platform. Our
-        goal was to provide a one-stop shop for consumers by designing a
-        simplified product that organized and united the many offerings of
-        7-Eleven.
+        As the world’s first convenience store,{' '}
+        <span className="nowrap">7-Eleven</span> has long been the leader in
+        customer convenience. In recent years, they created an ecosystem of
+        products designed to deliver fast, personalized convenience. They
+        partnered with Raw Materials to design a unified platform that
+        streamlined their diverse services into a one-stop solution for
+        customers.
       </p>
       <p>
-        The new experience came to life with an overhauled look and feel, giving
-        users a highly contextualized experience—anytime, anywhere.
+        The result was a new, cohesive experience with a fresh orderly look and
+        feel, offering users a highly contextualized, seamless
+        experience—anytime, anywhere.
       </p>
       <div className="flex">
         <div className="mr4 mr6-l">
