@@ -14,7 +14,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageTwo: file(relativePath: { eq: "seveneleven-grid.png" }) {
+          imageTwo: file(relativePath: { eq: "seveneleven-screens.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 95) {
                 ...GatsbyImageSharpFluid_withWebp
