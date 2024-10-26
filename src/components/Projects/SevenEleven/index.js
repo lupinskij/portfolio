@@ -122,7 +122,7 @@ const SevenEleven = () => (
       </div>
       <div className="pr-asset pr-video-wrap overflow-hidden relative">
         <video
-          src="/seven-eleven.mp4"
+          src="/seven.mp4"
           className="pr-video"
           autoPlay
           muted
