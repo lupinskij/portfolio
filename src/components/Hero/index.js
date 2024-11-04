@@ -47,7 +47,7 @@ function Hero({ title }) {
       </StyledHero>
       <div className="pr-header absolute bottom-0 left-0 right-0 pb4 ph4 ph5-l flex justify-between f7 fw6">
         <div className="dn db-ns hero-grid-1 f3 f2-l fw6 lh-tighter tracked-tighten">
-          (‘17–2021)
+          (‘16–2021)
         </div>
         <div className="db hero-grid-2 f3 f2-l fw6 lh-tighter tracked-tighten">
           Selected
