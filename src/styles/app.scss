@@ -19,7 +19,7 @@ body {
   animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-name: bodyIn;
-  animation-timing-function: $animation-function-fade;
+  animation-timing-function: $animation-function;
   background-color: $near-white;
   box-sizing: inherit;
   color: $black;

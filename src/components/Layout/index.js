@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import { Loader, Header } from 'components'
+import { Loader } from 'components'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -17,9 +17,8 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div>
-        <Loader />
+        <Loader title="Jeff Lupinski ®" />
         <div className="grain" />
-        <Header />
         <div
           style={{
             margin: `0 auto`,
