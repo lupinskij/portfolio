@@ -7,12 +7,7 @@ import { motion } from 'framer-motion'
 
 const StyledLoader = styled.div`
   height: 100%;
-  left: 0;
-  position: fixed;
   pointer-events: none;
-  top: 0;
-  width: 100%;
-  z-index: 99999;
 `
 
 const curtain = {
@@ -58,7 +53,7 @@ function Loader({ title }) {
   }, [])
 
   return (
-    <StyledLoader>
+    <StyledLoader className="fixed absolute--fill w-100 z-max">
       <motion.div
         style={curtain}
         initial={{ height: '100%' }}

@@ -7,7 +7,12 @@ export function SplitText({ children, ...rest }) {
     return (
       <div
         key={children + i}
-        style={{ display: 'inline-block', overflow: 'hidden' }}
+        style={{
+          display: 'inline-block',
+          overflow: 'hidden',
+          position: 'relative',
+        }}
+        className="txt-wrap"
       >
         <motion.div
           {...rest}

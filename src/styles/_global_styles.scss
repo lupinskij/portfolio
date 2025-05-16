@@ -105,7 +105,7 @@
 .globe {
   margin-right: 8px;
   position: relative;
-  top: -0.02rem;
+  top: 0.06rem;
 }
 
 .footer-intro {
@@ -122,7 +122,7 @@
   line-height: 1.1;
 
   @media screen and (min-width: 30em) {
-    padding-top: 20vh;
+    padding-top: 25vh;
   }
 
   @media (min-width: 48em) {
@@ -134,6 +134,24 @@
 .txt {
   letter-spacing: -0.01em;
   line-height: 1.1;
+}
+
+.subtext {
+  font-size: 4.25vw;
+  font-weight: 400;
+
+  @media (min-width: 48em) {
+    font-size: 1.4vw;
+  }
+
+  .txt-wrap:first-child {
+    font-size: 4.75vw;
+    font-weight: 500;
+
+    @media (min-width: 48em) {
+      font-size: 1.75vw;
+    }
+  }
 }
 
 .site-title {
