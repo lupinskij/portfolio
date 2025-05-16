@@ -33,7 +33,7 @@ const Footer = props => (
       <h3 className="f7 fw5 ttu tracked p-break white-70 mt6 pa2">
         [000] Introduction
       </h3>
-      <p className="white txt ws-normal normal mb0 mb4-ns pa2 fw5">
+      <p className="footer-text white ws-normal normal mb0 mb4-ns pa2 fw5">
         I am a designer with over a decade of experience creating interfaces in
         Colorado. I lead, design, and help craft strategic solutions for digital
         products and experiences.

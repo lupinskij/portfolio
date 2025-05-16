@@ -1,5 +1,6 @@
 import React from 'react'
 import {
+  Header,
   AMC,
   SevenEleven,
   Peddle,
@@ -29,7 +30,8 @@ const IndexPage = () => (
         `Strategy`,
       ]}
     />
-    <Hero title="Jeff Lupinski" />
+    <Header />
+    <Hero title="Independent Designer and Art Director currently living in Denver, Colorado." />
     <NavController>
       <ScrollSection>
         <AMC />
