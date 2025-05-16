@@ -16,7 +16,7 @@ import NavController from 'components/Nav/NavController'
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Jeff Lupinski — Digital Designer"
+      title="Jeff Lupinski &mdash; Digital Designer"
       keywords={[
         `Jeff Lupinski`,
         `Designer`,
@@ -27,7 +27,9 @@ const IndexPage = () => (
         `Digital Experiences`,
         `Interfaces`,
         `Interaction`,
-        `Strategy`,
+        `Design Direction`,
+        `Art Direction`,
+        `Creative Direction`,
       ]}
     />
     <Header />
