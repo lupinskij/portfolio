@@ -7,7 +7,7 @@ function ImageQuery({ children }) {
     <StaticQuery
       query={graphql`
         query {
-          imageOne: file(relativePath: { eq: "peddle-hero.png" }) {
+          imageOne: file(relativePath: { eq: "peddle-hero-toy.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
@@ -35,7 +35,7 @@ function ImageQuery({ children }) {
               }
             }
           }
-          imageFive: file(relativePath: { eq: "peddle-mock.png" }) {
+          imageFive: file(relativePath: { eq: "peddle-pickup.png" }) {
             childImageSharp {
               fluid(maxWidth: 2000, quality: 90) {
                 ...GatsbyImageSharpFluid_withWebp
