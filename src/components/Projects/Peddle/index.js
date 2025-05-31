@@ -87,18 +87,18 @@ const Peddle = () => (
       <ImageQuery>
         {({ imageFour, imageFive, imageSix, imageSeven }) => [
           <StyledImage
-            key="Peddle Mobile"
-            image={imageFour.childImageSharp}
-            type="fluid"
-            className="img-wrap"
-            alt="Peddle mobile screens"
-          />,
-          <StyledImage
             key="Peddle Device"
             image={imageFive.childImageSharp}
             type="fluid"
             className="img-wrap"
             alt="Peddle mobile pickup screen"
+          />,
+          <StyledImage
+            key="Peddle Mobile"
+            image={imageFour.childImageSharp}
+            type="fluid"
+            className="img-wrap"
+            alt="Peddle mobile screens"
           />,
           <StyledImage
             key="Peddle Library"
