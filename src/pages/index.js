@@ -42,10 +42,10 @@ const IndexPage = () => (
         <SevenEleven />
       </ScrollSection>
       <ScrollSection>
-        <UnderArmour />
+        <Peddle />
       </ScrollSection>
       <ScrollSection>
-        <Peddle />
+        <UnderArmour />
       </ScrollSection>
     </NavController>
     <Footer />

@@ -26,7 +26,7 @@ const Peddle = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <h6 className="f5 fw5 tracked p-break">
-        004 &nbsp; &nbsp; &nbsp; Peddle
+        003 &nbsp; &nbsp; &nbsp; Peddle
       </h6>
       <p>
         Peddle, the largest automotive recycler in the United States, processes

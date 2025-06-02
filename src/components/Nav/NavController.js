@@ -12,8 +12,8 @@ const NavWrapper = styled.div`
 const links = [
   { name: 'AMC Premiere', id: 'amc' },
   { name: '7-Eleven', id: 'SevenEleven' },
-  { name: 'Under Armour', id: 'under-armour' },
   { name: 'Peddle', id: 'peddle' },
+  { name: 'Under Armour', id: 'under-armour' },
 ]
 
 function NavController({ children }) {
