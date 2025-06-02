@@ -26,7 +26,7 @@ const UnderArmour = () => (
     </ImageQuery>
     <div className="wrap-pres">
       <h6 className="f5 fw5 tracked p-break">
-        003 &nbsp; &nbsp; &nbsp; Under Armour
+        004 &nbsp; &nbsp; &nbsp; Under Armour
       </h6>
       <p>
         Under Armour partnered with us to redesign their B2B platform to meet

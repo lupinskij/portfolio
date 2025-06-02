@@ -24,9 +24,9 @@ function Hero({ title }) {
     <div>
       {isLoaded && (
         <motion.div
-          class="flex flex-column justify-center relative mw-100 mw8-m w-two-thirds-l pl4 pl5-l pr4 pr0-l pt6 pt4-ns"
+          class="flex flex-column justify-center justify-end-ns relative mw-100 mw8-m w-two-thirds-l pl4 pl5-l pr4 pr0-l pv6"
           initial={{ minHeight: '100vh' }}
-          animate={isLoaded ? { minHeight: '85vh' } : {}}
+          animate={isLoaded ? { minHeight: '90vh' } : {}}
           transition={{
             duration: 1.8,
             delay: 1.3,
