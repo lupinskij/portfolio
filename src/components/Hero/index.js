@@ -28,9 +28,9 @@ function Hero({ title }) {
           initial={{ minHeight: '100vh' }}
           animate={isLoaded ? { minHeight: '90vh' } : {}}
           transition={{
-            duration: 1.8,
-            delay: 1.3,
-            ease: [0.5, 0, 0, 1],
+            duration: 1,
+            delay: 1.5,
+            ease: [0.28, 0.44, 0.49, 1],
           }}
         >
           <motion.div
@@ -48,7 +48,7 @@ function Hero({ title }) {
                   transition: {
                     ease: [0.5, 0, 0, 1],
                     duration: 1.8,
-                    delay: 1.3,
+                    delay: 1.2,
                   },
                 }),
               }}
