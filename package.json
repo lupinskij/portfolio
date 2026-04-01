@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Portfolio",
-  "engines": {
-    "node": "18.x"
-  },
   "dependencies": {
     "aphrodite": "^2.2.3",
     "classnames": "^2.5.1",
