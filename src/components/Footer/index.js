@@ -116,13 +116,13 @@ const Footer = props => (
 
     <section className="grid ph2 ph4-m ph5-l mw9-l center pt5 pb6-l ph2-ns mb6 o-50">
       <div>
-        <StyledImage image={logo1} alt="Meta" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo2} alt="Salesforce" {...props} />
-      </div>
-      <div>
         <StyledImage image={logo5} alt="Marriott Bonvoy" {...props} />
+      </div>
+      <div>
+        <StyledImage image={logo14} alt="Nike" {...props} />
+      </div>
+      <div>
+        <StyledImage image={logo11} alt="Google" {...props} />
       </div>
       <div>
         <StyledImage image={logo7} alt="Taco Bell" {...props} />
@@ -132,35 +132,35 @@ const Footer = props => (
       </div>
 
       <div>
-        <StyledImage image={logo15} alt="CVS" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo6} alt="AMC" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo11} alt="Google" {...props} />
+        <StyledImage image={logo2} alt="Salesforce" {...props} />
       </div>
       <div>
         <StyledImage image={logo8} alt="AT&T" {...props} />
       </div>
       <div>
-        <StyledImage image={logo14} alt="Zwift" {...props} />
+        <StyledImage image={logo6} alt="Apple" {...props} />
+      </div>
+      <div>
+        <StyledImage image={logo1} alt="Meta" {...props} />
+      </div>
+      <div>
+        <StyledImage image={logo15} alt="CVS" {...props} />
       </div>
 
       <div>
-        <StyledImage image={logo13} alt="Epic Games" {...props} />
-      </div>
-      <div>
-        <StyledImage image={logo9} alt="7-Eleven" {...props} />
+        <StyledImage image={logo12} alt="Chubb" {...props} />
       </div>
       <div>
         <StyledImage image={logo4} alt="Under Armour" {...props} />
       </div>
       <div>
-        <StyledImage image={logo12} alt="Chubb" {...props} />
+        <StyledImage image={logo10} alt="PayPal" {...props} />
       </div>
       <div>
-        <StyledImage image={logo10} alt="Aetna" {...props} />
+        <StyledImage image={logo13} alt="Epic Games" {...props} />
+      </div>
+      <div>
+        <StyledImage image={logo9} alt="YouTube" {...props} />
       </div>
     </section>
 
