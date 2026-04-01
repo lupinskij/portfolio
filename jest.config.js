@@ -10,4 +10,8 @@ module.exports = {
   },
   testPathIgnorePatterns: ['node_modules', '.cache'],
   transformIgnorePatterns: ['node_modules/(?!(gatsby)/)'],
+  stats: {
+    children: true,
+    errorDetails: true,
+  },
 };
