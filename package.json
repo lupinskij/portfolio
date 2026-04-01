@@ -4,7 +4,7 @@
   "private": true,
   "description": "Portfolio",
   "engines": {
-    "node": ">=18 <26"
+    "node": "18.x"
   },
   "dependencies": {
     "aphrodite": "^2.2.3",
