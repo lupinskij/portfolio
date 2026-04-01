@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Image } from 'components'
 import ImageQuery from './ImageQuery'
 
-import Lottie from 'react-lottie'
+import LottieNoSSR from './LottieNoSSR'
 import heroData from './lotties/heroyellow'
 import robotData from './lotties/robot'
 import launcherData from './lotties/launcher'
@@ -46,7 +46,7 @@ const launcherOptions = {
 const SevenEleven = () => (
   <div className="project pl5-l">
     <div className="banner-wrap">
-      <Lottie options={heroOptions} />
+      <LottieNoSSR options={heroOptions} />
     </div>
     <div className="wrap-pres">
       <h6 className="f5 fw5 tracked p-break">
@@ -105,7 +105,7 @@ const SevenEleven = () => (
       </ImageQuery>
       <div className="flex pr-asset">
         <div className="img-wrap flex-auto mr3-ns mr4-l w-50-ns">
-          <Lottie options={launcherOptions} />
+          <LottieNoSSR options={launcherOptions} />
         </div>
         <div className="img-wrap flex-auto ml3-ns ml4-l w-50-ns">
           <ImageQuery>
@@ -143,7 +143,7 @@ const SevenEleven = () => (
           ]}
         </ImageQuery>
         <div className="seveneleven-robot">
-          <Lottie options={robotOptions} />
+          <LottieNoSSR options={robotOptions} />
         </div>
       </div>
       <ImageQuery>
