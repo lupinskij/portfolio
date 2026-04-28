@@ -21,7 +21,7 @@ const curtain = {
 
 const name = {
   height: '100%',
-  marginTop: '1.5rem',
+  perspective: '0',
   position: 'absolute',
   top: '50%',
   transform: 'translate(0, -50%)',
@@ -34,6 +34,8 @@ const text = {
   fontWeight: '600',
   letterSpacing: '-0.02em',
   lineHeight: '1.18',
+  position: 'relative',
+  top: '0.8rem',
 }
 
 function Loader({ title }) {
@@ -68,9 +70,9 @@ function Loader({ title }) {
           class="ph4 ph5-l"
           style={name}
           initial={{ transform: 'translate(0, 0)' }}
-          animate={isLoaded ? { transform: 'translate(0, -50%)' } : {}}
+          animate={isLoaded ? { transform: 'translate(0, 0)' } : {}}
           transition={{
-            duration: 2,
+            duration: 1,
             delay: 1,
             ease: [0.5, 0, 0, 1],
           }}
