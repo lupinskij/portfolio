@@ -36,7 +36,7 @@ const Footer = props => (
       <p className="footer-text white ws-normal normal mb0 mb4-ns pa2 fw5">
         I am a digital designer living in Denver, Colorado. With over a decade
         of creating interactive experiences, I lead, design, and help craft
-        strategic solutions.
+        strategic&nbsp;solutions.
       </p>
     </div>
 
@@ -94,21 +94,22 @@ const Footer = props => (
             With over a decade of experience crafting user-centered digital
             experiences for global brands, product design has been the core of
             my career. Specializing in combining both aesthetics and
-            functionality, I enjoy creating solutions for problems of all sizes.
+            functionality, I enjoy creating solutions for problems of
+            all&nbsp;sizes.
           </p>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="white mb1 ma0-ns">
             Focused on Interaction Design, User Interface and Experience Design,
             Visual Design, Art Direction, Product Design, Design Systems, and
-            Front-end Development.
+            Front-end&nbsp;Development.
           </p>
         </div>
         <div className="fl w-100 w-25-ns pa2">
           <p className="des white mb1 ma0-ns">
             I’ve had the chance to work on a wide range of projects for brands
             in almost every vertical. Contributed and led teams, helping to
-            bring projects from concept to fruition.
+            bring projects from concept to&nbsp;fruition.
           </p>
         </div>
       </div>
