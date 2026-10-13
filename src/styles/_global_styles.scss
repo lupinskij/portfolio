@@ -161,6 +161,7 @@
 .footer-text {
   font-size: 1.978rem;
   font-weight: 500;
+  text-wrap: balance;
 
   @media (min-width: 64em) {
     font-size: 6vw;

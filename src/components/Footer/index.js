@@ -190,13 +190,13 @@ const Footer = props => (
           </li>
           <li className="mb3 mb0-ns">
             <a
-              href="https://read.cv/jefflupinski"
+              href="/jeff-lupinski-resume.pdf"
               className="white trans-link"
               target="_blank"
               data-color="light"
               rel="noopener noreferrer"
             >
-              Read.cv
+              Resume
             </a>
           </li>
         </ul>
