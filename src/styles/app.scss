@@ -12,6 +12,7 @@ body {
 html {
   background-color: $black;
   box-sizing: border-box;
+  color-scheme: dark;
   position: relative;
 }
 
@@ -56,6 +57,7 @@ p {
   margin: 0;
   padding: 0;
   text-rendering: optimizelegibility;
+  text-wrap: balance;
   z-index: 2;
 }
 
@@ -69,6 +71,7 @@ p {
   margin-block-end: 1em;
   margin-inline-start: 0;
   margin-inline-end: 0;
+  text-wrap: pretty;
 }
 
 p + p::before,

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react' // Added useEffect here
 import {
   Header,
   AMC,
@@ -13,43 +13,64 @@ import {
 } from 'components'
 import NavController from 'components/Nav/NavController'
 
-const IndexPage = () => (
-  <Layout>
-    <SEO
-      title="Jeff Lupinski &mdash; Digital Designer"
-      keywords={[
-        `Jeff Lupinski`,
-        `Designer`,
-        `Colorado`,
-        `UX`,
-        `UI`,
-        `Digital Products`,
-        `Digital Experiences`,
-        `Interfaces`,
-        `Interaction`,
-        `Design Direction`,
-        `Art Direction`,
-        `Creative Direction`,
-      ]}
-    />
-    <Header />
-    <Hero title="Independent Designer and Art Director currently living in Denver, Colorado." />
-    <NavController>
-      <ScrollSection>
-        <AMC />
-      </ScrollSection>
-      <ScrollSection>
-        <SevenEleven />
-      </ScrollSection>
-      <ScrollSection>
-        <Peddle />
-      </ScrollSection>
-      <ScrollSection>
-        <UnderArmour />
-      </ScrollSection>
-    </NavController>
-    <Footer />
-  </Layout>
-)
+import Lenis from 'lenis'
+
+const IndexPage = () => {
+  // Initialize Lenis within a hook to safe-guard against Gatsby SSR build issues
+  useEffect(() => {
+    const lenis = new Lenis({
+      autoRaf: true,
+      autoToggle: true,
+      anchors: true,
+      allowNestedScroll: true,
+      naiveDimensions: true,
+      stopInertiaOnNavigate: true,
+    })
+
+    // Clean up the instance on component unmount
+    return () => {
+      lenis.destroy()
+    }
+  }, []) // Empty dependency array ensures this runs once when the page mounts
+
+  return (
+    <Layout>
+      <SEO
+        title="Jeff Lupinski &mdash; Digital Designer"
+        keywords={[
+          `Jeff Lupinski`,
+          `Designer`,
+          `Colorado`,
+          `UX`,
+          `UI`,
+          `Digital Products`,
+          `Digital Experiences`,
+          `Interfaces`,
+          `Interaction`,
+          `Design Direction`,
+          `Art Direction`,
+          `Creative Direction`,
+        ]}
+      />
+      <Header />
+      <Hero title="Independent Designer and Art Director currently living in Denver, Colorado." />
+      <NavController>
+        <ScrollSection>
+          <AMC />
+        </ScrollSection>
+        <ScrollSection>
+          <SevenEleven />
+        </ScrollSection>
+        <ScrollSection>
+          <Peddle />
+        </ScrollSection>
+        <ScrollSection>
+          <UnderArmour />
+        </ScrollSection>
+      </NavController>
+      <Footer />
+    </Layout>
+  )
+}
 
 export default IndexPage
